@@ -1,0 +1,81 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.deployment-details {
+  width: calc(100% - 75px);
+
+  .back-link,
+  .back-link:hover {
+    border: none !important ;
+    box-shadow: none !important;
+  }
+  .back-btn,
+  .back-btn:hover {
+    color: #333;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+  }
+  .back-btn {
+    padding: map-get($global-padding, small);
+    .fe_c_icon {
+      margin: 0;
+    }
+    .fe_c_button__text {
+      border-bottom: none;
+    }
+  }
+
+  .fe_c_heading {
+    display: inline;
+    margin-right: map-get($global-padding, medium);
+  }
+
+  .content {
+    padding-left: map-get($global-padding, large);
+    padding-right: map-get($global-padding, large);
+    padding-top: map-get($global-padding, medium);
+
+    .deployment-task-ids {
+      padding-bottom: map-get($global-padding, medium);
+    }
+
+    .fe_c_status-tag {
+      display: inline-block;
+      color: #fff;
+      min-width: 150px;
+      text-align: center;
+      letter-spacing: 0.07em;
+      line-height: 1;
+      border-radius: 12px;
+      padding: 4px 8px;
+
+      &.status_FAILURE {
+        background-color: #ffab00;
+      }
+      &.status_COMPLETE {
+        background-color: #118647;
+      }
+      &.status_SUCCESS {
+        background-color: #31b0ac;
+      }
+      &.status_REJECTED {
+        background-color: #ca3f0d;
+      }
+    }
+  }
+}
+
+.deployment-log {
+  .fe_c_accordion-item {
+    border: none !important;
+  }
+  .fe_c_table thead tr {
+    border-top: 0;
+  }
+  .fe_c_table tbody tr:not(:last-child) {
+    border-bottom: 0;
+  }
+  .pre {
+    white-space: pre;
+  }
+}

@@ -1,0 +1,28 @@
+.rulesmigration-search {
+  position: relative;
+  width: 640px;
+  .fe_c_input.fe_c_input--with-icon {
+    .fe_c_input__input {
+      padding-right: 60px !important;
+    }
+  }
+  .fe_c_form-field.fe_c_form-field--medium {
+    .fe_l_grid-row.fe_l_grid-row--nested {
+      .fe_c_form-field__label {
+        display: none;
+      }
+      .fe_c_form-field__right {
+        min-width: 100%;
+        .fe_c_form-field__input-slot {
+          .fe_c_typeahead.fe_c_form-field__input {
+            width: 640px;
+          }
+        }
+      }
+    }
+  }
+  .fe_f_all .fe_c_typeahead.fe_c_form-field__input {
+    max-width: calc(100% + 16px);
+    width: 640px;
+  }
+}

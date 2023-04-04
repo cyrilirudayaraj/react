@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <Layout> should render Header element 1`] = `
+"<Provider store={{...}}>
+  <Connect(Deployment)>
+    <Deployment deploymentStatuses={{...}} userList={{...}} fetchUsersOnce={[Function (anonymous)]} fetchDeploymentStatusesOnce={[Function (anonymous)]}>
+      <div className=\\"fe_u_padding--top-large deployment\\">
+        <div className=\\"deployment-header\\">
+          <span>
+            Deployment Worklist
+          </span>
+        </div>
+        <Tabs selectedIndex={0} onTabsChange={[Function: handleTabsChange]} defaultSelectedIndex={0}>
+          <TabsControlled className={[undefined]} tabGroupLabel={[undefined]} selectedIndex={0} onTabsChange={[Function: handleTabsChange]}>
+            <div className=\\"fe_c_tabs\\">
+              <ul className=\\"fe_c_tabs__labels\\" role=\\"tablist\\" aria-label={[undefined]}>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={0} aria-selected={true} className=\\"fe_c_tabs__label fe_is-selected\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content=\\"Tasks available to deploy\\" tabIndex=\\"0\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      Tasks available to deploy
+                    </div>
+                  </button>
+                </li>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={1} aria-selected={false} className=\\"fe_c_tabs__label\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content=\\"Deployments\\" tabIndex=\\"-1\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      Deployments
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <div className=\\"fe_c_tabs__shadow\\" />
+              <div className=\\"fe_c_tabs__pane-wrapper\\">
+                <TabPane label=\\"Tasks available to deploy\\" padded={true} mountedWhileHidden={false} show={true}>
+                  <div label=\\"Tasks available to deploy\\" style={{...}} className=\\"fe_c_tab-pane fe_c_tab-pane--padded\\" role=\\"tabpanel\\">
+                    <Connect(DeploymentTaskList) isDeploymentInprogress={false} handleDeploymentInprogressValidation={[Function: getDeploymentInprogress]} handelDeploymentSuccessEvent={[Function: handelDeploymentSuccessEvent]}>
+                      <DeploymentTaskList isDeploymentInprogress={false} handleDeploymentInprogressValidation={[Function: getDeploymentInprogress]} handelDeploymentSuccessEvent={[Function: handelDeploymentSuccessEvent]} decisionServiceInfo={[undefined]} dispatch={[Function: mockConstructor]}>
+                        <div className=\\"deployment-task-list\\">
+                          <div>
+                            <Connect(WFShowForPermission) permission=\\"task.deploy\\">
+                              <WFShowForPermission permission=\\"task.deploy\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                                <NewDeployment disabled={true} onDeploy={[Function (anonymous)]} selectedTasks={{...}} decisionServiceName={[undefined]}>
+                                  <ForwardRef text=\\"Deploy\\" variant=\\"primary\\" disabled={true} onClick={[Function (anonymous)]} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                    <button className=\\"fe_c_button fe_c_button--primary fe_c_button--medium fe_is-disabled\\" aria-disabled={true} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                      <div className=\\"fe_c_button__content\\">
+                                        <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--primary\\">
+                                          Deploy
+                                        </span>
+                                      </div>
+                                    </button>
+                                  </ForwardRef>
+                                </NewDeployment>
+                              </WFShowForPermission>
+                            </Connect(WFShowForPermission)>
+                          </div>
+                          <div className=\\"table-style\\">
+                            <DeploymentTaskListGrid dataSource={{...}} onSelectAllCheckbox={[Function (anonymous)]} onSelectCheckbox={[Function (anonymous)]}>
+                              <Table layout=\\"compact\\" className=\\"full-width\\" rows={{...}} rowKey=\\"taskId\\" columns={{...}} showHover={true} onRow={[Function: onRow]} replaceChildren={false} nowrapHeaders={false}>
+                                <Provider className=\\"fe_c_table fe_c_table--show-hover fe_c_table--compact full-width\\" columns={{...}} renderers={{...}}>
+                                  <table className=\\"fe_c_table fe_c_table--show-hover fe_c_table--compact full-width\\">
+                                    <Header>
+                                      <thead>
+                                        <HeaderRow renderers={{...}} onRow={[Function: onRow]} rowData={{...}} rowIndex={0}>
+                                          <tr>
+                                            <th data-column=\\"taskId\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              <div className=\\"select-all-checkbox\\">
+                                                <FormField id=\\"select-all-checkbox\\" className=\\"font-bold\\" inputAs={{...}} labelText=\\"\\" description=\\"Task ID\\" onClick={[Function: onClick]} required={false}>
+                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"font-bold\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium font-bold\\">
+                                                      <GridRow nested={true}>
+                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label\\">
+                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-3 fe_c_form-field__label\\">
+                                                              <Label id=\\"select-all-checkbox-label\\" htmlFor={[undefined]} text=\\"\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                <label htmlFor={[undefined]} id=\\"select-all-checkbox-label\\" className=\\"fe_c_label\\" />
+                                                              </Label>
+                                                            </div>
+                                                          </GridCol>
+                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right\\">
+                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right\\">
+                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                <Checkbox description=\\"Task ID\\" onClick={[Function: onClick]} className=\\"fe_c_form-field__input\\" id=\\"select-all-checkbox\\" name=\\"select-all-checkbox\\" required={false} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"select-all-checkbox-label\\">
+                                                                  <span className=\\"fe_c_checkbox fe_c_form-field__input\\">
+                                                                    <input type=\\"checkbox\\" onClick={[Function: onClick]} name=\\"select-all-checkbox\\" className=\\"fe_c_checkbox__input\\" disabled={false} required={false} id=\\"select-all-checkbox\\" defaultChecked={[undefined]} aria-labelledby=\\"select-all-checkbox-label description-label-select-all-checkbox\\" />
+                                                                    <Label htmlFor=\\"select-all-checkbox\\" className=\\"fe_c_checkbox__description\\" text=\\"Task ID\\" id=\\"description-label-select-all-checkbox\\" aria-label={[undefined]} required={false} useLegend={false}>
+                                                                      <label htmlFor=\\"select-all-checkbox\\" id=\\"description-label-select-all-checkbox\\" aria-label={[undefined]} className=\\"fe_c_label fe_c_checkbox__description\\">
+                                                                        Task ID
+                                                                      </label>
+                                                                    </Label>
+                                                                  </span>
+                                                                </Checkbox>
+                                                              </div>
+                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                            </div>
+                                                          </GridCol>
+                                                        </div>
+                                                      </GridRow>
+                                                    </div>
+                                                  </FormFieldLayout>
+                                                </FormField>
+                                              </div>
+                                            </th>
+                                            <th data-column=\\"taskName\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              Task Name
+                                            </th>
+                                            <th data-column=\\"taskTypeName\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              Task Type
+                                            </th>
+                                            <th data-column=\\"statusName\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              Status
+                                            </th>
+                                            <th data-column=\\"workflowStepName\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              Workflow Step
+                                            </th>
+                                            <th data-column=\\"deploymentDate\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              Deployment Date
+                                            </th>
+                                            <th data-column=\\"completedTaskDependencies\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              Dependencies/ Related Tasks
+                                            </th>
+                                            <th data-column=\\"businessRequirementId\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              BR ID
+                                            </th>
+                                            <th data-column=\\"legacyRuleId\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                              1.0 Rule ID
+                                            </th>
+                                          </tr>
+                                        </HeaderRow>
+                                      </thead>
+                                    </Header>
+                                    <Body onRow={[Function: onRow]} rows={{...}} rowKey=\\"taskId\\">
+                                      <tbody />
+                                    </Body>
+                                  </table>
+                                </Provider>
+                              </Table>
+                            </DeploymentTaskListGrid>
+                          </div>
+                        </div>
+                      </DeploymentTaskList>
+                    </Connect(DeploymentTaskList)>
+                  </div>
+                </TabPane>
+                <TabPane label=\\"Deployments\\" padded={true} mountedWhileHidden={false} show={false} />
+              </div>
+            </div>
+          </TabsControlled>
+        </Tabs>
+      </div>
+    </Deployment>
+  </Connect(Deployment)>
+</Provider>"
+`;

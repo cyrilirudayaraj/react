@@ -1,0 +1,66 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.deployment {
+  width: calc(100% - 75px);
+  .deployment-inprogress-banner {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    width: 30%;
+
+    .banner-header {
+      display: flex;
+    }
+    .fe_c_banner-item__contents {
+      padding-left: 50px;
+      padding-top: 3px;
+    }
+  }
+  .deployment-header {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: 400;
+  }
+}
+
+.deployment-signoff {
+  .fe_c_checkbox.fe_c_form-field__input {
+    max-width: none !important;
+  }
+  .fe_l_grid-row__col {
+    width: 100% !important;
+    min-width: 100%;
+    padding-right: 25px;
+  }
+  #releaseVersion {
+    width: 30%;
+  }
+  .deployment-status {
+    color: #008000;
+    text-align: center;
+  }
+}
+
+.deployment-reject {
+  .fe_c_lightbox__header {
+    margin-left: 10px;
+  }
+  .reject-status {
+    color: #ca3f0d;
+    text-align: center;
+  }
+  .fe_l_grid-row__col {
+    .fe_c_form-field__input-slot {
+      min-width: 100% !important;
+      max-width: 100%;
+      .fe_c_input,
+      .fe_c_textarea {
+        width: 100% !important;
+      }
+      .fe_c_textarea {
+        height: 88px !important;
+      }
+    }
+  }
+}

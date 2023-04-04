@@ -1,0 +1,214 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.deployment {
+  width: calc(100% - 75px);
+  .fe_c_tab-pane.fe_c_tab-pane--padded {
+    padding: 5px 24px;
+  }
+  .deployment-layout {
+    .deployment-grid {
+      .full-width {
+        width: 100%;
+        thead {
+          tr {
+            border-bottom: none !important;
+          }
+        }
+      }
+    }
+  }
+  .fe_c_form-field .fe_c_input.fe_c_form-field__input {
+    width: 180px;
+  }
+  .fe_c_form-field__right {
+    padding-right: 15px;
+    padding-left: 6px;
+  }
+  .fe_c_form-field__label {
+    width: 70px;
+    padding-right: 7px;
+    padding-top: 6px;
+    #taskFilter-label {
+      width: 52px;
+      color: #333333;
+      font-size: 16px;
+    }
+  }
+  .fe_c_button.clear-all-btn {
+    padding-top: 5px;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+  .multi-select .fe_c_multiselect__multivalue:not(:first-child) {
+    display: none;
+  }
+  .multi-select.fe_c_multiselect {
+    min-width: 200px;
+  }
+  .filter-txt {
+    margin-top: 3px;
+    padding-left: 3px;
+    padding-right: 10px;
+  }
+  .filter {
+    .fe_c_select {
+      border: none;
+    }
+    .fe_c_select:hover,
+    .fe_c_select:active,
+    .fe_c_select:focus {
+      border: none;
+      box-shadow: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 33px;
+      padding-left: 10px;
+    }
+  }
+
+  .css-yk16xz-control:hover,
+  .css-yk16xz-control:active,
+  .css-yk16xz-control:focus {
+    border: none;
+    box-shadow: none;
+  }
+  .fe_c_removable-tag__remove {
+    display: none;
+  }
+  .fe_c_removable-tag {
+    border-radius: 0;
+    background-color: white;
+  }
+
+  .fe_u_padding--large {
+    padding: 0 !important;
+    border-bottom: 1px solid #b3b3b3;
+    .fe_c_accordion {
+      border: none !important;
+    }
+    .fe_c_accordion-item__content.fe_is-expanded,
+    .fe_c_accordion-item__header.fe_is-expanded {
+      box-shadow: none;
+    }
+    .fe_c_accordion-item__header-content {
+      .custom-accordion-header {
+        div {
+          display: inline-flex;
+          min-width: 100px !important;
+        }
+        .deployment-id {
+          margin-right: 15px;
+        }
+        .status {
+          margin-right: 40px;
+        }
+        .release-version,
+        .released-date {
+          margin-right: 68px;
+        }
+
+        .fe_c_status-tag {
+          display: inline-block;
+          color: #fff;
+          min-width: 130px;
+          text-align: center;
+          letter-spacing: 0.07em;
+          line-height: 0.8;
+          border-radius: 12px;
+          padding: 7px 8px;
+        }
+        .status_2 {
+          background-color: #ffab00 !important;
+        }
+        .status_4 {
+          background-color: #118647 !important;
+        }
+        .status_1 {
+          background-color: #31b0ac !important;
+        }
+        .status_5 {
+          background-color: #5f5f5f !important;
+        }
+        .status_3 {
+          background-color: #1d7aad !important;
+        }
+      }
+    }
+    .fe_c_accordion-item__content {
+      .deployment-content {
+        .environment-layout {
+          width: 100%;
+          max-height: 150px;
+          min-height: 50px;
+          background-color: #f3f3f3;
+          div {
+            display: inline-flex;
+          }
+          .environment-container {
+            margin-left: 77px;
+            padding-top: 14px;
+            .environment-section {
+              div {
+                margin-right: 40px;
+              }
+              display: block;
+              .environment-name {
+                min-width: 170px;
+              }
+              .rule-app-version {
+                min-width: 170px;
+              }
+            }
+          }
+        }
+      }
+      .task-content {
+        .task-layout {
+          padding-top: 5px;
+          padding-bottom: 10px;
+          .fe_c_table {
+            margin-left: 55px;
+            thead {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-row {
+    padding-left: 5px;
+    padding-top: 6px;
+  }
+  .select-z-index {
+    z-index: 1;
+  }
+
+  .fe_c_table tbody tr:last-child {
+    border-bottom: none;
+  }
+  .fe_c_table tbody tr:not(:last-child) {
+    border-bottom: none;
+  }
+  .fe_c_table thead tr {
+    th.fe_c_table__header:not(:last-child) {
+      width: 167px;
+    }
+  }
+  .deployment-paginator {
+    padding-top: map-get($global-padding, medium);
+    float: right;
+  }
+  .margin-top-medium {
+    margin-top: 25px;
+  }
+  .flex-direction {
+    flex-direction: row-reverse;
+  }
+  .fe_c_status-tag {
+    font-size: 14px;
+    height: 24px;
+  }
+}

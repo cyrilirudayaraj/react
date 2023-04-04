@@ -1,0 +1,61 @@
+.report {
+  .fe_c_lightbox.my-custom-lightbox .my-close-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  .fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__dialog {
+    padding-bottom: 74px;
+  }
+  .fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__body {
+    max-height: calc(100vh - 229px);
+  }
+  .fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__footer .fe_c_button {
+    text-align: center;
+  }
+  .fe_c_label__required {
+    display: none !important;
+  }
+}
+.report .input-wrapper,
+.report .select-wrapper {
+  padding-right: 20px;
+}
+.report {
+  .fe_l_grid-row__col {
+    width: 100% !important;
+    min-width: 100%;
+    padding-right: 25px;
+    .fe_c_form-field__input-slot {
+      min-width: 100% !important;
+      max-width: 100%;
+      .fe_c_input,
+      .fe_c_textarea {
+        width: 100% !important;
+      }
+      .fe_c_textarea {
+        height: 88px !important;
+      }
+    }
+    .fe_c_form-field__input-slot > .fe_c_select {
+      width: 100% !important;
+    }
+  }
+
+  .fe_c_form-field.row3 {
+    width: 45%;
+  }
+
+  .fe_c_form-field.row5 {
+    width: 25%;
+  }
+  .row {
+    display: flex;
+  }
+}

@@ -1,0 +1,59 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.deployment-task-list {
+  .full-width {
+    width: 100%;
+  }
+  .table-style {
+    max-height: 500px;
+    overflow: scroll;
+    padding-top: 20px;
+  }
+  .padding-small {
+    padding: 20px;
+  }
+  .task-checkbox {
+    padding-left: 20px;
+    display: flex;
+    width: 100px;
+  }
+  .task-checkbox {
+    .fe_c_form-field {
+      width: 30px !important;
+    }
+  }
+  .checkbox-description {
+    margin-top: 15px;
+  }
+  .row {
+    display: flex;
+  }
+  .status_10 {
+    background-color: #f0cf84;
+    color: #333333;
+  }
+  .status_nowrap_no_transform {
+    white-space: nowrap;
+    text-transform: none;
+    min-width: 150px;
+    text-align: center;
+  }
+  .select-all-checkbox {
+    padding-top: 5px;
+    .fe_c_checkbox__description {
+      font-weight: bold !important;
+      margin-left: -15px;
+    }
+  }
+  .task-name-column-width {
+    max-width: 100px;
+  }
+  .text-nowrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+  }
+  .selected-row-color {
+    background-color: #d9ebfa;
+  }
+}

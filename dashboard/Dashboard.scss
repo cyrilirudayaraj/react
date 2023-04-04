@@ -1,0 +1,62 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.dashboard {
+  width: calc(100% - 75px);
+  .header-row {
+    padding-left: 5px;
+    padding-top: 6px;
+  }
+  .select-z-index {
+    z-index: 1;
+  }
+  .report-download {
+    a {
+      border-bottom: none !important;
+    }
+    span {
+      vertical-align: top;
+      margin-left: 5px;
+    }
+    z-index: 1;
+    margin-right: 10px;
+  }
+  .total-records-msg {
+    padding-left: 16px;
+    padding-top: 10px;
+  }
+  .dashboard-tab {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    .fe_c_tabs {
+      .fe_c_tabs__labels {
+        li {
+          .fe_c_tabs__label.fe_is-selected {
+            .fe_c_status-tag {
+              border-radius: 12px;
+              background-color: #0275d4;
+            }
+          }
+        }
+      }
+    }
+  }
+  .fe_c_table tbody tr:last-child {
+    border-bottom: $global-border;
+  }
+  .dashboard-paginator {
+    padding-top: map-get($global-padding, medium);
+    float: right;
+  }
+  .margin-top-medium {
+    margin-top: 25px;
+  }
+  .flex-direction {
+    flex-direction: row-reverse;
+  }
+  .fe_c_status-tag {
+    font-size: 14px;
+    height: 24px;
+  }
+}

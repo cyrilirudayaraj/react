@@ -1,0 +1,151 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.dashboard-grid {
+  .record-not-found {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-top: 30px;
+  }
+
+  .text-nowrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+  }
+
+  .flex-direction {
+    flex-direction: row-reverse;
+  }
+
+  .float-right {
+    margin-left: auto;
+    scroll-margin-right: 0;
+  }
+
+  .filter-txt {
+    margin-top: 3px;
+    padding-left: 3px;
+    padding-right: 10px;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .dependencies-completed {
+    background-color: #118647;
+  }
+  .dependencies-incomplete {
+    background-color: grey;
+  }
+  .status_2 {
+    background-color: #ed8664;
+  }
+  .status_3 {
+    background-color: #3784ad;
+  }
+  .status_4 {
+    background-color: #3784ad;
+  }
+  .status_9 {
+    background-color: #d9d9d9;
+    color: black;
+  }
+  .status_10 {
+    background-color: #f0cf84;
+  }
+  .status_11 {
+    background-color: #118647;
+  }
+  .status_12 {
+    background-color: #1c89a1;
+  }
+  .status_nowrap_no_transform {
+    white-space: nowrap;
+    text-transform: none;
+    min-width: 150px;
+    text-align: center;
+  }
+
+  .multi-select .fe_c_multiselect__multivalue:not(:first-child) {
+    display: none;
+  }
+  .multi-select.fe_c_multiselect {
+    min-width: 200px;
+  }
+
+  .fe_c_removable-tag__remove {
+    display: none;
+  }
+  .fe_c_removable-tag {
+    border-radius: 0;
+    background-color: white;
+  }
+  .css-yk16xz-control {
+    border: none;
+  }
+
+  .css-yk16xz-control:hover,
+  .css-yk16xz-control:active,
+  .css-yk16xz-control:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .fe_c_multiselect__control--is-focused {
+    box-shadow: none;
+    border: none;
+  }
+  .multi-select .fe_is-disabled {
+    background-color: #f0f0f0 !important;
+    color: #5f5f5f !important;
+  }
+  .fe_c_multiselect__control--is-focused:hover,
+  .fe_c_multiselect__control--is-focused:active,
+  .fe_c_multiselect__control--is-focused:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .filter {
+    .fe_c_select {
+      border: none;
+    }
+    .fe_c_select:hover,
+    .fe_c_select:active,
+    .fe_c_select:focus {
+      border: none;
+      box-shadow: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 33px;
+      padding-left: 10px;
+    }
+  }
+  .task-id-field {
+    .task-id-link {
+      padding-right: 3px;
+    }
+  }
+
+  .escalated-row {
+    background: #fff6e4;
+  }
+  .clear-all-btn,
+  .clear-all-btn:hover {
+    color: #043961;
+    box-shadow: none;
+    text-transform: none;
+    white-space: nowrap;
+    margin-top: -5px;
+  }
+  .clear-all-btn.fe_c_button.fe_is-disabled {
+    background-color: #fafafa;
+    color: #bababa;
+  }
+}

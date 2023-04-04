@@ -1,0 +1,58 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.view-business-dequirement-detail {
+  width: calc(100% - 75px);
+
+  .left-section {
+    padding: map-get($global-padding, large);
+  }
+
+  .business-requirement-header {
+    border: 1px solid #e1e1e1;
+    background-color: white;
+    .header-name {
+      margin-left: map-get($global-margin, large);
+      margin-top: map-get($global-margin, small);
+    }
+  }
+
+  .business-requirement-detail-form {
+    .brgroup {
+      margin-bottom: 25px;
+      box-sizing: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      background-color: #ffffff;
+
+      .fe_c_accordion-item__header.fe_is-expanded {
+        width: 100%;
+        height: 45px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        border-bottom: 1px solid #cecece;
+      }
+
+      .fe_c_accordion-item__header {
+        background: none;
+        box-shadow: none;
+
+        h3 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .fe_c_accordion-item__padded-content {
+        padding: map-get($global-padding, large);
+        .fe_l_grid-row__col--medium-9 {
+          min-width: 100% !important;
+          .fe_c_form-field__input-slot {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

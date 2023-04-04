@@ -1,0 +1,36 @@
+.pagination-table {
+  flex-wrap: wrap;
+  max-width: 100%;
+
+  .paginator {
+    width: 100%;
+  }
+
+  .paginator {
+    .fe_c_paginator {
+      float: right;
+    }
+
+    .pagination-table-actions {
+      .fe_c_button.fe_is-disabled,
+      .fe_c_icon.fe_is-disabled {
+        fill: #5f5f5f !important;
+      }
+    }
+  }
+
+  td[data-column='businessRequirementId'] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+  }
+}
+.pagination-table-actions-lightbox {
+  #comments {
+    width: 70% !important;
+  }
+
+  .react-datepicker__current-month {
+    text-align: center !important;
+  }
+}
