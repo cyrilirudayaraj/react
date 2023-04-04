@@ -1,0 +1,117 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.task-overview {
+  .fe_l_grid-row__col {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .fe_l_grid-row__col.taskidfield {
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+  .editbtn {
+    text-align: right !important;
+  }
+}
+.status-padding {
+  padding-left: 5px !important;
+}
+.status-padding-singlerow {
+  padding-left: 5px !important;
+  padding-bottom: 10px;
+}
+.overview-pane-scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+}
+.overview-pane-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.overview-pane-scroll:hover::-webkit-scrollbar {
+  width: 5px;
+  height: 30px;
+}
+.overview-pane-scroll::-webkit-scrollbar-track {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.overview-pane-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+.status_2 {
+  background-color: #ed8664 !important;
+}
+.status_3 {
+  background-color: #3784ad !important;
+}
+.status_4 {
+  background-color: #3784ad !important;
+}
+
+.status_9 {
+  background-color: #d9d9d9 !important;
+  color: black;
+}
+.status_10 {
+  background-color: #f0cf84 !important;
+}
+.status_11 {
+  background-color: #118647 !important;
+}
+.status_12 {
+  background-color: #1c89a1 !important;
+}
+.status_nowrap_no_transform {
+  white-space: nowrap !important;
+  text-transform: none !important;
+}
+.fe_c_status-tag {
+  font-size: 14px !important;
+  height: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.update-overview {
+  .fe_l_grid-row__col {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .footer {
+    right: 5px;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0%;
+    button {
+      margin: map-get($global-margin, small);
+    }
+  }
+}
+.fe_f_all .fe_c_accordion-item__header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.fe_f_all .fe_c_accordion-item__header.fe_is-expanded {
+  box-shadow: none;
+}
+.fe_f_all .fe_c_accordion-item__content.fe_is-expanded {
+  box-shadow: none;
+}
+.fe_f_all .fe_c_accordion {
+  border: none;
+}
+.fe_f_all .fe_c_accordion-item {
+  border-top: none;
+}
+.fe_f_all .fe_c_accordion-item__heading-text {
+  margin-left: 13px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.fe_f_all .fe_c_read-only-input__text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.fe_f_all .fe_c_accordion-item__padded-content {
+  padding: 4px 16px 4px 41px;
+}

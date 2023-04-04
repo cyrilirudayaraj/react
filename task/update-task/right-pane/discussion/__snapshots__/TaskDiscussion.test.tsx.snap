@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Task Discussion basic snapshot 1`] = `
+"<Provider store={{...}}>
+  <Connect(TaskDiscussion) commentId=\\"\\" taskId=\\"\\" resetCommentId=\\"\\">
+    <TaskDiscussion commentId=\\"\\" taskId=\\"\\" resetCommentId=\\"\\" task={{...}} fetchUserCommentDetails={[Function (anonymous)]}>
+      <div className=\\"create-comment\\">
+        <Connect(DiscussionForm) taskdetails={{...}} commentId=\\"\\" taskId=\\"\\" resetCommentId=\\"\\" task={{...}} fetchUserCommentDetails={[Function (anonymous)]}>
+          <DiscussionForm taskdetails={{...}} commentId=\\"\\" taskId=\\"\\" resetCommentId=\\"\\" task={{...}} fetchUserCommentDetails={[Function (anonymous)]} comments={{...}} createUserComment={[Function (anonymous)]}>
+            <Formik enableReinitialize={true} initialValues={{...}} onSubmit={[Function: onSubmit]} validationSchema={[undefined]} validateOnChange={false} validateOnBlur={false} validateOnMount={false}>
+              <UserCommentList usercomment={{...}} taskdetails={{...}} commentId=\\"\\" taskId=\\"\\" resetCommentId=\\"\\" task={{...}} fetchUserCommentDetails={[Function (anonymous)]} comments={{...}} createUserComment={[Function (anonymous)]}>
+                <div id=\\"user-comment-list-container\\" className=\\"user-comment-list-container\\">
+                  <ul className=\\"user-comment-list-group\\">
+                    <li className=\\"user-container\\">
+                      <GridRow className=\\"comment-date-container\\" removeGuttersSmall={true}>
+                        <div className=\\"fe_l_grid-row fe_l_grid-row--no-gutters-small comment-date-container\\">
+                          <GridCol className=\\"borderleft\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-5 borderleft\\" />
+                          </GridCol>
+                          <GridCol className=\\"user-comment-list-group_date\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-2 user-comment-list-group_date\\">
+                              8/15/2020
+                            </div>
+                          </GridCol>
+                          <GridCol className=\\"borderright\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-5 borderright\\" />
+                          </GridCol>
+                        </div>
+                      </GridRow>
+                      <div className=\\"user-comment-result-list\\">
+                        <div id=\\"1\\" className=\\"fe-center\\">
+                          <span className=\\"user-comment-result-name\\">
+                            jcyril
+                          </span>
+                          <span className=\\"user-comment-result-date\\">
+                            8/15/2020 3:22 AM
+                          </span>
+                          <div className=\\"user-comment-result-content\\" dangerouslySetInnerHTML={{...}} />
+                        </div>
+                      </div>
+                    </li>
+                    <li className=\\"user-container\\">
+                      <GridRow className=\\"comment-date-container\\" removeGuttersSmall={true}>
+                        <div className=\\"fe_l_grid-row fe_l_grid-row--no-gutters-small comment-date-container\\">
+                          <GridCol className=\\"borderleft\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-5 borderleft\\" />
+                          </GridCol>
+                          <GridCol className=\\"user-comment-list-group_date\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-2 user-comment-list-group_date\\">
+                              Yesterday
+                            </div>
+                          </GridCol>
+                          <GridCol className=\\"borderright\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-5 borderright\\" />
+                          </GridCol>
+                        </div>
+                      </GridRow>
+                      <div className=\\"user-comment-result-list\\">
+                        <div id=\\"3\\" className=\\"fe-center\\">
+                          <span className=\\"user-comment-result-name\\">
+                            jcyril
+                          </span>
+                          <span className=\\"user-comment-result-date\\">
+                            Yesterday 12:00 PM
+                          </span>
+                          <div className=\\"user-comment-result-content\\" dangerouslySetInnerHTML={{...}} />
+                        </div>
+                      </div>
+                    </li>
+                    <li className=\\"user-container\\">
+                      <GridRow className=\\"comment-date-container\\" removeGuttersSmall={true}>
+                        <div className=\\"fe_l_grid-row fe_l_grid-row--no-gutters-small comment-date-container\\">
+                          <GridCol className=\\"borderleft\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-5 borderleft\\" />
+                          </GridCol>
+                          <GridCol className=\\"user-comment-list-group_date\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-2 user-comment-list-group_date\\">
+                              Today
+                            </div>
+                          </GridCol>
+                          <GridCol className=\\"borderright\\" width={{...}}>
+                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-5 borderright\\" />
+                          </GridCol>
+                        </div>
+                      </GridRow>
+                      <div className=\\"user-comment-result-list\\">
+                        <div id=\\"4\\" className=\\"fe-center\\">
+                          <span className=\\"user-comment-result-name\\">
+                            jcyril
+                          </span>
+                          <span className=\\"user-comment-result-date\\">
+                            12:00 PM
+                          </span>
+                          <div className=\\"user-comment-result-content\\" dangerouslySetInnerHTML={{...}} />
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </UserCommentList>
+              <UserCommentForm formik={{...}}>
+                <Form labelAlwaysAbove={true} includeSubmitButton={false} className=\\"comment-list\\" buttonText=\\"Submit\\" noValidate={true} requiredVariation=\\"blueBarWithRequiredLabel\\" layout=\\"medium\\" nested={true} labelWidth={3}>
+                  <form onSubmit={[undefined]} className=\\"comment-list\\" noValidate={true}>
+                    <div className=\\"form-group\\">
+                      <Connect(RichTextEditor) id=\\"content\\" wrapperId={5} formik={{...}} className=\\"discussion_text_box\\" enableShowMore={false} enableTagging={true}>
+                        <RichTextEditor id=\\"content\\" wrapperId={5} formik={{...}} className=\\"discussion_text_box\\" enableShowMore={false} enableTagging={true} usersInfo={{...}} fetchUsersOnce={[Function (anonymous)]} labelText=\\"\\" maxLength={4000} isRequired={false}>
+                          <div className=\\"textarea-component\\">
+                            <FormField id=\\"content\\" wrapperId={5} labelText=\\"\\" labelWidth={1} className=\\"rte\\" inputAs={[Function: r]} required={true} wrapperClassName=\\"discussion_text_box\\" editorClassName=\\"editor-textarea\\" editorState={{...}} onEditorStateChange={[Function (anonymous)]} readOnly={[undefined]} wrapperStyle={{...}} toolbarHidden={true} error={[undefined]} toolbar={{...}} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} mention={{...}}>
+                              <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"rte\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                <div className=\\"fe_c_form-field fe_c_form-field--medium rte\\">
+                                  <GridRow nested={true}>
+                                    <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                      <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                          <Label id=\\"content-label\\" htmlFor=\\"content\\" text=\\"\\" disabled={[undefined]} required={true} useLegend={false}>
+                                            <label htmlFor=\\"content\\" id=\\"content-label\\" className=\\"fe_c_label\\" />
+                                          </Label>
+                                        </div>
+                                      </GridCol>
+                                      <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                          <div className=\\"fe_c_form-field__input-slot\\">
+                                            <r wrapperId={5} wrapperClassName=\\"discussion_text_box\\" editorClassName=\\"editor-textarea\\" editorState={{...}} onEditorStateChange={[Function (anonymous)]} readOnly={[undefined]} wrapperStyle={{...}} toolbarHidden={true} toolbar={{...}} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} mention={{...}} className=\\"fe_c_form-field__input\\" id=\\"content\\" name=\\"content\\" required={true} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"content-label\\" toolbarOnFocus={false} stripPastedStyles={false} localization={{...}} customDecorators={{...}}>
+                                              <div id=\\"rdw-wrapper-5\\" className=\\"discussion_text_box rdw-editor-wrapper\\" style={{...}} onClick={[Function (anonymous)]} onBlur={[Function (anonymous)]} aria-label=\\"rdw-wrapper\\">
+                                                <div className=\\"editor-textarea rdw-editor-main\\" style={[undefined]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function: onKeyDown]} onMouseDown={[Function (anonymous)]}>
+                                                  <DraftEditor keyBindingFn={[Function (anonymous)]} editorState={{...}} onChange={[Function (anonymous)]} blockStyleFn={[Function: D]} customStyleMap={{...}} handleReturn={[Function (anonymous)]} handlePastedText={[Function (anonymous)]} blockRendererFn={[Function (anonymous)]} handleKeyCommand={[Function (anonymous)]} ariaLabel=\\"rdw-editor\\" blockRenderMap={{...}} wrapperId={5} readOnly={false} className=\\"fe_c_form-field__input\\" id=\\"content\\" name=\\"content\\" required={true} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"content-label\\" stripPastedStyles={false} ariaDescribedBy=\\"{{editor_id_placeholder}}\\" spellCheck={false}>
+                                                    <div className=\\"DraftEditor-root\\">
+                                                      <div className=\\"DraftEditor-editorContainer\\">
+                                                        <div aria-activedescendant={[undefined]} aria-autocomplete={[undefined]} aria-controls={[undefined]} aria-describedby={[undefined]} aria-expanded={{...}} aria-label=\\"rdw-editor\\" aria-labelledby={[undefined]} aria-multiline={[undefined]} aria-owns={[undefined]} autoCapitalize={[undefined]} autoComplete={[undefined]} autoCorrect={[undefined]} className=\\"notranslate public-DraftEditor-content\\" contentEditable={true} data-testid={[undefined]} onBeforeInput={[Function (anonymous)]} onBlur={[Function (anonymous)]} onCompositionEnd={[Function (anonymous)]} onCompositionStart={[Function (anonymous)]} onCopy={[Function (anonymous)]} onCut={[Function (anonymous)]} onDragEnd={[Function (anonymous)]} onDragEnter={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onDragOver={[Function (anonymous)]} onDragStart={[Function (anonymous)]} onDrop={[Function (anonymous)]} onFocus={[Function (anonymous)]} onInput={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyPress={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onPaste={[Function (anonymous)]} onSelect={[Function (anonymous)]} role=\\"textbox\\" spellCheck={false} style={{...}} suppressContentEditableWarning={true} tabIndex={[undefined]}>
+                                                          <UpdateDraftEditorFlags editor={{...}} editorState={{...}} />
+                                                          <DraftEditorContents blockRenderMap={{...}} blockRendererFn={[Function (anonymous)]} blockStyleFn={[Function: D]} customStyleMap={{...}} customStyleFn={[undefined]} editorKey=\\"123\\" editorState={{...}} preventScroll={[undefined]} textDirectionality={[undefined]}>
+                                                            <div data-contents=\\"true\\">
+                                                              <div className=\\"\\" data-block={true} data-editor=\\"123\\" data-offset-key=\\"123-0-0\\">
+                                                                <DraftEditorBlock contentState={{...}} block={{...}} blockProps={[undefined]} blockStyleFn={[Function: D]} customStyleMap={{...}} customStyleFn={[undefined]} decorator={{...}} direction=\\"LTR\\" forceSelection={false} offsetKey=\\"123-0-0\\" preventScroll={[undefined]} selection={{...}} tree={{...}}>
+                                                                  <div data-offset-key=\\"123-0-0\\" className=\\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\\">
+                                                                    <DraftEditorLeaf offsetKey=\\"123-0-0\\" block={{...}} start={0} selection={{...}} forceSelection={false} text=\\"\\" styleSet={{...}} customStyleMap={{...}} customStyleFn={[undefined]} isLast={true}>
+                                                                      <span data-offset-key=\\"123-0-0\\" style={{...}}>
+                                                                        <DraftEditorTextNode>
+                                                                          <br data-text=\\"true\\" />
+                                                                        </DraftEditorTextNode>
+                                                                      </span>
+                                                                    </DraftEditorLeaf>
+                                                                  </div>
+                                                                </DraftEditorBlock>
+                                                              </div>
+                                                            </div>
+                                                          </DraftEditorContents>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </DraftEditor>
+                                                </div>
+                                              </div>
+                                            </r>
+                                          </div>
+                                          <div className=\\"fe_c_form-field__status\\" />
+                                        </div>
+                                      </GridCol>
+                                    </div>
+                                  </GridRow>
+                                </div>
+                              </FormFieldLayout>
+                            </FormField>
+                          </div>
+                        </RichTextEditor>
+                      </Connect(RichTextEditor)>
+                    </div>
+                    <div className=\\"sendBtn\\">
+                      <Connect(WFEnableForPermission) permission=\\"discussion.create\\">
+                        <WFEnableForPermission permission=\\"discussion.create\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <ForwardRef id=\\"sendcomment\\" className=\\"primary-button\\" text=\\"Send\\" onClick={[Function (anonymous)]} variant=\\"primary\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                            <button id=\\"sendcomment\\" className=\\"fe_c_button fe_c_button--primary fe_c_button--medium primary-button\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                              <div className=\\"fe_c_button__content\\">
+                                <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--primary\\">
+                                  Send
+                                </span>
+                              </div>
+                            </button>
+                          </ForwardRef>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </form>
+                </Form>
+              </UserCommentForm>
+            </Formik>
+          </DiscussionForm>
+        </Connect(DiscussionForm)>
+      </div>
+    </TaskDiscussion>
+  </Connect(TaskDiscussion)>
+</Provider>"
+`;

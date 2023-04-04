@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Work Log basic snapshot 1`] = `
+"<WorkLogList workLogs={{...}} taskdetails={{...}} rightPaneFormvalidity={{...}} refreshTaskList={[Function (anonymous)]} createTimeEntryLog={[Function (anonymous)]} updateTimeEntryLog={[Function (anonymous)]} deleteTimeEntryLog={[Function (anonymous)]} fetchTaskDetails={[Function (anonymous)]} updateFormValidation={[Function (anonymous)]}>
+  <div className=\\"worklog-header\\">
+    <Connect(WFEnableForPermission) permission=\\"worklog.create\\">
+      <WFEnableForPermission permission=\\"worklog.create\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+        <Connect(AddTimeEntry) className=\\"add-button\\" id=\\"add-button\\" headerText=\\"Log Time\\" context=\\"Add\\" icon=\\"Add\\" text=\\"Log Time\\" variant=\\"tertiary\\" disabled={false} onConfirm={[Function (anonymous)]} activeWorkflowStepId={[undefined]}>
+          <AddTimeEntry className=\\"add-button\\" id=\\"add-button\\" headerText=\\"Log Time\\" context=\\"Add\\" icon=\\"Add\\" text=\\"Log Time\\" variant=\\"tertiary\\" disabled={false} onConfirm={[Function (anonymous)]} activeWorkflowStepId={[undefined]} task={{...}} fetchTaskDetails={[Function (anonymous)]}>
+            <div className=\\"add-button\\">
+              <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function: onSubmit]} validateOnChange={false} validateOnBlur={false} validateOnMount={false}>
+                <ForwardRef className=\\"add-button\\" id=\\"add-button\\" text=\\"Log Time\\" icon=\\"Add\\" variant=\\"tertiary\\" disabled={false} onClick={[Function: onClick]} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                  <button id=\\"add-button\\" className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium add-button\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                    <div className=\\"fe_c_button__content\\">
+                      <Add title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\">
+                        <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\">
+                          <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                            <g>
+                              <g className=\\"fe_c_icon__background\\">
+                                <rect width=\\"25\\" height=\\"25\\" />
+                              </g>
+                              <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                <g>
+                                  <polygon points=\\"13.3 7.8 11.8 7.8 11.8 11.8 7.8 11.8 7.8 13.3 11.8 13.3 11.8 17.2 13.3 17.2 13.3 13.3 17.2 13.3 17.2 11.8 13.3 11.8 13.3 7.8\\" />
+                                  <path d=\\"M20,5a11,11,0,0,0-7.5-3.1A11,11,0,0,0,5,5,10.7,10.7,0,0,0,5,20a11,11,0,0,0,7.5,3.1A11,11,0,0,0,20,20,10.7,10.7,0,0,0,20,5ZM18.9,18.9a9.1,9.1,0,0,1-6.4,2.7,9.1,9.1,0,0,1,0-18.2,9.1,9.1,0,0,1,6.4,15.5Z\\" />
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </IconBase>
+                      </Add>
+                      <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--tertiary\\">
+                        Log Time
+                      </span>
+                    </div>
+                  </button>
+                </ForwardRef>
+                <ThemeConsumerHOC show={false} hideDividers={true} headerText=\\"Log Time\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_document\\">
+                  <Lightbox show={false} hideDividers={true} headerText=\\"Log Time\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_document\\" theme={{...}} closeButtonAriaLabel=\\"Close Modal\\" includeButtonRow={false} primaryButtonText=\\"Next\\" padded={true}>
+                    <ModalManagerWrapper className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"Log Time\\" show={false}>
+                      <Overlay manager={{...}} className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"Log Time\\" show={false} autoFocus={false} enforceFocus={false}>
+                        <Modal aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} renderBackdrop={[Function: renderBackdrop]} transition={[Function: FadeUp]} backdropTransition={[Function: Fade]} manager={{...}} onShow={[Function (anonymous)]} onHide={[Function: handleOnHide]} aria-label=\\"Log Time\\" show={false} autoFocus={false} enforceFocus={false} className=\\"fe_c_overlay fe_f_all fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" role=\\"dialog\\" backdrop={true} keyboard={true} restoreFocus={true} />
+                      </Overlay>
+                    </ModalManagerWrapper>
+                  </Lightbox>
+                </ThemeConsumerHOC>
+              </Formik>
+            </div>
+          </AddTimeEntry>
+        </Connect(AddTimeEntry)>
+      </WFEnableForPermission>
+    </Connect(WFEnableForPermission)>
+    <div className=\\"worklog-time-container\\">
+      <span className=\\"time-label\\">
+        Total Logged Time : 
+      </span>
+      <span className=\\"document-type\\">
+        55h 20m
+      </span>
+    </div>
+  </div>
+  <div className=\\"worklog-list-container\\">
+    <ul className=\\"worklog-list-group\\">
+      <Accordion>
+        <List className=\\"fe_c_accordion\\" padded={false} dividers={false}>
+          <ul className=\\"fe_c_list fe_c_accordion\\">
+            <AccordionItem headingText=\\"Analyze Task\\" defaultExpanded={false} headerSlot=\\"27h 40m\\" headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+              <ListItem className=\\"fe_c_accordion-item\\">
+                <li className=\\"fe_c_list__item fe_c_accordion-item\\">
+                  <div className=\\"fe_c_accordion-item__header\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={false} role=\\"button\\" tabIndex={0}>
+                    <Icon icon=\\"Expand\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\" iconSet={{...}}>
+                      <Expand title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                        <IconBase viewBox=\\"0 0 25 25\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                          <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                            <title>
+                              Expand
+                            </title>
+                            <g>
+                              <g className=\\"fe_c_icon__background\\">
+                                <rect width=\\"25\\" height=\\"25\\" />
+                              </g>
+                              <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                              </g>
+                            </g>
+                          </svg>
+                        </IconBase>
+                      </Expand>
+                    </Icon>
+                    <Heading text=\\"Analyze Task\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                      <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                        Analyze Task
+                      </h3>
+                    </Heading>
+                    <div className=\\"fe_c_accordion-item__header-slot\\">
+                      27h 40m
+                    </div>
+                  </div>
+                  <div className=\\"fe_c_accordion-item__content fe_is-exited\\">
+                    <CSSTransition in={false} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                      <Transition in={false} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true} />
+                    </CSSTransition>
+                  </div>
+                </li>
+              </ListItem>
+            </AccordionItem>
+          </ul>
+        </List>
+      </Accordion>
+    </ul>
+  </div>
+</WorkLogList>"
+`;
+
+exports[`Work Log basic time entry snap 1`] = `
+"<AddTimeEntry className=\\"add-button\\" id=\\"add-button\\" headerText=\\"Log Time\\" context=\\"Add\\" icon=\\"Add\\" text=\\"Log Time\\" variant=\\"tertiary\\" disabled={false} onConfirm={[Function (anonymous)]} activeWorkflowStepId={[undefined]} task={{...}} fetchTaskDetails={[Function (anonymous)]}>
+  <div className=\\"add-button\\">
+    <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function: onSubmit]} validateOnChange={false} validateOnBlur={false} validateOnMount={false}>
+      <ForwardRef className=\\"add-button\\" id=\\"add-button\\" text=\\"Log Time\\" icon=\\"Add\\" variant=\\"tertiary\\" disabled={false} onClick={[Function: onClick]} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+        <button id=\\"add-button\\" className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium add-button\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+          <div className=\\"fe_c_button__content\\">
+            <Add title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\">
+              <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\">
+                <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                  <g>
+                    <g className=\\"fe_c_icon__background\\">
+                      <rect width=\\"25\\" height=\\"25\\" />
+                    </g>
+                    <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                      <g>
+                        <polygon points=\\"13.3 7.8 11.8 7.8 11.8 11.8 7.8 11.8 7.8 13.3 11.8 13.3 11.8 17.2 13.3 17.2 13.3 13.3 17.2 13.3 17.2 11.8 13.3 11.8 13.3 7.8\\" />
+                        <path d=\\"M20,5a11,11,0,0,0-7.5-3.1A11,11,0,0,0,5,5,10.7,10.7,0,0,0,5,20a11,11,0,0,0,7.5,3.1A11,11,0,0,0,20,20,10.7,10.7,0,0,0,20,5ZM18.9,18.9a9.1,9.1,0,0,1-6.4,2.7,9.1,9.1,0,0,1,0-18.2,9.1,9.1,0,0,1,6.4,15.5Z\\" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </IconBase>
+            </Add>
+            <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--tertiary\\">
+              Log Time
+            </span>
+          </div>
+        </button>
+      </ForwardRef>
+      <ThemeConsumerHOC show={false} hideDividers={true} headerText=\\"Log Time\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_document\\">
+        <Lightbox show={false} hideDividers={true} headerText=\\"Log Time\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_document\\" theme={{...}} closeButtonAriaLabel=\\"Close Modal\\" includeButtonRow={false} primaryButtonText=\\"Next\\" padded={true}>
+          <ModalManagerWrapper className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"Log Time\\" show={false}>
+            <Overlay manager={{...}} className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"Log Time\\" show={false} autoFocus={false} enforceFocus={false}>
+              <Modal aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} renderBackdrop={[Function: renderBackdrop]} transition={[Function: FadeUp]} backdropTransition={[Function: Fade]} manager={{...}} onShow={[Function (anonymous)]} onHide={[Function: handleOnHide]} aria-label=\\"Log Time\\" show={false} autoFocus={false} enforceFocus={false} className=\\"fe_c_overlay fe_f_all fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" role=\\"dialog\\" backdrop={true} keyboard={true} restoreFocus={true} />
+            </Overlay>
+          </ModalManagerWrapper>
+        </Lightbox>
+      </ThemeConsumerHOC>
+    </Formik>
+  </div>
+</AddTimeEntry>"
+`;

@@ -1,0 +1,173 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.task-dependency {
+  .task-dependency-header {
+    border-bottom: 1px;
+    border-color: #e5e5e5;
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: space-between;
+    .task-dependency-header-text {
+      left: 54px;
+      position: absolute;
+    }
+    .status {
+      background-color: #808080 !important;
+    }
+    .status_nowrap_no_transform {
+      white-space: nowrap;
+      text-transform: none;
+      width: 125px;
+      height: 24px;
+      text-align: center;
+    }
+  }
+  .test-with {
+    margin-top: 25px;
+  }
+  .blocked-by {
+    margin-top: 25px;
+  }
+  .no-tasks {
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: auto;
+  }
+  .add-dependency {
+    padding-top: 6px;
+    padding-right: 50px;
+    text-align: right;
+  }
+  .dependency-item {
+    border-bottom: 1px;
+    border-color: #e5e5e5;
+    border-bottom-style: solid;
+    .dependency-row {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      .dependency-content {
+        .fe_c_icon {
+          height: 22px;
+          width: 22px;
+          margin-left: 5px;
+          vertical-align: top;
+        }
+      }
+      .info-icon {
+        height: 18px;
+        width: 18px;
+      }
+      .status {
+        background-color: #808080 !important;
+      }
+      .status.completed {
+        background-color: #118647 !important;
+      }
+      .status_nowrap_no_transform {
+        white-space: nowrap;
+        text-transform: none;
+        width: 130px;
+        height: 24px;
+        text-align: center;
+        font-size: 12px;
+      }
+      .deployment-date {
+        font-size: 14px;
+      }
+      .edit-dependency {
+        padding-left: 0px;
+        max-width: 10%;
+      }
+      .edit-icon,
+      .delete-icon {
+        display: none;
+        height: auto;
+      }
+    }
+    .error {
+      margin-left: map-get($global-margin, 'medium');
+      margin-top: map-get($global-margin, 'small');
+    }
+    .dependency-row:hover .edit-icon,
+    .edit-icon:hover {
+      display: inline-block;
+    }
+    .dependency-row:hover {
+      background-color: #d9ebfa;
+    }
+    .dependency-row:hover .delete-icon,
+    .delete-icon:hover {
+      display: inline-block;
+    }
+  }
+  .hidden-row {
+    display: none !important;
+  }
+  .task-dependency-details {
+    padding-bottom: map-get($global-padding, 'large');
+  }
+  .fe_l_grid-row__col {
+    padding-right: 0px;
+  }
+  .status-tag {
+    text-align: right;
+    padding-right: 10px;
+  }
+  .fe_c_status-tag {
+    font-size: 12px !important;
+    line-height: 1.2;
+    padding: 4px 6px;
+  }
+}
+
+.add-dependency,
+.edit-dependency {
+  .fe_l_grid-row__col {
+    width: 100% !important;
+    min-width: 100%;
+    padding-right: 15px;
+    .fe_c_form-field__input-slot {
+      min-width: 100% !important;
+      max-width: 100%;
+      .fe_c_input,
+      .fe_c_textarea {
+        width: 100% !important;
+      }
+      .fe_c_textarea {
+        height: 88px !important;
+      }
+    }
+    .fe_c_form-field__input-slot > .fe_c_select {
+      width: 100% !important;
+    }
+  }
+
+  .fe_c_form-field.row2 {
+    width: 25%;
+  }
+
+  .fe_c_form-field.notes {
+    width: 40%;
+  }
+
+  .root-add-button {
+    padding-top: 0px;
+  }
+
+  .add-button,
+  .delete-button {
+    margin-right: 10px;
+    margin-top: 28px;
+    box-shadow: none !important;
+  }
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+  }
+  .dependency-task {
+    border-bottom: 1px solid rgb(223, 223, 223);
+  }
+  .pointer {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DecisionTableItem should render as expected 1`] = `
+"<Provider store={{...}}>
+  <DecisionTableItem formik={{...}} mandatoryFields={[Function: mockConstructor]}>
+    <Accordion className=\\"task-dt\\">
+      <List className=\\"fe_c_accordion task-dt\\" padded={false} dividers={false}>
+        <ul className=\\"fe_c_list fe_c_accordion task-dt\\">
+          <AccordionItem onClick={[Function: handleAccordionClick]} headingText=\\"\\" headerSlot={{...}} expanded={[undefined]} defaultExpanded={false} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+            <ListItem className=\\"fe_c_accordion-item\\" onClick={[Function: handleAccordionClick]}>
+              <li className=\\"fe_c_list__item fe_c_accordion-item\\" onClick={[Function: handleAccordionClick]}>
+                <div className=\\"fe_c_accordion-item__header\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={false} role=\\"button\\" tabIndex={0}>
+                  <Icon icon=\\"Expand\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\" iconSet={{...}}>
+                    <Expand title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                      <IconBase viewBox=\\"0 0 25 25\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                        <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                          <title>
+                            Expand
+                          </title>
+                          <g>
+                            <g className=\\"fe_c_icon__background\\">
+                              <rect width=\\"25\\" height=\\"25\\" />
+                            </g>
+                            <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                              <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                            </g>
+                          </g>
+                        </svg>
+                      </IconBase>
+                    </Expand>
+                  </Icon>
+                  <Heading text=\\"\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                    <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\" />
+                  </Heading>
+                  <div className=\\"fe_c_accordion-item__header-slot\\">
+                    <div className=\\"delete_dt\\">
+                      <Connect(WFEnableForPermission) permission=\\"task.decision-table-changes.update\\">
+                        <WFEnableForPermission permission=\\"task.decision-table-changes.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <ForwardRef className=\\"delete-icon\\" onClick={[Function: onClick]} icon=\\"Delete\\" variant=\\"tertiary\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                            <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium delete-icon\\" aria-disabled={false} aria-label=\\"Delete\\" onClick={[Function: handleClick]} type=\\"button\\">
+                              <div className=\\"fe_c_button__content\\">
+                                <Delete title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                  <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                    <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                      <g>
+                                        <g className=\\"fe_c_icon__background\\">
+                                          <rect width=\\"25\\" height=\\"25\\" />
+                                        </g>
+                                        <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                          <g>
+                                            <path d=\\"M22.2,4.4H16.9V3.8A1.9,1.9,0,0,0,15,2H10A1.9,1.9,0,0,0,8.1,3.8v.6H2.8V5.9H4.4V23H17.2a3.4,3.4,0,0,0,3.4-3.3V5.9h1.6ZM19.1,19.7a1.9,1.9,0,0,1-1.9,1.8H5.9V5.9H19.1ZM9.6,3.8c0-.2.2-.3.4-.3h5c.2,0,.4.1.4.3v.6H9.6Z\\" />
+                                            <rect x=\\"7.9\\" y=\\"8.6\\" width=\\"1.5\\" height=\\"10.76\\" />
+                                            <rect x=\\"11.8\\" y=\\"8.6\\" width=\\"1.5\\" height=\\"10.76\\" />
+                                            <rect x=\\"15.6\\" y=\\"8.6\\" width=\\"1.5\\" height=\\"10.76\\" />
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </svg>
+                                  </IconBase>
+                                </Delete>
+                              </div>
+                            </button>
+                          </ForwardRef>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </div>
+                </div>
+                <div className=\\"fe_c_accordion-item__content fe_is-exited\\">
+                  <CSSTransition in={false} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                    <Transition in={false} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true} />
+                  </CSSTransition>
+                </div>
+              </li>
+            </ListItem>
+          </AccordionItem>
+        </ul>
+      </List>
+    </Accordion>
+  </DecisionTableItem>
+</Provider>"
+`;

@@ -1,0 +1,743 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot based testing CreateTask component 1`] = `
+"<Provider store={{...}}>
+  <Connect(CreateTask) onCloseCreateTask={[Function: mockConstructor]} history={{...}}>
+    <CreateTask onCloseCreateTask={[Function: mockConstructor]} history={{...}} users={{...}} priorityReasons={[undefined]} prioritiesWithSla={{...}} taskTypes={{...}} originatingSystems={{...}} departmentOrigins={{...}} brUpdateReasons={{...}} addSuccessToast={[Function (anonymous)]} fetchUsersOnce={[Function (anonymous)]} fetchPriorityReasonsOnce={[Function (anonymous)]} fetchPrioritiesWithSla={[Function (anonymous)]} fetchTaskTypesOnce={[Function (anonymous)]} fetchOriginatingSytemsOnce={[Function (anonymous)]} fetchDepartmentOriginsOnce={[Function (anonymous)]} fetchBRUpdateReasonsOnce={[Function (anonymous)]}>
+      <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function (anonymous)]} validateOnMount={false}>
+        <ThemeConsumerHOC show={true} hideDividers={true} headerText=\\"New Task\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_task\\">
+          <Lightbox show={true} hideDividers={true} headerText=\\"New Task\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_task\\" theme={{...}} closeButtonAriaLabel=\\"Close Modal\\" includeButtonRow={false} primaryButtonText=\\"Next\\" padded={true}>
+            <ModalManagerWrapper className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_task\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"New Task\\" show={true}>
+              <Overlay manager={{...}} className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_task\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"New Task\\" show={true} autoFocus={false} enforceFocus={false}>
+                <Modal aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} renderBackdrop={[Function: renderBackdrop]} transition={[Function: FadeUp]} backdropTransition={[Function: Fade]} manager={{...}} onShow={[Function (anonymous)]} onHide={[Function: handleOnHide]} aria-label=\\"New Task\\" show={true} autoFocus={false} enforceFocus={false} className=\\"fe_c_overlay fe_f_all fe_c_lightbox fe_f_all my-custom-lightbox create_task\\" role=\\"dialog\\" backdrop={true} keyboard={true} restoreFocus={true}>
+                  <Portal container={[undefined]} onRendered={[Function (anonymous)]}>
+                    <WaitForContainer container={[undefined]} onContainerResolved={[Function (anonymous)]}>
+                      <Portal containerInfo={{...}}>
+                        <Fade appear={true} in={true}>
+                          <CSSTransition timeout={400} classNames=\\"fade\\" appear={true} in={true}>
+                            <Transition timeout={400} appear={true} in={true} onEnter={[Function (anonymous)]} onEntered={[Function (anonymous)]} onEntering={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={false} unmountOnExit={false} enter={true} exit={true}>
+                              <div className=\\"fe_c_overlay__blocker \\" onClick={[Function (anonymous)]} />
+                            </Transition>
+                          </CSSTransition>
+                        </Fade>
+                        <FadeUp appear={true} unmountOnExit={true} in={true} onExit={[undefined]} onExiting={[undefined]} onExited={[Function (anonymous)]} onEnter={[undefined]} onEntering={[undefined]} onEntered={[undefined]}>
+                          <CSSTransition timeout={400} classNames=\\"fade-up\\" appear={true} unmountOnExit={true} in={true} onExit={[undefined]} onExiting={[undefined]} onExited={[Function (anonymous)]} onEnter={[undefined]} onEntering={[undefined]} onEntered={[undefined]}>
+                            <Transition timeout={400} appear={true} unmountOnExit={true} in={true} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} mountOnEnter={false} enter={true} exit={true}>
+                              <div role=\\"dialog\\" aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} aria-label=\\"New Task\\" style={[undefined]} className=\\"fe_c_overlay fe_f_all fe_c_lightbox fe_f_all my-custom-lightbox create_task\\" tabIndex=\\"-1\\">
+                                <div className=\\"fe_c_overlay__dialog fe_c_lightbox__dialog fe_c_lightbox__dialog--large fe_c_lightbox__dialog--without-dividers\\" role=\\"document\\">
+                                  <div className=\\"fe_c_lightbox__header\\">
+                                    <Heading text=\\"New Task\\" headingTag=\\"h1\\" variant=\\"section\\">
+                                      <h1 className=\\"fe_c_heading fe_c_heading--section\\">
+                                        New Task
+                                      </h1>
+                                    </Heading>
+                                  </div>
+                                  <div className=\\"fe_c_lightbox__body fe_c_lightbox__body--padded\\">
+                                    <ForwardRef variant=\\"tertiary\\" icon=\\"Close\\" onClick={[Function: mockConstructor]} className=\\"my-close-button\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                      <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium my-close-button\\" aria-disabled={false} aria-label=\\"Close\\" onClick={[Function: handleClick]} type=\\"button\\">
+                                        <div className=\\"fe_c_button__content\\">
+                                          <Close title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                            <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\">
+                                              <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                <g>
+                                                  <g className=\\"fe_c_icon__background\\">
+                                                    <rect width=\\"25\\" height=\\"25\\" />
+                                                  </g>
+                                                  <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                    <rect x=\\"4\\" y=\\"11.8\\" width=\\"17\\" height=\\"1.5\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                                    <rect x=\\"11.8\\" y=\\"4\\" width=\\"1.5\\" height=\\"16.97\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                                  </g>
+                                                </g>
+                                              </svg>
+                                            </IconBase>
+                                          </Close>
+                                        </div>
+                                      </button>
+                                    </ForwardRef>
+                                    <Form className=\\"fe_u_margin--large\\" layout=\\"compact\\" labelAlwaysAbove={true} includeSubmitButton={false} autoComplete=\\"off\\" buttonText=\\"Submit\\" noValidate={true} requiredVariation=\\"blueBarWithRequiredLabel\\" nested={true} labelWidth={3}>
+                                      <form onSubmit={[undefined]} className=\\"fe_u_margin--large\\" autoComplete=\\"off\\" noValidate={true}>
+                                        <div className=\\"row\\">
+                                          <FormField id=\\"name\\" required={true} maxlength=\\"400\\" labelText=\\"Task Name\\" name=\\"name\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\" inputAs={{...}}>
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"name-label\\" htmlFor=\\"name\\" text=\\"Task Name\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"name\\" id=\\"name-label\\" className=\\"fe_c_label\\">
+                                                            Task Name
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Input maxlength=\\"400\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"name\\" name=\\"name\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"name-label\\" type=\\"text\\">
+                                                            <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                              <input maxlength=\\"400\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"name\\" name=\\"name\\" aria-labelledby=\\"name-label\\" className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                            </div>
+                                                          </Input>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                        </div>
+                                        <div className=\\"row\\">
+                                          <FormField className=\\"row2\\" id=\\"priorityId\\" required={true} inputAs={{...}} labelText=\\"Priority\\" options={{...}} name=\\"priorityId\\" value=\\"\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} error=\\"\\">
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"row2\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact row2\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"priorityId-label\\" htmlFor=\\"priorityId\\" text=\\"Priority\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"priorityId\\" id=\\"priorityId-label\\" className=\\"fe_c_label\\">
+                                                            Priority
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Select options={{...}} value=\\"\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"priorityId\\" name=\\"priorityId\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"priorityId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} value=\\"\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} id=\\"priorityId\\" name=\\"priorityId\\" aria-labelledby=\\"priorityId-label\\">
+                                                              <option value=\\"\\">
+                                                                - Select -
+                                                              </option>
+                                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                                0
+                                                              </option>
+                                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                                1
+                                                              </option>
+                                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                                2
+                                                              </option>
+                                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                                3
+                                                              </option>
+                                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                                4
+                                                              </option>
+                                                            </select>
+                                                          </Select>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                          <FormField className=\\"col4 priority-reason\\" id=\\"priorityReasonId\\" required={false} inputAs={{...}} labelText=\\"Priority Reason\\" options={[undefined]} name=\\"priorityReasonId\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\">
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"col4 priority-reason\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact col4 priority-reason\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"priorityReasonId-label\\" htmlFor=\\"priorityReasonId\\" text=\\"Priority Reason\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                          <label htmlFor=\\"priorityReasonId\\" id=\\"priorityReasonId-label\\" className=\\"fe_c_label\\">
+                                                            Priority Reason
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Select options={[undefined]} value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"priorityReasonId\\" name=\\"priorityReasonId\\" required={false} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"priorityReasonId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                            <select className=\\"fe_c_select fe_c_form-field__input\\" disabled={false} required={false} value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"priorityReasonId\\" name=\\"priorityReasonId\\" aria-labelledby=\\"priorityReasonId-label\\">
+                                                              <option value=\\"\\">
+                                                                - Select -
+                                                              </option>
+                                                            </select>
+                                                          </Select>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                          <_default priorityPolicies={{...}}>
+                                            <div className=\\"fe_u_padding--top-large priority-policy\\">
+                                              <div>
+                                                <ForwardRef icon=\\"Info\\" variant=\\"tertiary\\" className=\\"priority-policy-icon\\" onClick={[Function: onClick]} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                                  <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium priority-policy-icon\\" aria-disabled={false} aria-label=\\"Info\\" onClick={[Function: handleClick]} type=\\"button\\">
+                                                    <div className=\\"fe_c_button__content\\">
+                                                      <Info title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                                        <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--info-solid\\">
+                                                          <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--info-solid\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                            <g>
+                                                              <g className=\\"fe_c_icon__background\\">
+                                                                <rect width=\\"25\\" height=\\"25\\" />
+                                                              </g>
+                                                              <g>
+                                                                <circle cx=\\"12.5\\" cy=\\"12.5\\" r=\\"10.6\\" className=\\"fe_c_icon__icon fe_c_icon__icon--secondary\\" />
+                                                                <g className=\\"fe_c_icon__icon fe_c_icon__icon--invert\\">
+                                                                  <circle cx=\\"12.375\\" cy=\\"7.375\\" r=\\"1.35\\" />
+                                                                  <polygon points=\\"14.49 17.28 10.51 17.28 10.51 16.31 11.67 16.31 11.67 11.63 10.51 11.63 10.51 10.6 13.33 10.6 13.33 16.31 14.49 16.31 14.49 17.28\\" />
+                                                                </g>
+                                                              </g>
+                                                            </g>
+                                                          </svg>
+                                                        </IconBase>
+                                                      </Info>
+                                                    </div>
+                                                  </button>
+                                                </ForwardRef>
+                                                <Popover isOpen={false} className=\\"priority-policy-popover\\" heading=\\"Priority Expectations\\" targetRef={{...}} onClose={[Function: onClose]} placement=\\"right\\" hideArrow={true}>
+                                                  <div className=\\"fe_c_popup__tooltip priority-policy-popover\\" style={{...}}>
+                                                    <div className=\\"fe_c_popup__close-button\\">
+                                                      <ForwardRef icon=\\"Close\\" variant=\\"tertiary\\" onClick={[Function: onClose]} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                                        <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium\\" aria-disabled={false} aria-label=\\"Close\\" onClick={[Function: handleClick]} type=\\"button\\">
+                                                          <div className=\\"fe_c_button__content\\">
+                                                            <Close title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                                              <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\">
+                                                                <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                                  <g>
+                                                                    <g className=\\"fe_c_icon__background\\">
+                                                                      <rect width=\\"25\\" height=\\"25\\" />
+                                                                    </g>
+                                                                    <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                                      <rect x=\\"4\\" y=\\"11.8\\" width=\\"17\\" height=\\"1.5\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                                                      <rect x=\\"11.8\\" y=\\"4\\" width=\\"1.5\\" height=\\"16.97\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                                                    </g>
+                                                                  </g>
+                                                                </svg>
+                                                              </IconBase>
+                                                            </Close>
+                                                          </div>
+                                                        </button>
+                                                      </ForwardRef>
+                                                    </div>
+                                                    <div className=\\"fe_c_popup__content\\">
+                                                      <Heading tag=\\"h3\\" variant=\\"subsection\\" text=\\"Priority Expectations\\" headingTag=\\"h1\\">
+                                                        <h1 tag=\\"h3\\" className=\\"fe_c_heading fe_c_heading--subsection\\">
+                                                          Priority Expectations
+                                                        </h1>
+                                                      </Heading>
+                                                      <div>
+                                                        <p>
+                                                          Tasks within the rules queue will be prioritized and targeted for completion according to the following criteria.
+                                                        </p>
+                                                        <Table layout=\\"compact\\" rows={{...}} showHover={false} columns={{...}} rowKey=\\"id\\" onRow={[Function: onRow]} replaceChildren={false} nowrapHeaders={false}>
+                                                          <Provider columns={{...}} renderers={{...}} className=\\"fe_c_table fe_c_table--compact\\">
+                                                            <table className=\\"fe_c_table fe_c_table--compact\\">
+                                                              <Header>
+                                                                <thead>
+                                                                  <HeaderRow renderers={{...}} onRow={[Function: onRow]} rowData={{...}} rowIndex={0}>
+                                                                    <tr>
+                                                                      <th data-column=\\"name\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                                                        Priority
+                                                                      </th>
+                                                                      <th data-column=\\"internalTatInDays\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                                                        TAT
+                                                                      </th>
+                                                                      <th data-column=\\"description1\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                                                        Local Rules
+                                                                      </th>
+                                                                      <th data-column=\\"description2\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                                                                        Global Rules
+                                                                      </th>
+                                                                    </tr>
+                                                                  </HeaderRow>
+                                                                </thead>
+                                                              </Header>
+                                                              <Body onRow={[Function: onRow]} rows={{...}} rowKey=\\"id\\">
+                                                                <tbody>
+                                                                  <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"1-row\\" rowIndex={0} rowData={{...}} columns={{...}}>
+                                                                    <tr>
+                                                                      <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                                                                        0
+                                                                      </td>
+                                                                      <td data-column=\\"internalTatInDays\\" className=\\"fe_c_table__cell\\">
+                                                                        Up to 2
+                                                                      </td>
+                                                                      <td data-column=\\"description1\\" className=\\"fe_c_table__cell\\" />
+                                                                      <td data-column=\\"description2\\" className=\\"fe_c_table__cell\\" />
+                                                                    </tr>
+                                                                  </BodyRow>
+                                                                  <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"2-row\\" rowIndex={1} rowData={{...}} columns={{...}}>
+                                                                    <tr>
+                                                                      <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                                                                        1
+                                                                      </td>
+                                                                      <td data-column=\\"internalTatInDays\\" className=\\"fe_c_table__cell\\">
+                                                                        Up to 2
+                                                                      </td>
+                                                                      <td data-column=\\"description1\\" className=\\"fe_c_table__cell\\" />
+                                                                      <td data-column=\\"description2\\" className=\\"fe_c_table__cell\\" />
+                                                                    </tr>
+                                                                  </BodyRow>
+                                                                  <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"3-row\\" rowIndex={2} rowData={{...}} columns={{...}}>
+                                                                    <tr>
+                                                                      <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                                                                        2
+                                                                      </td>
+                                                                      <td data-column=\\"internalTatInDays\\" className=\\"fe_c_table__cell\\">
+                                                                        Up to 2
+                                                                      </td>
+                                                                      <td data-column=\\"description1\\" className=\\"fe_c_table__cell\\" />
+                                                                      <td data-column=\\"description2\\" className=\\"fe_c_table__cell\\" />
+                                                                    </tr>
+                                                                  </BodyRow>
+                                                                  <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"4-row\\" rowIndex={3} rowData={{...}} columns={{...}}>
+                                                                    <tr>
+                                                                      <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                                                                        3
+                                                                      </td>
+                                                                      <td data-column=\\"internalTatInDays\\" className=\\"fe_c_table__cell\\">
+                                                                        Up to 2
+                                                                      </td>
+                                                                      <td data-column=\\"description1\\" className=\\"fe_c_table__cell\\" />
+                                                                      <td data-column=\\"description2\\" className=\\"fe_c_table__cell\\" />
+                                                                    </tr>
+                                                                  </BodyRow>
+                                                                  <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"5-row\\" rowIndex={4} rowData={{...}} columns={{...}}>
+                                                                    <tr>
+                                                                      <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                                                                        4
+                                                                      </td>
+                                                                      <td data-column=\\"internalTatInDays\\" className=\\"fe_c_table__cell\\">
+                                                                        Up to 2
+                                                                      </td>
+                                                                      <td data-column=\\"description1\\" className=\\"fe_c_table__cell\\" />
+                                                                      <td data-column=\\"description2\\" className=\\"fe_c_table__cell\\" />
+                                                                    </tr>
+                                                                  </BodyRow>
+                                                                </tbody>
+                                                              </Body>
+                                                            </table>
+                                                          </Provider>
+                                                        </Table>
+                                                        <a href=\\"https://athenahealth.sharepoint.com/sites/Approved_Policies_And_Procedures/Policies%20and%20Procedures/002%20-%20Rules%20Formats-Turnaround%20Time%20for%20Rules%20Development%20Policy.pdf\\" className=\\"full-guide-link\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">
+                                                          View Full Priority Guide
+                                                        </a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </Popover>
+                                              </div>
+                                            </div>
+                                          </_default>
+                                        </div>
+                                        <div className=\\"row\\">
+                                          <FormField className=\\"priority-reason-note\\" id=\\"priorityReasonNote\\" maxlength=\\"200\\" labelText=\\"Priority Reason Note\\" name=\\"priorityReasonNote\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} inputAs={{...}} required={false}>
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"priority-reason-note\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact priority-reason-note\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"priorityReasonNote-label\\" htmlFor=\\"priorityReasonNote\\" text=\\"Priority Reason Note\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                          <label htmlFor=\\"priorityReasonNote\\" id=\\"priorityReasonNote-label\\" className=\\"fe_c_label\\">
+                                                            Priority Reason Note
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Input maxlength=\\"200\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"priorityReasonNote\\" name=\\"priorityReasonNote\\" required={false} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"priorityReasonNote-label\\" type=\\"text\\">
+                                                            <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                              <input maxlength=\\"200\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"priorityReasonNote\\" name=\\"priorityReasonNote\\" aria-labelledby=\\"priorityReasonNote-label\\" className=\\"fe_c_input__input\\" type=\\"text\\" disabled={false} required={false} />
+                                                            </div>
+                                                          </Input>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                        </div>
+                                        <div className=\\"row\\">
+                                          <FormField className=\\"row2\\" id=\\"originatingSystemId\\" required={true} inputAs={{...}} labelText=\\"Originating System\\" options={{...}} name=\\"originatingSystemId\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\">
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"row2\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact row2\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"originatingSystemId-label\\" htmlFor=\\"originatingSystemId\\" text=\\"Originating System\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"originatingSystemId\\" id=\\"originatingSystemId-label\\" className=\\"fe_c_label\\">
+                                                            Originating System
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Select options={{...}} value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"originatingSystemId\\" name=\\"originatingSystemId\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"originatingSystemId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"originatingSystemId\\" name=\\"originatingSystemId\\" aria-labelledby=\\"originatingSystemId-label\\">
+                                                              <option value=\\"\\">
+                                                                - Select -
+                                                              </option>
+                                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                                Salesforce
+                                                              </option>
+                                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                                Smartsheet
+                                                              </option>
+                                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                                Jira
+                                                              </option>
+                                                            </select>
+                                                          </Select>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                          <FormField className=\\"row2\\" id=\\"originatingCaseId\\" required={true} maxlength=\\"20\\" labelText=\\"Originating System ID\\" name=\\"originatingCaseId\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\" inputAs={{...}}>
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"row2\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact row2\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"originatingCaseId-label\\" htmlFor=\\"originatingCaseId\\" text=\\"Originating System ID\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"originatingCaseId\\" id=\\"originatingCaseId-label\\" className=\\"fe_c_label\\">
+                                                            Originating System ID
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Input maxlength=\\"20\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"originatingCaseId\\" name=\\"originatingCaseId\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"originatingCaseId-label\\" type=\\"text\\">
+                                                            <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                              <input maxlength=\\"20\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"originatingCaseId\\" name=\\"originatingCaseId\\" aria-labelledby=\\"originatingCaseId-label\\" className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                            </div>
+                                                          </Input>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                          <FormField className=\\"col4\\" id=\\"departmentOriginId\\" required={true} inputAs={{...}} labelText=\\"Department Origin\\" options={{...}} name=\\"departmentOriginId\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\">
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"col4\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact col4\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"departmentOriginId-label\\" htmlFor=\\"departmentOriginId\\" text=\\"Department Origin\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"departmentOriginId\\" id=\\"departmentOriginId-label\\" className=\\"fe_c_label\\">
+                                                            Department Origin
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Select options={{...}} value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"departmentOriginId\\" name=\\"departmentOriginId\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"departmentOriginId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"departmentOriginId\\" name=\\"departmentOriginId\\" aria-labelledby=\\"departmentOriginId-label\\">
+                                                              <option value=\\"\\">
+                                                                - Select -
+                                                              </option>
+                                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                                ACCT MGT
+                                                              </option>
+                                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                                CLAIM RES
+                                                              </option>
+                                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                                PAYER TRANSACTIONS
+                                                              </option>
+                                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                                CSC
+                                                              </option>
+                                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                                ANALYTICS
+                                                              </option>
+                                                            </select>
+                                                          </Select>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                        </div>
+                                        <div className=\\"row\\">
+                                          <FormField className=\\"row3\\" id=\\"taskTypeId\\" required={true} inputAs={{...}} labelText=\\"Task Type\\" options={{...}} name=\\"taskTypeId\\" value=\\"\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} error=\\"\\">
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"row3\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact row3\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"taskTypeId-label\\" htmlFor=\\"taskTypeId\\" text=\\"Task Type\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"taskTypeId\\" id=\\"taskTypeId-label\\" className=\\"fe_c_label\\">
+                                                            Task Type
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Select options={{...}} value=\\"\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"taskTypeId\\" name=\\"taskTypeId\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"taskTypeId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} value=\\"\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} id=\\"taskTypeId\\" name=\\"taskTypeId\\" aria-labelledby=\\"taskTypeId-label\\">
+                                                              <option value=\\"\\">
+                                                                - Select -
+                                                              </option>
+                                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                                Business Requirement Update
+                                                              </option>
+                                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                                New Business Requirement
+                                                              </option>
+                                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                                Dual Update
+                                                              </option>
+                                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                                Global Rule Review
+                                                              </option>
+                                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                                GRR Rule Update
+                                                              </option>
+                                                            </select>
+                                                          </Select>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                        </div>
+                                        <div className=\\"row\\" />
+                                        <div className=\\"row\\">
+                                          <FormField className=\\"businessRequirementName\\" id=\\"businessRequirementName\\" required={true} maxlength=\\"100\\" labelText=\\"Business Requirement Name\\" name=\\"businessRequirementName\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\" disabled={false} inputAs={{...}}>
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"businessRequirementName\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact businessRequirementName\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"businessRequirementName-label\\" htmlFor=\\"businessRequirementName\\" text=\\"Business Requirement Name\\" disabled={false} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"businessRequirementName\\" id=\\"businessRequirementName-label\\" className=\\"fe_c_label\\">
+                                                            Business Requirement Name
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Input maxlength=\\"100\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"businessRequirementName\\" name=\\"businessRequirementName\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"businessRequirementName-label\\" type=\\"text\\">
+                                                            <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                              <input maxlength=\\"100\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"businessRequirementName\\" name=\\"businessRequirementName\\" aria-labelledby=\\"businessRequirementName-label\\" className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                            </div>
+                                                          </Input>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                        </div>
+                                        <div className=\\"row\\">
+                                          <FormField className=\\"row5\\" id=\\"dueDate\\" required={true} labelText=\\"Internal Due Date\\" name=\\"dueDate\\" value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} disabled={true} inputAs={{...}}>
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"fe_is-disabled row5\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact fe_is-disabled row5\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"dueDate-label\\" htmlFor=\\"dueDate\\" text=\\"Internal Due Date\\" disabled={true} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"dueDate\\" id=\\"dueDate-label\\" className=\\"fe_c_label fe_is-disabled\\">
+                                                            Internal Due Date
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Input value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"dueDate\\" name=\\"dueDate\\" required={true} hideRequiredStyles={false} disabled={true} error={[undefined]} aria-labelledby=\\"dueDate-label\\" type=\\"text\\">
+                                                            <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                              <input value=\\"\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"dueDate\\" name=\\"dueDate\\" aria-labelledby=\\"dueDate-label\\" className=\\"fe_c_input__input fe_is-disabled\\" type=\\"text\\" disabled={true} required={true} />
+                                                            </div>
+                                                          </Input>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                          <FormField className=\\"row5\\" id=\\"assignedTo\\" required={true} inputAs={{...}} labelText=\\"Assigned To\\" options={{...}} name=\\"assignedTo\\" value=\\"testuser\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error=\\"\\">
+                                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"row5\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot=\\"\\" inputSlot={{...}}>
+                                              <div className=\\"fe_c_form-field fe_c_form-field--compact row5\\">
+                                                <GridRow nested={true}>
+                                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                        <Label id=\\"assignedTo-label\\" htmlFor=\\"assignedTo\\" text=\\"Assigned To\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                          <label htmlFor=\\"assignedTo\\" id=\\"assignedTo-label\\" className=\\"fe_c_label\\">
+                                                            Assigned To
+                                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                               
+                                                              - Required
+                                                            </span>
+                                                          </label>
+                                                        </Label>
+                                                      </div>
+                                                    </GridCol>
+                                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                                          <Select options={{...}} value=\\"testuser\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"assignedTo\\" name=\\"assignedTo\\" required={true} hideRequiredStyles={false} disabled={false} error=\\"\\" aria-labelledby=\\"assignedTo-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} value=\\"testuser\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"assignedTo\\" name=\\"assignedTo\\" aria-labelledby=\\"assignedTo-label\\">
+                                                              <option value=\\"\\">
+                                                                - Select -
+                                                              </option>
+                                                              <option value=\\"aanandkumar\\" disabled={[undefined]} className={[undefined]}>
+                                                                aanandkumar
+                                                              </option>
+                                                              <option value=\\"bharini\\" disabled={[undefined]} className={[undefined]}>
+                                                                bharini
+                                                              </option>
+                                                              <option value=\\"jcyril\\" disabled={[undefined]} className={[undefined]}>
+                                                                jcyril
+                                                              </option>
+                                                              <option value=\\"mmunikishore\\" disabled={[undefined]} className={[undefined]}>
+                                                                mmunikishore
+                                                              </option>
+                                                              <option value=\\"nsenthilkumar\\" disabled={[undefined]} className={[undefined]}>
+                                                                nsenthilkumar
+                                                              </option>
+                                                              <option value=\\"rsubhashini\\" disabled={[undefined]} className={[undefined]}>
+                                                                rsubhashini
+                                                              </option>
+                                                              <option value=\\"spremkumar\\" disabled={[undefined]} className={[undefined]}>
+                                                                spremkumar
+                                                              </option>
+                                                              <option value=\\"vsivachandran\\" disabled={[undefined]} className={[undefined]}>
+                                                                vsivachandran
+                                                              </option>
+                                                            </select>
+                                                          </Select>
+                                                        </div>
+                                                        <div className=\\"fe_c_form-field__status\\" />
+                                                      </div>
+                                                    </GridCol>
+                                                  </div>
+                                                </GridRow>
+                                              </div>
+                                            </FormFieldLayout>
+                                          </FormField>
+                                        </div>
+                                      </form>
+                                    </Form>
+                                    <div className=\\"fe_c_lightbox__footer\\">
+                                      <ForwardRef text=\\"Cancel\\" variant=\\"secondary\\" className=\\"fe_u_margin--right-small\\" onClick={[Function: mockConstructor]} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                        <button className=\\"fe_c_button fe_c_button--secondary fe_c_button--medium fe_u_margin--right-small\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                          <div className=\\"fe_c_button__content\\">
+                                            <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--secondary\\">
+                                              Cancel
+                                            </span>
+                                          </div>
+                                        </button>
+                                      </ForwardRef>
+                                      <ForwardRef text=\\"Save\\" onClick={[Function (anonymous)]} variant=\\"primary\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                        <button className=\\"fe_c_button fe_c_button--primary fe_c_button--medium\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                          <div className=\\"fe_c_button__content\\">
+                                            <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--primary\\">
+                                              Save
+                                            </span>
+                                          </div>
+                                        </button>
+                                      </ForwardRef>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </Transition>
+                          </CSSTransition>
+                        </FadeUp>
+                      </Portal>
+                    </WaitForContainer>
+                  </Portal>
+                </Modal>
+              </Overlay>
+            </ModalManagerWrapper>
+          </Lightbox>
+        </ThemeConsumerHOC>
+      </Formik>
+    </CreateTask>
+  </Connect(CreateTask)>
+</Provider>"
+`;

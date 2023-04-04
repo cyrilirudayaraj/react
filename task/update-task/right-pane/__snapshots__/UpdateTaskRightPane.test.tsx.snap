@@ -1,0 +1,1116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test UpdateTaskRightPane basic snapshot 1`] = `
+"<Provider store={{...}}>
+  <Connect(UpdateTaskRightPane) commentId=\\"\\" taskId=\\"150\\" resetCommentId={[Function: mockConstructor]}>
+    <UpdateTaskRightPane commentId=\\"\\" taskId=\\"150\\" resetCommentId={[Function: mockConstructor]} leftSectionActive={false} rightSectionActive={true} leftFormFlag={[undefined]} dropdownVal={[undefined]} rightPaneFormvalidity={{...}} setLeftFormAction={[Function (anonymous)]} setRightFormAction={[Function (anonymous)]} resetPopupActions={[Function (anonymous)]} setLeftSectionActiveAction={[Function (anonymous)]} updateEditBtnAction={[Function (anonymous)]} setRightDropdownVal={[Function (anonymous)]} setRightSectionSelectedTabIndex={[Function (anonymous)]}>
+      <div className=\\"fe_u_padding--top-large task-summary\\">
+        <Tabs selectedIndex={0} onTabsChange={[Function: handleTabsChange]} defaultSelectedIndex={0}>
+          <TabsControlled className={[undefined]} tabGroupLabel={[undefined]} selectedIndex={0} onTabsChange={[Function: handleTabsChange]}>
+            <div className=\\"fe_c_tabs\\">
+              <ul className=\\"fe_c_tabs__labels\\" role=\\"tablist\\" aria-label={[undefined]}>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={0} aria-selected={true} className=\\"fe_c_tabs__label fe_is-selected\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content=\\"Overview\\" tabIndex=\\"0\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      Overview
+                    </div>
+                  </button>
+                </li>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={1} aria-selected={false} className=\\"fe_c_tabs__label\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content=\\"Discussion\\" tabIndex=\\"-1\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      Discussion
+                    </div>
+                  </button>
+                </li>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={2} aria-selected={false} className=\\"fe_c_tabs__label\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content=\\"Documents\\" tabIndex=\\"-1\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      Documents
+                    </div>
+                  </button>
+                </li>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={3} aria-selected={false} className=\\"fe_c_tabs__label\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content=\\"History\\" tabIndex=\\"-1\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      History
+                    </div>
+                  </button>
+                </li>
+                <li className=\\"fe_c_tabs__label-wrapper\\" role=\\"presentation\\" style={{...}}>
+                  <button type=\\"button\\" role=\\"tab\\" value={4} aria-selected={false} className=\\"fe_c_tabs__label\\" aria-hidden={false} onClick={[Function: bound handleTabLabelClick]} onKeyDown={[Function: bound handleTabLabelKeypress]} data-content={{...}} tabIndex=\\"-1\\">
+                    <div className=\\"fe_c_tabs__label-text\\">
+                      <Warning warning={true} label=\\"My Work Log\\" tooltip=\\"Work log required\\">
+                        My Work Log
+                        <ThemeConsumerHOC text=\\"Work log required\\" id=\\"My Work Log\\" placement=\\"bottom\\" className=\\"requirement-tip\\">
+                          <Tooltip text=\\"Work log required\\" id=\\"My Work Log\\" placement=\\"bottom\\" className=\\"requirement-tip\\" theme={{...}}>
+                            <span style={{...}} onMouseEnter={[Function: handleShow]} onFocus={[Function: handleShow]} onMouseLeave={[Function: handleHide]} onBlur={[Function: handleHide]}>
+                              <Icon icon=\\"Attention\\" className=\\"requirement-icon\\" iconSet={{...}} aria-describedby=\\"My Work Log\\">
+                                <Attention className=\\"requirement-icon\\" aria-describedby=\\"My Work Log\\" title=\\"Attention\\">
+                                  <IconBase viewBox=\\"0 0 25 25\\" className=\\"requirement-icon fe_c_icon--attention-solid\\" aria-describedby=\\"My Work Log\\" title=\\"Attention\\">
+                                    <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-describedby=\\"My Work Log\\" className=\\"fe_c_icon requirement-icon fe_c_icon--attention-solid\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                      <title>
+                                        Attention
+                                      </title>
+                                      <g>
+                                        <g className=\\"fe_c_icon__background\\">
+                                          <rect width=\\"25\\" height=\\"25\\" />
+                                        </g>
+                                        <g>
+                                          <g>
+                                            <circle cx=\\"12.5\\" cy=\\"12.5\\" r=\\"10.6\\" className=\\"fe_c_icon__icon fe_c_icon__icon--secondary\\" />
+                                            <g className=\\"fe_c_icon__icon fe_c_icon__icon--contrast\\">
+                                              <polygon points=\\"13.2,13.9 13.8,7.4 11.2,7.4 11.8,13.9\\" />
+                                              <path d=\\"M11.3,16.6c0,0.7,0.5,1.2,1.2,1.2s1.2-0.5,1.2-1.2c0-0.7-0.5-1.2-1.2-1.2 S11.3,16,11.3,16.6z\\" />
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </svg>
+                                  </IconBase>
+                                </Attention>
+                              </Icon>
+                              <ForwardRef(withContainer(Overlay)) show={[undefined]} flip={true} placement=\\"bottom\\" popperConfig={{...}} target={{...}} transition={[Function: FastFade]}>
+                                <WaitForContainer container={[undefined]}>
+                                  <Overlay show={[undefined]} flip={true} placement=\\"bottom\\" popperConfig={{...}} target={{...}} transition={[Function: FastFade]} container={{...}} />
+                                </WaitForContainer>
+                              </ForwardRef(withContainer(Overlay))>
+                            </span>
+                          </Tooltip>
+                        </ThemeConsumerHOC>
+                      </Warning>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+              <div className=\\"fe_c_tabs__shadow\\" />
+              <div className=\\"fe_c_tabs__pane-wrapper\\">
+                <TabPane label=\\"Overview\\" padded={false} mountedWhileHidden={true} show={true}>
+                  <div label=\\"Overview\\" style={{...}} className=\\"fe_c_tab-pane\\" role=\\"tabpanel\\">
+                    <Connect(TaskOverview)>
+                      <TaskOverview task={{...}} editBtnValue={[undefined]} leftSectionActive={false} rightSectionActive={true} leftFormFlag={[undefined]} updateEditBtnAction={[Function (anonymous)]} setLeftFormAction={[Function (anonymous)]} setRightFormAction={[Function (anonymous)]}>
+                        <Form labelAlwaysAbove={true} includeSubmitButton={false} buttonText=\\"Submit\\" noValidate={true} requiredVariation=\\"blueBarWithRequiredLabel\\" layout=\\"medium\\" nested={true} labelWidth={3}>
+                          <form onSubmit={[undefined]} noValidate={true}>
+                            <div className=\\"task-overview overview-pane-scroll\\">
+                              <div className=\\"editbtn fe_u_padding--top-small\\">
+                                <Connect(WFEnableForPermission) permission=\\"task.update\\">
+                                  <WFEnableForPermission permission=\\"task.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                                    <ForwardRef icon=\\"Edit\\" id=\\"editbtn\\" onClick={[Function (anonymous)]} variant=\\"tertiary\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                      <button id=\\"editbtn\\" className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium\\" aria-disabled={false} aria-label=\\"Edit\\" onClick={[Function: handleClick]} type=\\"button\\">
+                                        <div className=\\"fe_c_button__content\\">
+                                          <Edit title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                            <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                              <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                <g>
+                                                  <g className=\\"fe_c_icon__background\\">
+                                                    <rect x=\\"-0.2\\" y=\\"-0.2\\" width=\\"25\\" height=\\"25\\" />
+                                                  </g>
+                                                  <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                    <path d=\\"M21.1,4.8,16.9.7,4.1,13.4,2.6,21.5l8-1.6L21.1,9.5A3.3,3.3,0,0,0,21.1,4.8ZM5.2,15.6l3.3,3.2-4,.8Zm4.9,2.8L5.7,13.9l8-8,4.5,4.4ZM20,8.5l-.8.8L14.8,4.9l2.1-2.1L20,5.9A1.9,1.9,0,0,1,20,8.5Z\\" />
+                                                  </g>
+                                                </g>
+                                              </svg>
+                                            </IconBase>
+                                          </Edit>
+                                        </div>
+                                      </button>
+                                    </ForwardRef>
+                                  </WFEnableForPermission>
+                                </Connect(WFEnableForPermission)>
+                              </div>
+                              <Accordion>
+                                <List className=\\"fe_c_accordion\\" padded={false} dividers={false}>
+                                  <ul className=\\"fe_c_list fe_c_accordion\\">
+                                    <AccordionItem headingText=\\"Priority: undefined\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+                                      <ListItem className=\\"fe_c_accordion-item fe_is-expanded\\">
+                                        <li className=\\"fe_c_list__item fe_c_accordion-item fe_is-expanded\\">
+                                          <div className=\\"fe_c_accordion-item__header fe_is-expanded\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={true} role=\\"button\\" tabIndex={0}>
+                                            <Icon icon=\\"Expand\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\" iconSet={{...}}>
+                                              <Expand title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                <IconBase viewBox=\\"0 0 25 25\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                  <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand fe_is-expanded\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                    <title>
+                                                      Collapse
+                                                    </title>
+                                                    <g>
+                                                      <g className=\\"fe_c_icon__background\\">
+                                                        <rect width=\\"25\\" height=\\"25\\" />
+                                                      </g>
+                                                      <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                        <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                                                      </g>
+                                                    </g>
+                                                  </svg>
+                                                </IconBase>
+                                              </Expand>
+                                            </Icon>
+                                            <Heading text=\\"Priority: undefined\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                                              <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                                                Priority: undefined
+                                              </h3>
+                                            </Heading>
+                                          </div>
+                                          <div className=\\"fe_c_accordion-item__content fe_is-expanded\\">
+                                            <CSSTransition in={true} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                                              <Transition in={true} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true}>
+                                                <div className=\\"fe_c_accordion-item__content-inner\\" style={{...}}>
+                                                  <div className=\\"fe_c_accordion-item__padded-content\\">
+                                                    <GridRow className=\\"fe_u_padding--top-medium\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Priority\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Priority\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Priority\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Priority-label\\" htmlFor=\\"Priority\\" text=\\"Priority\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Priority\\" id=\\"Priority-label\\" className=\\"fe_c_label\\">
+                                                                                  Priority
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Priority\\" name=\\"Priority\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Priority-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Priority\\" aria-labelledby=\\"Priority-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Priority Reason\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Priority Reason\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Priority Reason\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Priority Reason-label\\" htmlFor=\\"Priority Reason\\" text=\\"Priority Reason\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Priority Reason\\" id=\\"Priority Reason-label\\" className=\\"fe_c_label\\">
+                                                                                  Priority Reason
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Priority Reason\\" name=\\"Priority Reason\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Priority Reason-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Priority Reason\\" aria-labelledby=\\"Priority Reason-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-medium\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Priority Reason Note\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Priority Reason Note\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Priority Reason Note\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Priority Reason Note-label\\" htmlFor=\\"Priority Reason Note\\" text=\\"Priority Reason Note\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Priority Reason Note\\" id=\\"Priority Reason Note-label\\" className=\\"fe_c_label\\">
+                                                                                  Priority Reason Note
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Priority Reason Note\\" name=\\"Priority Reason Note\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Priority Reason Note-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Priority Reason Note\\" aria-labelledby=\\"Priority Reason Note-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                  </div>
+                                                </div>
+                                              </Transition>
+                                            </CSSTransition>
+                                          </div>
+                                        </li>
+                                      </ListItem>
+                                    </AccordionItem>
+                                    <AccordionItem headingText=\\"Details\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+                                      <ListItem className=\\"fe_c_accordion-item fe_is-expanded\\">
+                                        <li className=\\"fe_c_list__item fe_c_accordion-item fe_is-expanded\\">
+                                          <div className=\\"fe_c_accordion-item__header fe_is-expanded\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={true} role=\\"button\\" tabIndex={0}>
+                                            <Icon icon=\\"Expand\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\" iconSet={{...}}>
+                                              <Expand title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                <IconBase viewBox=\\"0 0 25 25\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                  <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand fe_is-expanded\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                    <title>
+                                                      Collapse
+                                                    </title>
+                                                    <g>
+                                                      <g className=\\"fe_c_icon__background\\">
+                                                        <rect width=\\"25\\" height=\\"25\\" />
+                                                      </g>
+                                                      <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                        <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                                                      </g>
+                                                    </g>
+                                                  </svg>
+                                                </IconBase>
+                                              </Expand>
+                                            </Icon>
+                                            <Heading text=\\"Details\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                                              <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                                                Details
+                                              </h3>
+                                            </Heading>
+                                          </div>
+                                          <div className=\\"fe_c_accordion-item__content fe_is-expanded\\">
+                                            <CSSTransition in={true} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                                              <Transition in={true} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true}>
+                                                <div className=\\"fe_c_accordion-item__content-inner\\" style={{...}}>
+                                                  <div className=\\"fe_c_accordion-item__padded-content\\">
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol className=\\"taskidfield\\">
+                                                          <div className=\\"fe_l_grid-row__col taskidfield\\">
+                                                            <label className=\\"fe_c_label\\">
+                                                              Task ID 
+                                                            </label>
+                                                            <div className=\\"fe_c_read-only-input fe_c_form-field__input\\">
+                                                              <p className=\\"fe_c_read-only-input__text\\">
+                                                                 
+                                                              </p>
+                                                            </div>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Business Requirement ID\\" text=\\"\\">
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Business Requirement ID\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Business Requirement ID\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Business Requirement ID-label\\" htmlFor=\\"Business Requirement ID\\" text=\\"Business Requirement ID\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Business Requirement ID\\" id=\\"Business Requirement ID-label\\" className=\\"fe_c_label\\">
+                                                                                  Business Requirement ID
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Business Requirement ID\\" name=\\"Business Requirement ID\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Business Requirement ID-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Business Requirement ID\\" aria-labelledby=\\"Business Requirement ID-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Task Type\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Task Type\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Task Type\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Task Type-label\\" htmlFor=\\"Task Type\\" text=\\"Task Type\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Task Type\\" id=\\"Task Type-label\\" className=\\"fe_c_label\\">
+                                                                                  Task Type
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Task Type\\" name=\\"Task Type\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Task Type-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Task Type\\" aria-labelledby=\\"Task Type-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\" />
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol className=\\"status-padding\\">
+                                                          <div className=\\"fe_l_grid-row__col status-padding\\">
+                                                            <Label className=\\"fe_c_label\\" text=\\"Status\\" required={false} useLegend={false}>
+                                                              <label htmlFor={[undefined]} className=\\"fe_c_label fe_c_label\\">
+                                                                Status
+                                                              </label>
+                                                            </Label>
+                                                            <StatusTag className=\\" status_nowrap_no_transform \\" text=\\"\\" secondary={false} color=\\"gray\\">
+                                                              <span className=\\"fe_c_status-tag  status_nowrap_no_transform  fe_c_status-tag--gray\\" />
+                                                            </StatusTag>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Originating System\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Originating System\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Originating System\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Originating System-label\\" htmlFor=\\"Originating System\\" text=\\"Originating System\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Originating System\\" id=\\"Originating System-label\\" className=\\"fe_c_label\\">
+                                                                                  Originating System
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Originating System\\" name=\\"Originating System\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Originating System-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Originating System\\" aria-labelledby=\\"Originating System-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Originating System ID\\" href=\\"javascript:void(0);\\" target=\\"_blank\\" text={[undefined]} id=\\"originatingCaseId\\">
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"originatingCaseId\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Originating System ID\\" text=\\"\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"originatingCaseId-label\\" htmlFor=\\"originatingCaseId\\" text=\\"Originating System ID\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"originatingCaseId\\" id=\\"originatingCaseId-label\\" className=\\"fe_c_label\\">
+                                                                                  Originating System ID
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"\\" className=\\"fe_c_form-field__input\\" id=\\"originatingCaseId\\" name=\\"originatingCaseId\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"originatingCaseId-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"originatingCaseId\\" aria-labelledby=\\"originatingCaseId-label\\" />
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Department Origin\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Department Origin\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Department Origin\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Department Origin-label\\" htmlFor=\\"Department Origin\\" text=\\"Department Origin\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Department Origin\\" id=\\"Department Origin-label\\" className=\\"fe_c_label\\">
+                                                                                  Department Origin
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Department Origin\\" name=\\"Department Origin\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Department Origin-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Department Origin\\" aria-labelledby=\\"Department Origin-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Jira Issue\\" text={[undefined]} target=\\"_blank\\" href=\\"https://athenajira.athenahealth.com/browse//#\\">
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Jira Issue\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Jira Issue\\" text=\\"\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Jira Issue-label\\" htmlFor=\\"Jira Issue\\" text=\\"Jira Issue\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Jira Issue\\" id=\\"Jira Issue-label\\" className=\\"fe_c_label\\">
+                                                                                  Jira Issue
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"\\" className=\\"fe_c_form-field__input\\" id=\\"Jira Issue\\" name=\\"Jira Issue\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Jira Issue-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Jira Issue\\" aria-labelledby=\\"Jira Issue-label\\" />
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                  </div>
+                                                </div>
+                                              </Transition>
+                                            </CSSTransition>
+                                          </div>
+                                        </li>
+                                      </ListItem>
+                                    </AccordionItem>
+                                    <AccordionItem headingText=\\"1.0 Details\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+                                      <ListItem className=\\"fe_c_accordion-item fe_is-expanded\\">
+                                        <li className=\\"fe_c_list__item fe_c_accordion-item fe_is-expanded\\">
+                                          <div className=\\"fe_c_accordion-item__header fe_is-expanded\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={true} role=\\"button\\" tabIndex={0}>
+                                            <Icon icon=\\"Expand\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\" iconSet={{...}}>
+                                              <Expand title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                <IconBase viewBox=\\"0 0 25 25\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                  <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand fe_is-expanded\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                    <title>
+                                                      Collapse
+                                                    </title>
+                                                    <g>
+                                                      <g className=\\"fe_c_icon__background\\">
+                                                        <rect width=\\"25\\" height=\\"25\\" />
+                                                      </g>
+                                                      <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                        <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                                                      </g>
+                                                    </g>
+                                                  </svg>
+                                                </IconBase>
+                                              </Expand>
+                                            </Icon>
+                                            <Heading text=\\"1.0 Details\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                                              <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                                                1.0 Details
+                                              </h3>
+                                            </Heading>
+                                          </div>
+                                          <div className=\\"fe_c_accordion-item__content fe_is-expanded\\">
+                                            <CSSTransition in={true} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                                              <Transition in={true} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true}>
+                                                <div className=\\"fe_c_accordion-item__content-inner\\" style={{...}}>
+                                                  <div className=\\"fe_c_accordion-item__padded-content\\">
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"1.0 Rule\\" href=\\"javascript:void(0);\\" target=\\"_blank\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"1.0 Rule\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"1.0 Rule\\" text=\\"\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"1.0 Rule-label\\" htmlFor=\\"1.0 Rule\\" text=\\"1.0 Rule\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"1.0 Rule\\" id=\\"1.0 Rule-label\\" className=\\"fe_c_label\\">
+                                                                                  1.0 Rule
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"\\" className=\\"fe_c_form-field__input\\" id=\\"1.0 Rule\\" name=\\"1.0 Rule\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"1.0 Rule-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"1.0 Rule\\" aria-labelledby=\\"1.0 Rule-label\\" />
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                  </div>
+                                                </div>
+                                              </Transition>
+                                            </CSSTransition>
+                                          </div>
+                                        </li>
+                                      </ListItem>
+                                    </AccordionItem>
+                                    <AccordionItem headingText=\\"People\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+                                      <ListItem className=\\"fe_c_accordion-item fe_is-expanded\\">
+                                        <li className=\\"fe_c_list__item fe_c_accordion-item fe_is-expanded\\">
+                                          <div className=\\"fe_c_accordion-item__header fe_is-expanded\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={true} role=\\"button\\" tabIndex={0}>
+                                            <Icon icon=\\"Expand\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\" iconSet={{...}}>
+                                              <Expand title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                <IconBase viewBox=\\"0 0 25 25\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                  <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand fe_is-expanded\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                    <title>
+                                                      Collapse
+                                                    </title>
+                                                    <g>
+                                                      <g className=\\"fe_c_icon__background\\">
+                                                        <rect width=\\"25\\" height=\\"25\\" />
+                                                      </g>
+                                                      <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                        <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                                                      </g>
+                                                    </g>
+                                                  </svg>
+                                                </IconBase>
+                                              </Expand>
+                                            </Icon>
+                                            <Heading text=\\"People\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                                              <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                                                People
+                                              </h3>
+                                            </Heading>
+                                          </div>
+                                          <div className=\\"fe_c_accordion-item__content fe_is-expanded\\">
+                                            <CSSTransition in={true} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                                              <Transition in={true} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true}>
+                                                <div className=\\"fe_c_accordion-item__content-inner\\" style={{...}}>
+                                                  <div className=\\"fe_c_accordion-item__padded-content\\">
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Assigned To\\" text=\\"Prem\\">
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Assigned To\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Assigned To\\" text=\\"Prem\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Assigned To-label\\" htmlFor=\\"Assigned To\\" text=\\"Assigned To\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Assigned To\\" id=\\"Assigned To-label\\" className=\\"fe_c_label\\">
+                                                                                  Assigned To
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"Prem\\" className=\\"fe_c_form-field__input\\" id=\\"Assigned To\\" name=\\"Assigned To\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Assigned To-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Assigned To\\" aria-labelledby=\\"Assigned To-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      Prem
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Created By\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Created By\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Created By\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Created By-label\\" htmlFor=\\"Created By\\" text=\\"Created By\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Created By\\" id=\\"Created By-label\\" className=\\"fe_c_label\\">
+                                                                                  Created By
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Created By\\" name=\\"Created By\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Created By-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Created By\\" aria-labelledby=\\"Created By-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                  </div>
+                                                </div>
+                                              </Transition>
+                                            </CSSTransition>
+                                          </div>
+                                        </li>
+                                      </ListItem>
+                                    </AccordionItem>
+                                    <AccordionItem headingText=\\"Dates\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+                                      <ListItem className=\\"fe_c_accordion-item fe_is-expanded\\">
+                                        <li className=\\"fe_c_list__item fe_c_accordion-item fe_is-expanded\\">
+                                          <div className=\\"fe_c_accordion-item__header fe_is-expanded\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={true} role=\\"button\\" tabIndex={0}>
+                                            <Icon icon=\\"Expand\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\" iconSet={{...}}>
+                                              <Expand title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                <IconBase viewBox=\\"0 0 25 25\\" title=\\"Collapse\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand fe_is-expanded\\">
+                                                  <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand fe_is-expanded\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                    <title>
+                                                      Collapse
+                                                    </title>
+                                                    <g>
+                                                      <g className=\\"fe_c_icon__background\\">
+                                                        <rect width=\\"25\\" height=\\"25\\" />
+                                                      </g>
+                                                      <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                        <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                                                      </g>
+                                                    </g>
+                                                  </svg>
+                                                </IconBase>
+                                              </Expand>
+                                            </Icon>
+                                            <Heading text=\\"Dates\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                                              <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                                                Dates
+                                              </h3>
+                                            </Heading>
+                                          </div>
+                                          <div className=\\"fe_c_accordion-item__content fe_is-expanded\\">
+                                            <CSSTransition in={true} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                                              <Transition in={true} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true}>
+                                                <div className=\\"fe_c_accordion-item__content-inner\\" style={{...}}>
+                                                  <div className=\\"fe_c_accordion-item__padded-content\\">
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Last Modified Date\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Last Modified Date\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Last Modified Date\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Last Modified Date-label\\" htmlFor=\\"Last Modified Date\\" text=\\"Last Modified Date\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Last Modified Date\\" id=\\"Last Modified Date-label\\" className=\\"fe_c_label\\">
+                                                                                  Last Modified Date
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Last Modified Date\\" name=\\"Last Modified Date\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Last Modified Date-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Last Modified Date\\" aria-labelledby=\\"Last Modified Date-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Created Date\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Created Date\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Created Date\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Created Date-label\\" htmlFor=\\"Created Date\\" text=\\"Created Date\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Created Date\\" id=\\"Created Date-label\\" className=\\"fe_c_label\\">
+                                                                                  Created Date
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Created Date\\" name=\\"Created Date\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Created Date-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Created Date\\" aria-labelledby=\\"Created Date-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Internal Due Date\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Internal Due Date\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Internal Due Date\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Internal Due Date-label\\" htmlFor=\\"Internal Due Date\\" text=\\"Internal Due Date\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Internal Due Date\\" id=\\"Internal Due Date-label\\" className=\\"fe_c_label\\">
+                                                                                  Internal Due Date
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Internal Due Date\\" name=\\"Internal Due Date\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Internal Due Date-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Internal Due Date\\" aria-labelledby=\\"Internal Due Date-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"External Due Date\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"External Due Date\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"External Due Date\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"External Due Date-label\\" htmlFor=\\"External Due Date\\" text=\\"External Due Date\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"External Due Date\\" id=\\"External Due Date-label\\" className=\\"fe_c_label\\">
+                                                                                  External Due Date
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"External Due Date\\" name=\\"External Due Date\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"External Due Date-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"External Due Date\\" aria-labelledby=\\"External Due Date-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                    <GridRow className=\\"fe_u_padding--top-small\\">
+                                                      <div className=\\"fe_l_grid-row fe_u_padding--top-small\\">
+                                                        <GridCol>
+                                                          <div className=\\"fe_l_grid-row__col\\">
+                                                            <WFReadOnlyInput labelText=\\"Deployment Date\\" text={[undefined]}>
+                                                              <div className=\\"readonlywrapper\\">
+                                                                <FormField id=\\"Deployment Date\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Deployment Date\\" text=\\"---\\" required={false}>
+                                                                  <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                                                    <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                                                      <GridRow nested={true}>
+                                                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                                              <Label id=\\"Deployment Date-label\\" htmlFor=\\"Deployment Date\\" text=\\"Deployment Date\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                                                <label htmlFor=\\"Deployment Date\\" id=\\"Deployment Date-label\\" className=\\"fe_c_label\\">
+                                                                                  Deployment Date
+                                                                                </label>
+                                                                              </Label>
+                                                                            </div>
+                                                                          </GridCol>
+                                                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                                                <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Deployment Date\\" name=\\"Deployment Date\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Deployment Date-label\\">
+                                                                                  <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Deployment Date\\" aria-labelledby=\\"Deployment Date-label\\">
+                                                                                    <p className=\\"fe_c_read-only-input__text\\">
+                                                                                      ---
+                                                                                    </p>
+                                                                                  </div>
+                                                                                </ReadOnlyInput>
+                                                                              </div>
+                                                                              <div className=\\"fe_c_form-field__status\\" />
+                                                                            </div>
+                                                                          </GridCol>
+                                                                        </div>
+                                                                      </GridRow>
+                                                                    </div>
+                                                                  </FormFieldLayout>
+                                                                </FormField>
+                                                              </div>
+                                                            </WFReadOnlyInput>
+                                                          </div>
+                                                        </GridCol>
+                                                      </div>
+                                                    </GridRow>
+                                                  </div>
+                                                </div>
+                                              </Transition>
+                                            </CSSTransition>
+                                          </div>
+                                        </li>
+                                      </ListItem>
+                                    </AccordionItem>
+                                  </ul>
+                                </List>
+                              </Accordion>
+                            </div>
+                          </form>
+                        </Form>
+                      </TaskOverview>
+                    </Connect(TaskOverview)>
+                  </div>
+                </TabPane>
+                <TabPane label=\\"Discussion\\" padded={true} mountedWhileHidden={false} show={false} />
+                <TabPane label=\\"Documents\\" padded={true} mountedWhileHidden={false} show={false} />
+                <TabPane label=\\"History\\" padded={true} mountedWhileHidden={false} show={false} />
+                <TabPane label={{...}} padded={true} mountedWhileHidden={false} show={false} />
+              </div>
+            </div>
+          </TabsControlled>
+        </Tabs>
+      </div>
+    </UpdateTaskRightPane>
+  </Connect(UpdateTaskRightPane)>
+</Provider>"
+`;

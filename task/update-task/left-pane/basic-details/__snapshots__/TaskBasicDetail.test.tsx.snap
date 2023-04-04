@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskBasicDetail basic snapshot 1`] = `
+"<Form labelAlwaysAbove={true} includeSubmitButton={false} className=\\"task-detail\\" requiredVariation=\\"blueBarWithLegend\\" buttonText=\\"Submit\\" noValidate={true} layout=\\"medium\\" nested={true} labelWidth={3}>
+  <div className=\\"panel\\">
+    <div className=\\"heading\\">
+      <h1 className=\\"content\\">
+        Task Information
+      </h1>
+    </div>
+    <div className=\\"panel-content\\">
+      <Connect(WFEnableForPermission) permission=\\"task.name.update\\">
+        <WFTextarea formik={{...}} task={{...}} mandatoryFields={{...}} label=\\"Task Name\\" name=\\"name\\" maxlength={400} istextarea={false} disabled={false} />
+      </Connect(WFEnableForPermission)>
+      <Connect(WFEnableForPermission) permission=\\"task.description.update\\">
+        <Connect(RichTextEditor) id=\\"description\\" wrapperId={1} labelText=\\"Task Description\\" formik={{...}} isDisabled={false} isRequired={true} />
+      </Connect(WFEnableForPermission)>
+      <Connect(WFEnableForPermission) permission=\\"task.production-claim-example.update\\">
+        <WFTextarea formik={{...}} task={{...}} mandatoryFields={{...}} label=\\"Production Claim Example\\" name=\\"testClaimExample\\" maxlength={200} istextarea={false} disabled={false} />
+      </Connect(WFEnableForPermission)>
+    </div>
+  </div>
+  <Accordion className=\\"taskgroup dependency\\">
+    <AccordionItem headingText=\\"Related Tasks and Dependencies\\" defaultExpanded={true} headerSlot={{...}} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+      <Connect(TaskDependency) formik={{...}} task={{...}} mandatoryFields={{...}} />
+    </AccordionItem>
+  </Accordion>
+  <Accordion className=\\"taskgroup\\">
+    <AccordionItem headingText=\\"Changes\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+      <Connect(WFEnableForPermission) permission=\\"task.model-design-changes.update\\">
+        <Connect(RichTextEditor) id=\\"modelDesignChanges\\" wrapperId={2} labelText=\\"Model Design Changes\\" formik={{...}} isDisabled={false} isRequired={true} />
+      </Connect(WFEnableForPermission)>
+      <DecisionTable formik={{...}} task={{...}} mandatoryFields={{...}} />
+      <div className=\\"fe_c_form-field requires_checkbox\\">
+        <span>
+          Requires:
+        </span>
+        <Connect(WFEnableForPermission) permission=\\"task.requires-anet-changes.update\\">
+          <Checkbox description=\\"athenaNet Changes\\" id=\\"athenaNetChangesYn\\" checked={false} value=\\"test\\" disabled={false} hideRequiredStyles={false} required={false} />
+        </Connect(WFEnableForPermission)>
+        <Connect(WFEnableForPermission) permission=\\"task.requires-dt-changes.update\\">
+          <Checkbox description=\\"ODM Changes\\" id=\\"dtChangesYn\\" checked={false} value=\\"test\\" disabled={false} hideRequiredStyles={false} required={false} />
+        </Connect(WFEnableForPermission)>
+      </div>
+    </AccordionItem>
+  </Accordion>
+  <Accordion className=\\"taskgroup\\">
+    <AccordionItem headingText=\\"Testing\\" defaultExpanded={true} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+      <TaskTestingDetail formik={{...}} task={{...}} mandatoryFields={{...}} />
+    </AccordionItem>
+  </Accordion>
+</Form>"
+`;

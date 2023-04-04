@@ -1,0 +1,79 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.task-decision-table {
+  .dt-header {
+    border-bottom: 1px;
+    border-color: hsl(0, 0%, 59%);
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fe_c_accordion-item__header {
+    height: 52px;
+  }
+  .delete_dt {
+    display: none;
+    height: 20px;
+    width: 20px;
+  }
+  .expand-all-button {
+    margin-right: map-get($global-margin, 'large');
+  }
+  .dt-details {
+    padding-bottom: map-get($global-padding, 'large');
+  }
+
+  .dt-url {
+    padding-top: map-get($global-padding, 'large');
+  }
+
+  .dt-url-text {
+    padding-top: 3px;
+    padding-left: 5px;
+  }
+
+  .dt-url a {
+    display: inline-flex;
+  }
+
+  .dt-url a:hover,
+  .dt-url a:visited,
+  .dt-url a:focus,
+  .dt-url a:link {
+    box-shadow: none;
+    color: none;
+    border: none;
+    transition: none;
+    outline: none;
+  }
+
+  .ref-url .fe_l_grid-row__col {
+    min-width: 100%;
+    padding-right: 0px;
+  }
+
+  .branch-url .fe_l_grid-row__col {
+    min-width: 100%;
+    padding-left: 0px;
+  }
+
+  .fe_l_grid-row__col {
+    padding-right: 0px;
+  }
+
+  .fe_is-expanded,
+  .fe_c_accordion-item__header:hover {
+    .delete_dt {
+      display: block;
+    }
+  }
+  .padding-bottom {
+    padding-bottom: 0 !important;
+  }
+
+  .margin-top-small {
+    margin-top: 10px;
+  }
+}
+.no-records-txt {
+  padding: 10px 0px;
+}

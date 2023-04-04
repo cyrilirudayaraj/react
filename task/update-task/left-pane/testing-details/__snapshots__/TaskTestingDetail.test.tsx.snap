@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskTestingDetail should render as expected 1`] = `
+"<Form labelAlwaysAbove={true} includeSubmitButton={false} className=\\"task-detail\\" buttonText=\\"Submit\\" noValidate={true} requiredVariation=\\"blueBarWithRequiredLabel\\" layout=\\"medium\\" nested={true} labelWidth={3}>
+  <Connect(WFEnableForPermission) permission=\\"task.test-notes.update\\">
+    <Connect(RichTextEditor) id=\\"testNote\\" wrapperId={3} labelText=\\"Test Note\\" formik={{...}} isDisabled={false} isRequired={false} />
+  </Connect(WFEnableForPermission)>
+</Form>"
+`;

@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <SignOffDetails> should render as expected 1`] = `
+"<SignOffDetails task={{...}}>
+  <div className=\\"sign-off\\">
+    <div className=\\"panel\\">
+      <div className=\\"panel-content signoff-content\\">
+        <div className=\\"fe_u_flex-container\\">
+          <Table layout=\\"compact\\" className=\\"full-width\\" rows={{...}} rowKey=\\"id\\" columns={{...}} showHover={true} onRow={[Function: onRow]} replaceChildren={false} nowrapHeaders={false}>
+            <Provider className=\\"fe_c_table fe_c_table--show-hover fe_c_table--compact full-width\\" columns={{...}} renderers={{...}}>
+              <table className=\\"fe_c_table fe_c_table--show-hover fe_c_table--compact full-width\\">
+                <Header>
+                  <thead>
+                    <HeaderRow renderers={{...}} onRow={[Function: onRow]} rowData={{...}} rowIndex={0}>
+                      <tr>
+                        <th data-column=\\"name\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                          Workflow Step
+                        </th>
+                        <th data-column=\\"plannedCompletion\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                          Next Action Due
+                        </th>
+                        <th data-column=\\"assignedTo\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                          Signed-off-by
+                        </th>
+                        <th data-column=\\"actualCompletion\\" scope=\\"col\\" role=\\"columnheader\\" title={{...}} className=\\"fe_c_table__header\\">
+                          Signed-off Date
+                        </th>
+                      </tr>
+                    </HeaderRow>
+                  </thead>
+                </Header>
+                <Body onRow={[Function: onRow]} rows={{...}} rowKey=\\"id\\">
+                  <tbody>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"101-row\\" rowIndex={0} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Analyze Task
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          01/01/2000
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          vsivachandran
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          01/01/2000
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"102-row\\" rowIndex={1} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Review Task
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"103-row\\" rowIndex={2} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Manager Review
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"104-row\\" rowIndex={3} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Make Model Changes
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"105-row\\" rowIndex={4} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Make Code Changes
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"106-row\\" rowIndex={5} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Test Changes
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"107-row\\" rowIndex={6} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Review Changes
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                    <BodyRow renderers={{...}} onRow={[Function: onRow]} rowKey=\\"108-row\\" rowIndex={7} rowData={{...}} columns={{...}}>
+                      <tr>
+                        <td data-column=\\"name\\" className=\\"fe_c_table__cell\\">
+                          Deploy Changes
+                        </td>
+                        <td data-column=\\"plannedCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"assignedTo\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                        <td data-column=\\"actualCompletion\\" className=\\"fe_c_table__cell\\">
+                          -
+                        </td>
+                      </tr>
+                    </BodyRow>
+                  </tbody>
+                </Body>
+              </table>
+            </Provider>
+          </Table>
+        </div>
+      </div>
+    </div>
+  </div>
+</SignOffDetails>"
+`;

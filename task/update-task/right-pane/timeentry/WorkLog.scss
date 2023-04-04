@@ -1,0 +1,146 @@
+.work-log {
+  width: 100%;
+  max-height: 100%;
+  margin: auto;
+  overflow: hidden;
+  .worklog-header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1.5px 0px 0 #cdcdcd;
+    .add-button {
+      button {
+        padding-bottom: 5px;
+      }
+    }
+    .add-button.fe_c_button:focus {
+      box-shadow: none;
+    }
+    .worklog-time-container {
+      .time-label {
+        color: #333333;
+        font-family: 'Source Sans Pro';
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-align: right;
+      }
+      .document-type {
+        color: #333333;
+        font-family: 'Source Sans Pro';
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .worklog-list-container {
+    scrollbar-width: thin;
+    max-height: 65vh;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+    .worklog-list-group {
+      width: 100%;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      margin-left: 0;
+      .fe_c_list.fe_c_accordion {
+        min-width: 100%;
+        border-top: 0;
+        .fe_c_list__item.fe_c_accordion-item {
+          min-width: 100%;
+          h3 {
+            color: #333433;
+            font-family: 'Source Sans Pro';
+            font-size: 16px;
+            letter-spacing: 0px;
+            line-height: 24px;
+          }
+          .fe_c_accordion-item__content {
+            min-width: 100%;
+            .fe_c_accordion-item__content-inner {
+              min-width: 100%;
+              .fe_c_accordion-item__padded-content {
+                min-width: 100%;
+                .worklog-container {
+                  min-width: 100%;
+                  min-height: 50px;
+                  list-style: none;
+                  padding-top: 7px;
+                  margin-bottom: 0;
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                  div {
+                    display: inline-block;
+                  }
+                  .worklog-created-container {
+                    min-width: 50%;
+                    border-left: 5px solid #d9d9d9;
+                    .created-by {
+                      margin-top: 0;
+                      color: #333333;
+                      font-family: 'Source Sans Pro';
+                      font-size: 16px;
+                      letter-spacing: 0;
+                      line-height: 21px;
+                      padding-left: 5px;
+                    }
+                  }
+                  .worklog-spenttime-container {
+                    min-width: 30%;
+                    .spent-time {
+                      color: #333333;
+                      font-family: 'Source Sans Pro';
+                      font-size: 14px;
+                      font-weight: 600;
+                      letter-spacing: 0;
+                      line-height: 21px;
+                      text-align: right;
+                    }
+                  }
+
+                  .edit-button {
+                    display: none;
+                    margin-right: 4%;
+                  }
+                  .delete-button {
+                    display: none;
+                  }
+                }
+                .worklog-container:hover .edit-button,
+                .edit-button:hover {
+                  display: inline-block;
+                }
+                .worklog-container:hover {
+                  background-color: #d9ebfa;
+                }
+                .worklog-container:hover .delete-button,
+                .delete-button:hover {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .worklog-list-group {
+      .worklog-container:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+.worklog-list-container::-webkit-scrollbar {
+  width: 5px;
+}
+.worklog-list-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}

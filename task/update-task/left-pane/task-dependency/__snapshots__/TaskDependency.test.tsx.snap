@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskDependency should render as expected 1`] = `
+"<Provider store={{...}}>
+  <Connect(TaskDependency) formik={{...}}>
+    <TaskDependency formik={{...}} task={{...}} refreshTaskList={[Function (anonymous)]}>
+      <div className=\\"task-dependency\\">
+        <div className=\\"task-dependency-details\\">
+          <FormikConnect(FieldArrayInner) name=\\"taskDependencies\\" render={[Function: render]}>
+            <FieldArrayInner name=\\"taskDependencies\\" render={[Function: render]} formik={[undefined]} validateOnChange={true}>
+              <div>
+                <div>
+                  <div>
+                    <div className=\\"add-dependency\\">
+                      <Connect(WFEnableForPermission) permission=\\"task.dependency-details.update\\">
+                        <WFEnableForPermission permission=\\"task.dependency-details.update\\" userPermissions={{...}} dispatch={[Function: dispatch]}>
+                          <ForwardRef className=\\"root-add-button\\" text=\\"Add\\" icon=\\"Add\\" variant=\\"tertiary\\" onClick={[Function: onClick]} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                            <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium root-add-button\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                              <div className=\\"fe_c_button__content\\">
+                                <Add title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\">
+                                  <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\">
+                                    <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--with-text fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                      <g>
+                                        <g className=\\"fe_c_icon__background\\">
+                                          <rect width=\\"25\\" height=\\"25\\" />
+                                        </g>
+                                        <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                          <g>
+                                            <polygon points=\\"13.3 7.8 11.8 7.8 11.8 11.8 7.8 11.8 7.8 13.3 11.8 13.3 11.8 17.2 13.3 17.2 13.3 13.3 17.2 13.3 17.2 11.8 13.3 11.8 13.3 7.8\\" />
+                                            <path d=\\"M20,5a11,11,0,0,0-7.5-3.1A11,11,0,0,0,5,5,10.7,10.7,0,0,0,5,20a11,11,0,0,0,7.5,3.1A11,11,0,0,0,20,20,10.7,10.7,0,0,0,20,5ZM18.9,18.9a9.1,9.1,0,0,1-6.4,2.7,9.1,9.1,0,0,1,0-18.2,9.1,9.1,0,0,1,6.4,15.5Z\\" />
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </svg>
+                                  </IconBase>
+                                </Add>
+                                <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--tertiary\\">
+                                  Add
+                                </span>
+                              </div>
+                            </button>
+                          </ForwardRef>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </div>
+                  <div>
+                    <div className=\\"deploy-with\\">
+                      <b />
+                    </div>
+                    <div className=\\"test-with\\">
+                      <b />
+                    </div>
+                    <div className=\\"blocked-by\\">
+                      <b />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </FieldArrayInner>
+          </FormikConnect(FieldArrayInner)>
+        </div>
+      </div>
+    </TaskDependency>
+  </Connect(TaskDependency)>
+</Provider>"
+`;

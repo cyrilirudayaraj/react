@@ -1,0 +1,54 @@
+.update-task-footer {
+  .fe_c_popover-container {
+    position: absolute;
+    left: 12px;
+  }
+  .vis-hidden {
+    visibility: hidden;
+  }
+}
+.fe_c_popover__body {
+  background: white;
+  margin-left: 85px;
+  border: 1px solid #d9d9d9;
+  .fe_c_button {
+    width: 100%;
+    padding-left: 1px;
+    border: white;
+    text-align: left;
+  }
+  .fe_c_button__content {
+    justify-content: left;
+  }
+  .escalate-task {
+    .fe_c_button {
+      .fe_c_icon__icon {
+        fill: #fff;
+        stroke: #0466b4;
+      }
+      .fe_c_icon__icon--invert {
+        fill: #0466b4;
+      }
+    }
+  }
+}
+.fe_f_all
+  .fe_c_button
+  .fe_c_icon--close.fe_c_button__icon--secondary
+  .fe_c_icon__icon--primary,
+.fe_f_all
+  .fe_c_button
+  .fe_c_icon--close.fe_c_button__icon--tertiary
+  .fe_c_icon__icon--primary {
+  fill: #0466b4;
+}
+.fe_f_all
+  .fe_c_button
+  .fe_c_icon--close.fe_c_button__icon--secondary.fe_is-disabled
+  .fe_c_icon__icon--primary,
+.fe_f_all
+  .fe_c_button
+  .fe_c_icon--close.fe_c_button__icon--tertiary.fe_is-disabled
+  .fe_c_icon__icon--primary {
+  fill: #5f5f5f;
+}

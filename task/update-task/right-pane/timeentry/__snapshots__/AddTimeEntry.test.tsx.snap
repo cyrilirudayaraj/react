@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTimeEntry basic snapshot 1`] = `
+"<AddTimeEntry className=\\"edit-button\\" id=\\"edit-button\\" headerText=\\"Edit Time\\" context=\\"Save\\" icon=\\"Edit\\" variant=\\"tertiary\\" onConfirm={[Function: mockConstructor]} timeentry={{...}} activeWorkflowStepId=\\"2\\" task={{...}} disabled={false}>
+  <div className=\\"edit-button\\">
+    <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function: onSubmit]} validateOnChange={false} validateOnBlur={false} validateOnMount={false}>
+      <ForwardRef className=\\"edit-button\\" id=\\"edit-button\\" text={[undefined]} icon=\\"Edit\\" variant=\\"tertiary\\" disabled={false} onClick={[Function: onClick]} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+        <button id=\\"edit-button\\" className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium edit-button\\" aria-disabled={false} aria-label=\\"Edit\\" onClick={[Function: handleClick]} type=\\"button\\">
+          <div className=\\"fe_c_button__content\\">
+            <Edit title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+              <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                  <g>
+                    <g className=\\"fe_c_icon__background\\">
+                      <rect x=\\"-0.2\\" y=\\"-0.2\\" width=\\"25\\" height=\\"25\\" />
+                    </g>
+                    <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                      <path d=\\"M21.1,4.8,16.9.7,4.1,13.4,2.6,21.5l8-1.6L21.1,9.5A3.3,3.3,0,0,0,21.1,4.8ZM5.2,15.6l3.3,3.2-4,.8Zm4.9,2.8L5.7,13.9l8-8,4.5,4.4ZM20,8.5l-.8.8L14.8,4.9l2.1-2.1L20,5.9A1.9,1.9,0,0,1,20,8.5Z\\" />
+                    </g>
+                  </g>
+                </svg>
+              </IconBase>
+            </Edit>
+          </div>
+        </button>
+      </ForwardRef>
+      <ThemeConsumerHOC show={true} hideDividers={true} headerText=\\"Edit Time\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_document\\">
+        <Lightbox show={true} hideDividers={true} headerText=\\"Edit Time\\" disableClose={true} width=\\"large\\" className=\\"my-custom-lightbox create_document\\" theme={{...}} closeButtonAriaLabel=\\"Close Modal\\" includeButtonRow={false} primaryButtonText=\\"Next\\" padded={true}>
+          <ModalManagerWrapper className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"Edit Time\\" show={true}>
+            <Overlay manager={{...}} className=\\"fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" dialogClass={{...}} onHide={[Function: handleOnHide]} aria-label=\\"Edit Time\\" show={true} autoFocus={false} enforceFocus={false}>
+              <Modal aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} renderBackdrop={[Function: renderBackdrop]} transition={[Function: FadeUp]} backdropTransition={[Function: Fade]} manager={{...}} onShow={[Function (anonymous)]} onHide={[Function: handleOnHide]} aria-label=\\"Edit Time\\" show={true} autoFocus={false} enforceFocus={false} className=\\"fe_c_overlay fe_f_all fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" role=\\"dialog\\" backdrop={true} keyboard={true} restoreFocus={true}>
+                <Portal container={[undefined]} onRendered={[Function (anonymous)]}>
+                  <WaitForContainer container={[undefined]} onContainerResolved={[Function (anonymous)]}>
+                    <Portal containerInfo={{...}}>
+                      <Fade appear={true} in={true}>
+                        <CSSTransition timeout={400} classNames=\\"fade\\" appear={true} in={true}>
+                          <Transition timeout={400} appear={true} in={true} onEnter={[Function (anonymous)]} onEntered={[Function (anonymous)]} onEntering={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={false} unmountOnExit={false} enter={true} exit={true}>
+                            <div className=\\"fe_c_overlay__blocker \\" onClick={[Function (anonymous)]} />
+                          </Transition>
+                        </CSSTransition>
+                      </Fade>
+                      <FadeUp appear={true} unmountOnExit={true} in={true} onExit={[undefined]} onExiting={[undefined]} onExited={[Function (anonymous)]} onEnter={[undefined]} onEntering={[undefined]} onEntered={[undefined]}>
+                        <CSSTransition timeout={400} classNames=\\"fade-up\\" appear={true} unmountOnExit={true} in={true} onExit={[undefined]} onExiting={[undefined]} onExited={[Function (anonymous)]} onEnter={[undefined]} onEntering={[undefined]} onEntered={[undefined]}>
+                          <Transition timeout={400} appear={true} unmountOnExit={true} in={true} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} mountOnEnter={false} enter={true} exit={true}>
+                            <div role=\\"dialog\\" aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} aria-label=\\"Edit Time\\" style={[undefined]} className=\\"fe_c_overlay fe_f_all fe_c_lightbox fe_f_all my-custom-lightbox create_document\\" tabIndex=\\"-1\\">
+                              <div className=\\"fe_c_overlay__dialog fe_c_lightbox__dialog fe_c_lightbox__dialog--large fe_c_lightbox__dialog--without-dividers\\" role=\\"document\\">
+                                <div className=\\"fe_c_lightbox__header\\">
+                                  <Heading text=\\"Edit Time\\" headingTag=\\"h1\\" variant=\\"section\\">
+                                    <h1 className=\\"fe_c_heading fe_c_heading--section\\">
+                                      Edit Time
+                                    </h1>
+                                  </Heading>
+                                </div>
+                                <div className=\\"fe_c_lightbox__body fe_c_lightbox__body--padded\\">
+                                  <ForwardRef variant=\\"tertiary\\" icon=\\"Close\\" onClick={[Function: onClick]} className=\\"my-close-button\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                    <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium my-close-button\\" aria-disabled={false} aria-label=\\"Close\\" onClick={[Function: handleClick]} type=\\"button\\">
+                                      <div className=\\"fe_c_button__content\\">
+                                        <Close title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                          <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\">
+                                            <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                              <g>
+                                                <g className=\\"fe_c_icon__background\\">
+                                                  <rect width=\\"25\\" height=\\"25\\" />
+                                                </g>
+                                                <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                  <rect x=\\"4\\" y=\\"11.8\\" width=\\"17\\" height=\\"1.5\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                                  <rect x=\\"11.8\\" y=\\"4\\" width=\\"1.5\\" height=\\"16.97\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                                </g>
+                                              </g>
+                                            </svg>
+                                          </IconBase>
+                                        </Close>
+                                      </div>
+                                    </button>
+                                  </ForwardRef>
+                                  <Form labelAlwaysAbove={true} includeSubmitButton={false} requiredVariation=\\"blueBarWithLegend\\" className=\\"fe_u_margin--large\\" layout=\\"compact\\" buttonText=\\"Submit\\" noValidate={true} nested={true} labelWidth={3}>
+                                    <form onSubmit={[undefined]} className=\\"fe_u_margin--large\\" noValidate={true}>
+                                      <GridRow nested={true}>
+                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                          <GridCol>
+                                            <div className=\\"fe_l_grid-row__col\\">
+                                              <FormLegend allFieldsRequired={false} nested={true}>
+                                                <div className=\\"fe_c_form-legend\\" aria-hidden=\\"true\\">
+                                                  Required field
+                                                </div>
+                                              </FormLegend>
+                                            </div>
+                                          </GridCol>
+                                        </div>
+                                      </GridRow>
+                                      <FormField labelText=\\"Time Spent\\" name=\\"spentTimeInMins\\" value=\\"1d 1h 30m\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} error={[undefined]} id=\\"spentTimeInMins\\" labelWidth={12} required={true} hintText=\\"eg. 3h 30m or 45m\\" inputAs={{...}}>
+                                        <FormFieldLayout labelWidth={12} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={{...}} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                          <div className=\\"fe_c_form-field fe_c_form-field--compact\\">
+                                            <GridRow nested={true}>
+                                              <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                  <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                    <Label id=\\"spentTimeInMins-label\\" htmlFor=\\"spentTimeInMins\\" text=\\"Time Spent\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                      <label htmlFor=\\"spentTimeInMins\\" id=\\"spentTimeInMins-label\\" className=\\"fe_c_label\\">
+                                                        Time Spent
+                                                      </label>
+                                                    </Label>
+                                                  </div>
+                                                </GridCol>
+                                                <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                  <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-0 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                    <div className=\\"fe_c_form-field__input-slot\\">
+                                                      <Input value=\\"1d 1h 30m\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"spentTimeInMins\\" name=\\"spentTimeInMins\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"spentTimeInMins-label\\" type=\\"text\\">
+                                                        <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                          <input value=\\"1d 1h 30m\\" onChange={[Function (anonymous)]} onBlur={[Function (anonymous)]} id=\\"spentTimeInMins\\" name=\\"spentTimeInMins\\" aria-labelledby=\\"spentTimeInMins-label\\" className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                        </div>
+                                                      </Input>
+                                                      <div className=\\"fe_c_form-field__message\\">
+                                                        <InlineMessage text=\\"eg. 3h 30m or 45m\\" disabled={[undefined]}>
+                                                          <span className=\\"fe_c_inline-message\\">
+                                                            eg. 3h 30m or 45m
+                                                          </span>
+                                                        </InlineMessage>
+                                                      </div>
+                                                    </div>
+                                                    <div className=\\"fe_c_form-field__status\\" />
+                                                  </div>
+                                                </GridCol>
+                                              </div>
+                                            </GridRow>
+                                          </div>
+                                        </FormFieldLayout>
+                                      </FormField>
+                                      <FormField labelText=\\"Workflow Step\\" inputAs={{...}} options={{...}} name=\\"workflowStepId\\" value=\\"1\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} error={[undefined]} id=\\"workflowStepId\\" labelWidth={12} required={true}>
+                                        <FormFieldLayout labelWidth={12} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                          <div className=\\"fe_c_form-field fe_c_form-field--compact\\">
+                                            <GridRow nested={true}>
+                                              <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                  <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                    <Label id=\\"workflowStepId-label\\" htmlFor=\\"workflowStepId\\" text=\\"Workflow Step\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                      <label htmlFor=\\"workflowStepId\\" id=\\"workflowStepId-label\\" className=\\"fe_c_label\\">
+                                                        Workflow Step
+                                                      </label>
+                                                    </Label>
+                                                  </div>
+                                                </GridCol>
+                                                <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                  <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-0 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                    <div className=\\"fe_c_form-field__input-slot\\">
+                                                      <Select options={{...}} value=\\"1\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"workflowStepId\\" name=\\"workflowStepId\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"workflowStepId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                                        <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} value=\\"1\\" onChange={[Function: onChange]} onBlur={[Function (anonymous)]} id=\\"workflowStepId\\" name=\\"workflowStepId\\" aria-labelledby=\\"workflowStepId-label\\">
+                                                          <option value=\\"\\">
+                                                            - Select -
+                                                          </option>
+                                                        </select>
+                                                      </Select>
+                                                    </div>
+                                                    <div className=\\"fe_c_form-field__status\\" />
+                                                  </div>
+                                                </GridCol>
+                                              </div>
+                                            </GridRow>
+                                          </div>
+                                        </FormFieldLayout>
+                                      </FormField>
+                                      <FormField labelText=\\"Date Started\\" inputAs={{...}} required={true} minDate={{...}} maxDate={{...}} name=\\"spentOn\\" value=\\"08/15/2020\\" onChange={[Function (anonymous)]} onBlur={[Function: onBlur]} error={[undefined]} id=\\"spentOn\\" labelWidth={12}>
+                                        <FormFieldLayout labelWidth={12} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                          <div className=\\"fe_c_form-field fe_c_form-field--compact\\">
+                                            <GridRow nested={true}>
+                                              <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                                <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                  <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                                    <Label id=\\"spentOn-label\\" htmlFor=\\"spentOn\\" text=\\"Date Started\\" disabled={[undefined]} required={false} useLegend={false}>
+                                                      <label htmlFor=\\"spentOn\\" id=\\"spentOn-label\\" className=\\"fe_c_label\\">
+                                                        Date Started
+                                                      </label>
+                                                    </Label>
+                                                  </div>
+                                                </GridCol>
+                                                <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                  <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-0 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                                    <div className=\\"fe_c_form-field__input-slot\\">
+                                                      <ForwardRef(DateInput) minDate={{...}} maxDate={{...}} value=\\"08/15/2020\\" onChange={[Function (anonymous)]} onBlur={[Function: onBlur]} className=\\"fe_c_form-field__input\\" id=\\"spentOn\\" name=\\"spentOn\\" required={true} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"spentOn-label\\">
+                                                        <DateInput minDate={{...}} maxDate={{...}} value=\\"08/15/2020\\" onChange={[Function (anonymous)]} onBlur={[Function: onBlur]} className=\\"fe_c_form-field__input\\" id=\\"spentOn\\" name=\\"spentOn\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"spentOn-label\\" forwardedRef={{...}} disabledKeyboardNavigation={true} placeholder=\\"MM-DD-YYYY\\" preventOpenOnFocus={true}>
+                                                          <r className=\\"fe_c_date-input__input\\" wrapperClassName=\\"fe_c_date-input fe_c_form-field__input\\" popperClassName=\\"fe_c_date-input__overlay\\" calendarClassName=\\"fe_c_date-input__calendar\\" dayClassName={[Function: dayClassName]} customInputRef=\\"inputRef\\" onKeyDown={[Function: onKeyDown]} customInput={{...}} calendarContainer={[Function: DateInputCalendarContainer]} renderCustomHeader={[Function: renderCustomHeader]} selected={[undefined]} value=\\"08/15/2020\\" onSelect={[Function: bound handleSelect]} onChange={[Function: bound handleChange]} onBlur={[Function: onBlur]} dateFormat=\\"MM-dd-yyyy\\" placeholderText=\\"MM-DD-YYYY\\" autoComplete=\\"off\\" required={true} onChangeRaw={[Function: bound handleChangeRaw]} minDate={{...}} maxDate={{...}} id=\\"spentOn\\" name=\\"spentOn\\" disabled={false} aria-labelledby=\\"spentOn-label\\" forwardedRef={{...}} disabledKeyboardNavigation={true} placeholder=\\"MM-DD-YYYY\\" preventOpenOnFocus={true} portalId=\\"forge-date-input-portal\\" allowSameDay={false} dateFormatCalendar=\\"LLLL yyyy\\" dropdownMode=\\"scroll\\" onFocus={[Function: onFocus]} onInputClick={[Function: onInputClick]} onClickOutside={[Function: onClickOutside]} onMonthChange={[Function: onMonthChange]} onCalendarOpen={[Function: onCalendarOpen]} onCalendarClose={[Function: onCalendarClose]} onYearChange={[Function: onYearChange]} onInputError={[Function: onInputError]} monthsShown={1} readOnly={false} withPortal={false} shouldCloseOnSelect={true} showTimeSelect={false} showTimeInput={false} showPreviousMonths={false} showMonthYearPicker={false} showFullMonthYearPicker={false} showTwoColumnMonthYearPicker={false} showFourColumnMonthYearPicker={false} showYearPicker={false} showQuarterYearPicker={false} strictParsing={false} timeIntervals={30} timeCaption=\\"Time\\" previousMonthButtonLabel=\\"Previous Month\\" nextMonthButtonLabel=\\"Next Month\\" previousYearButtonLabel=\\"Previous Year\\" nextYearButtonLabel=\\"Next Year\\" timeInputLabel=\\"Time\\" enableTabLoop={true} yearItemNumber={12} renderDayContents={[Function: renderDayContents]} focusSelectedMonth={false} showPopperArrow={true} excludeScrollbar={true} customTimeInput={{...}}>
+                                                            <r className=\\"fe_c_date-input__overlay\\" wrapperClassName=\\"fe_c_date-input fe_c_form-field__input\\" hidePopper={true} portalId=\\"forge-date-input-portal\\" popperModifiers={{...}} targetComponent={{...}} popperContainer={[undefined]} popperComponent={{...}} popperPlacement=\\"bottom-start\\" popperProps={{...}} popperOnKeyDown={[Function (anonymous)]} enableTabLoop={true}>
+                                                              <Manager className=\\"react-datepicker-manager\\">
+                                                                <Reference>
+                                                                  <InnerReference setReferenceNode={[Function (anonymous)]}>
+                                                                    <div className=\\"react-datepicker-wrapper fe_c_date-input fe_c_form-field__input\\">
+                                                                      <div className=\\"react-datepicker__input-container\\">
+                                                                        <ForwardRef(DateInputInput) error={[undefined]} required={true} hideRequiredStyles={false} onRawBlur={[Function: bound handleRawBlur]} inputRef={[Function (anonymous)]} value=\\"08/15/2020\\" onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} id=\\"spentOn\\" name=\\"spentOn\\" autoFocus={[undefined]} placeholder=\\"MM-DD-YYYY\\" disabled={false} autoComplete=\\"off\\" className=\\"fe_c_date-input__input\\" title={[undefined]} readOnly={false} tabIndex={[undefined]} aria-describedby={[undefined]} aria-invalid={[undefined]} aria-labelledby={[undefined]} aria-required={[undefined]}>
+                                                                          <DateInputInput error={[undefined]} required={true} hideRequiredStyles={false} onRawBlur={[Function: bound handleRawBlur]} inputRef={[Function (anonymous)]} value=\\"08/15/2020\\" onBlur={[Function (anonymous)]} onChange={[Function (anonymous)]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} id=\\"spentOn\\" name=\\"spentOn\\" autoFocus={[undefined]} placeholder=\\"MM-DD-YYYY\\" disabled={false} autoComplete=\\"off\\" className=\\"fe_c_date-input__input\\" title={[undefined]} readOnly={false} tabIndex={[undefined]} aria-describedby={[undefined]} aria-invalid={[undefined]} aria-labelledby={[undefined]} aria-required={[undefined]} forwardedRef={{...}}>
+                                                                            <Input className=\\"fe_c_date-input__input\\" disabled={false} error={[undefined]} inputRef={[Function (anonymous)]} onBlur={[Function: onBlur]} data-testid=\\"calendar-input\\" required={true} hideRequiredStyles={false} value=\\"08/15/2020\\" onChange={[Function (anonymous)]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} id=\\"spentOn\\" name=\\"spentOn\\" autoFocus={[undefined]} placeholder=\\"MM-DD-YYYY\\" autoComplete=\\"off\\" title={[undefined]} readOnly={false} tabIndex={[undefined]} aria-describedby={[undefined]} aria-invalid={[undefined]} aria-labelledby={[undefined]} aria-required={[undefined]} type=\\"text\\">
+                                                                              <div className=\\"fe_c_input fe_c_date-input__input\\">
+                                                                                <input onBlur={[Function: onBlur]} data-testid=\\"calendar-input\\" value=\\"08/15/2020\\" onChange={[Function (anonymous)]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} id=\\"spentOn\\" name=\\"spentOn\\" autoFocus={[undefined]} placeholder=\\"MM-DD-YYYY\\" autoComplete=\\"off\\" title={[undefined]} readOnly={false} tabIndex={[undefined]} aria-describedby={[undefined]} aria-invalid={[undefined]} aria-labelledby={[undefined]} aria-required={[undefined]} className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                                                <Calendar className=\\"fe_c_date-input__icon\\" disabled={false} error={[undefined]} title=\\"Calendar\\">
+                                                                                  <IconBase viewBox=\\"0 0 25 25\\" className=\\"fe_c_date-input__icon\\" disabled={false} error={[undefined]} title=\\"Calendar\\">
+                                                                                    <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_date-input__icon\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                                                                      <title>
+                                                                                        Calendar
+                                                                                      </title>
+                                                                                      <g>
+                                                                                        <g className=\\"fe_c_icon__background\\">
+                                                                                          <rect width=\\"25\\" height=\\"25\\" />
+                                                                                        </g>
+                                                                                        <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                                                                          <path d=\\"M17.3,4.1V1.6H15.8V4.1H9.2V1.6H7.7V4.1H2.8V21.9H18.9a3.3,3.3,0,0,0,3.3-3.3V4.1ZM7.7,5.6V7.4H9.2V5.6h6.6V7.4h1.5V5.6h3.4V9.5H4.3V5.6ZM18.9,20.4H4.3V11H20.7v7.6A1.8,1.8,0,0,1,18.9,20.4Z\\" />
+                                                                                        </g>
+                                                                                      </g>
+                                                                                    </svg>
+                                                                                  </IconBase>
+                                                                                </Calendar>
+                                                                              </div>
+                                                                            </Input>
+                                                                          </DateInputInput>
+                                                                        </ForwardRef(DateInputInput)>
+                                                                      </div>
+                                                                    </div>
+                                                                  </InnerReference>
+                                                                </Reference>
+                                                              </Manager>
+                                                            </r>
+                                                          </r>
+                                                        </DateInput>
+                                                      </ForwardRef(DateInput)>
+                                                    </div>
+                                                    <div className=\\"fe_c_form-field__status\\" />
+                                                  </div>
+                                                </GridCol>
+                                              </div>
+                                            </GridRow>
+                                          </div>
+                                        </FormFieldLayout>
+                                      </FormField>
+                                    </form>
+                                  </Form>
+                                  <div className=\\"fe_c_lightbox__footer\\">
+                                    <ForwardRef text=\\"Cancel\\" variant=\\"secondary\\" className=\\"fe_u_margin--right-small\\" onClick={[Function: onClick]} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                      <button className=\\"fe_c_button fe_c_button--secondary fe_c_button--medium fe_u_margin--right-small\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                        <div className=\\"fe_c_button__content\\">
+                                          <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--secondary\\">
+                                            Cancel
+                                          </span>
+                                        </div>
+                                      </button>
+                                    </ForwardRef>
+                                    <ForwardRef text=\\"Save\\" onClick={[Function: onClick]} variant=\\"primary\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                      <button className=\\"fe_c_button fe_c_button--primary fe_c_button--medium\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                        <div className=\\"fe_c_button__content\\">
+                                          <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--primary\\">
+                                            Save
+                                          </span>
+                                        </div>
+                                      </button>
+                                    </ForwardRef>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </Transition>
+                        </CSSTransition>
+                      </FadeUp>
+                    </Portal>
+                  </WaitForContainer>
+                </Portal>
+              </Modal>
+            </Overlay>
+          </ModalManagerWrapper>
+        </Lightbox>
+      </ThemeConsumerHOC>
+    </Formik>
+  </div>
+</AddTimeEntry>"
+`;

@@ -1,0 +1,47 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.task-dt {
+  .delete-icon {
+    .fe_c_icon__icon--primary {
+      fill: #d32e45;
+    }
+  }
+
+  .dt-url {
+    padding-top: map-get($global-padding, 'large');
+  }
+
+  .dt-url-text {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+  .dt-url a {
+    display: inline-flex;
+  }
+
+  .dt-url a:hover,
+  .dt-url a:visited,
+  .dt-url a:focus,
+  .dt-url a:link {
+    box-shadow: none;
+    color: none;
+    border: none;
+    transition: none;
+    outline: none;
+  }
+
+  .padding-bottom {
+    padding-bottom: 0 !important;
+  }
+
+  .max-width .fe_l_grid-row__col {
+    min-width: 100%;
+  }
+
+  .task-dt .fe_c_form-field {
+    padding-bottom: 0 !important;
+  }
+}
+.hide {
+  display: none !important;
+}

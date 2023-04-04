@@ -1,0 +1,802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessRequirement basic snapshot 1`] = `
+"<Provider store={{...}}>
+  <Connect(BusinessRequirement) formik={{...}}>
+    <BusinessRequirement formik={{...}} task={{...}} businessRequirementTypes={{...}} ruleReportingCategories={{...}} localRuleUseCaseList={{...}} ruleTypes={{...}} scrubTypes={[undefined]} visitRuleDisplayLocations={{...}} fetchBusinessRequirementTypesOnce={[Function (anonymous)]} fetchRuleReportingCategoriesOnce={[Function (anonymous)]} fetchLocalRuleUseCaseListOnce={[Function (anonymous)]} fetchRuleTypesOnce={[Function (anonymous)]} fetchVisitRuleDisplayLocationsOnce={[Function (anonymous)]} fetchScrubTypesOnce={[Function (anonymous)]}>
+      <Form labelAlwaysAbove={true} includeSubmitButton={false} className=\\"business-requirement\\" buttonText=\\"Submit\\" noValidate={true} requiredVariation=\\"blueBarWithRequiredLabel\\" layout=\\"medium\\" nested={true} labelWidth={3}>
+        <form onSubmit={[undefined]} className=\\"business-requirement\\" noValidate={true}>
+          <Banner className=\\"br-banner-info\\" alertType=\\"info\\">
+            <div className=\\"fe_c_banner fe_c_banner--info br-banner-info\\">
+              <div className=\\"fe_c_banner__icon\\">
+                <Icon icon=\\"Info\\" iconSet={{...}}>
+                  <Info title=\\"Info\\">
+                    <IconBase viewBox=\\"0 0 25 25\\" title=\\"Info\\" className=\\" fe_c_icon--info-solid\\">
+                      <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_icon--info-solid\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                        <title>
+                          Info
+                        </title>
+                        <g>
+                          <g className=\\"fe_c_icon__background\\">
+                            <rect width=\\"25\\" height=\\"25\\" />
+                          </g>
+                          <g>
+                            <circle cx=\\"12.5\\" cy=\\"12.5\\" r=\\"10.6\\" className=\\"fe_c_icon__icon fe_c_icon__icon--secondary\\" />
+                            <g className=\\"fe_c_icon__icon fe_c_icon__icon--invert\\">
+                              <circle cx=\\"12.375\\" cy=\\"7.375\\" r=\\"1.35\\" />
+                              <polygon points=\\"14.49 17.28 10.51 17.28 10.51 16.31 11.67 16.31 11.67 11.63 10.51 11.63 10.51 10.6 13.33 10.6 13.33 16.31 14.49 16.31 14.49 17.28\\" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </IconBase>
+                  </Info>
+                </Icon>
+              </div>
+              <div className=\\"fe_c_banner__items\\">
+                <BannerItem headingTag=\\"h2\\">
+                  <div className=\\"fe_c_banner-item\\">
+                    <div className=\\"fe_c_banner-item__contents\\">
+                      Edits to these fields will not update the business requirement associated fields until this task is in production.
+                    </div>
+                  </div>
+                </BannerItem>
+              </div>
+            </div>
+          </Banner>
+          <div className=\\"panel top-margin\\">
+            <div className=\\"heading\\">
+              <h1 className=\\"content\\">
+                Business Requirement Information
+              </h1>
+            </div>
+            <div className=\\"panel-content\\">
+              <GridRow className=\\"fe_u_padding--top-medium\\">
+                <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <WFReadOnlyInput labelText=\\"Business Requirement ID\\" text=\\"\\">
+                        <div className=\\"readonlywrapper\\">
+                          <FormField id=\\"Business Requirement ID\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Business Requirement ID\\" text=\\"---\\" required={false}>
+                            <FormFieldLayout labelWidth={[undefined]} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"Business Requirement ID-label\\" htmlFor=\\"Business Requirement ID\\" text=\\"Business Requirement ID\\" disabled={[undefined]} required={false} useLegend={false}>
+                                          <label htmlFor=\\"Business Requirement ID\\" id=\\"Business Requirement ID-label\\" className=\\"fe_c_label\\">
+                                            Business Requirement ID
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-9 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <ReadOnlyInput text=\\"---\\" className=\\"fe_c_form-field__input\\" id=\\"Business Requirement ID\\" name=\\"Business Requirement ID\\" required={false} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"Business Requirement ID-label\\">
+                                            <div className=\\"fe_c_read-only-input fe_c_form-field__input\\" id=\\"Business Requirement ID\\" aria-labelledby=\\"Business Requirement ID-label\\">
+                                              <p className=\\"fe_c_read-only-input__text\\">
+                                                ---
+                                              </p>
+                                            </div>
+                                          </ReadOnlyInput>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </div>
+                      </WFReadOnlyInput>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+              <GridRow className=\\"fe_u_padding--top-medium\\">
+                <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.name.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.name.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <WFTextarea formik={{...}} task={{...}} businessRequirementTypes={{...}} ruleReportingCategories={{...}} localRuleUseCaseList={{...}} ruleTypes={{...}} scrubTypes={[undefined]} visitRuleDisplayLocations={{...}} fetchBusinessRequirementTypesOnce={[Function (anonymous)]} fetchRuleReportingCategoriesOnce={[Function (anonymous)]} fetchLocalRuleUseCaseListOnce={[Function (anonymous)]} fetchRuleTypesOnce={[Function (anonymous)]} fetchVisitRuleDisplayLocationsOnce={[Function (anonymous)]} fetchScrubTypesOnce={[Function (anonymous)]} label=\\"Business Requirement Name\\" name=\\"businessRequirementName\\" maxlength={200} disabled={false}>
+                            <div className=\\"textarea-component\\">
+                              <FormField style={{...}} inputAs={{...}} labelText=\\"Business Requirement Name\\" required={true} autoComplete=\\"off\\" error={[undefined]} id=\\"businessRequirementName\\" className={[undefined]} labelWidth={1} onChange={[Function: onChange]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} disabled={false}>
+                                <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                  <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                    <GridRow nested={true}>
+                                      <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                        <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                          <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                            <Label id=\\"businessRequirementName-label\\" htmlFor=\\"businessRequirementName\\" text=\\"Business Requirement Name\\" disabled={false} required={true} useLegend={false}>
+                                              <label htmlFor=\\"businessRequirementName\\" id=\\"businessRequirementName-label\\" className=\\"fe_c_label\\">
+                                                Business Requirement Name
+                                                <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                   
+                                                  - Required
+                                                </span>
+                                              </label>
+                                            </Label>
+                                          </div>
+                                        </GridCol>
+                                        <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                          <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                            <div className=\\"fe_c_form-field__input-slot\\">
+                                              <Input style={{...}} autoComplete=\\"off\\" onChange={[Function: onChange]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} className=\\"fe_c_form-field__input\\" id=\\"businessRequirementName\\" name=\\"businessRequirementName\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"businessRequirementName-label\\" type=\\"text\\">
+                                                <div className=\\"fe_c_input fe_c_form-field__input\\">
+                                                  <input style={{...}} autoComplete=\\"off\\" onChange={[Function: onChange]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} id=\\"businessRequirementName\\" name=\\"businessRequirementName\\" aria-labelledby=\\"businessRequirementName-label\\" className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                </div>
+                                              </Input>
+                                            </div>
+                                            <div className=\\"fe_c_form-field__status\\" />
+                                          </div>
+                                        </GridCol>
+                                      </div>
+                                    </GridRow>
+                                  </div>
+                                </FormFieldLayout>
+                              </FormField>
+                              <div className=\\"counter\\" />
+                            </div>
+                          </WFTextarea>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+              <GridRow className=\\"fe_u_padding--top-medium\\">
+                <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.description.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.description.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <Connect(RichTextEditor) id=\\"businessRequirementDesc\\" wrapperId={4} labelText=\\"Business Requirement Description (Client Friendly)\\" formik={{...}} isDisabled={false} isRequired={true}>
+                            <RichTextEditor id=\\"businessRequirementDesc\\" wrapperId={4} labelText=\\"Business Requirement Description (Client Friendly)\\" formik={{...}} isDisabled={false} isRequired={true} usersInfo={{...}} fetchUsersOnce={[Function (anonymous)]} maxLength={4000} className=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper\\" enableShowMore={true}>
+                              <div className=\\"textarea-component\\">
+                                <FormField id=\\"businessRequirementDesc\\" wrapperId={4} labelText=\\"Business Requirement Description (Client Friendly)\\" labelWidth={1} className=\\"rte\\" inputAs={[Function: r]} required={true} wrapperClassName=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper fe_is-required\\" editorClassName=\\"editor-textarea\\" editorState={{...}} onEditorStateChange={[Function (anonymous)]} readOnly={false} wrapperStyle={{...}} toolbarHidden={true} error={[undefined]} toolbar={{...}} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]}>
+                                  <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"rte\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                                    <div className=\\"fe_c_form-field fe_c_form-field--medium rte\\">
+                                      <GridRow nested={true}>
+                                        <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                          <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                              <Label id=\\"businessRequirementDesc-label\\" htmlFor=\\"businessRequirementDesc\\" text=\\"Business Requirement Description (Client Friendly)\\" disabled={[undefined]} required={true} useLegend={false}>
+                                                <label htmlFor=\\"businessRequirementDesc\\" id=\\"businessRequirementDesc-label\\" className=\\"fe_c_label\\">
+                                                  Business Requirement Description (Client Friendly)
+                                                  <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                                     
+                                                    - Required
+                                                  </span>
+                                                </label>
+                                              </Label>
+                                            </div>
+                                          </GridCol>
+                                          <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                            <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                              <div className=\\"fe_c_form-field__input-slot\\">
+                                                <r wrapperId={4} wrapperClassName=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper fe_is-required\\" editorClassName=\\"editor-textarea\\" editorState={{...}} onEditorStateChange={[Function (anonymous)]} readOnly={false} wrapperStyle={{...}} toolbarHidden={true} toolbar={{...}} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"businessRequirementDesc\\" name=\\"businessRequirementDesc\\" required={true} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"businessRequirementDesc-label\\" toolbarOnFocus={false} stripPastedStyles={false} localization={{...}} customDecorators={{...}}>
+                                                  <div id=\\"rdw-wrapper-4\\" className=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper fe_is-required rdw-editor-wrapper\\" style={{...}} onClick={[Function (anonymous)]} onBlur={[Function (anonymous)]} aria-label=\\"rdw-wrapper\\">
+                                                    <div className=\\"editor-textarea rdw-editor-main\\" style={[undefined]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function: onKeyDown]} onMouseDown={[Function (anonymous)]}>
+                                                      <DraftEditor keyBindingFn={[Function (anonymous)]} editorState={{...}} onChange={[Function (anonymous)]} blockStyleFn={[Function: D]} customStyleMap={{...}} handleReturn={[Function (anonymous)]} handlePastedText={[Function (anonymous)]} blockRendererFn={[Function (anonymous)]} handleKeyCommand={[Function (anonymous)]} ariaLabel=\\"rdw-editor\\" blockRenderMap={{...}} wrapperId={4} readOnly={false} className=\\"fe_c_form-field__input\\" id=\\"businessRequirementDesc\\" name=\\"businessRequirementDesc\\" required={true} hideRequiredStyles={false} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"businessRequirementDesc-label\\" stripPastedStyles={false} ariaDescribedBy=\\"{{editor_id_placeholder}}\\" spellCheck={false}>
+                                                        <div className=\\"DraftEditor-root\\">
+                                                          <div className=\\"DraftEditor-editorContainer\\">
+                                                            <div aria-activedescendant={[undefined]} aria-autocomplete={[undefined]} aria-controls={[undefined]} aria-describedby={[undefined]} aria-expanded={{...}} aria-label=\\"rdw-editor\\" aria-labelledby={[undefined]} aria-multiline={[undefined]} aria-owns={[undefined]} autoCapitalize={[undefined]} autoComplete={[undefined]} autoCorrect={[undefined]} className=\\"notranslate public-DraftEditor-content\\" contentEditable={true} data-testid={[undefined]} onBeforeInput={[Function (anonymous)]} onBlur={[Function (anonymous)]} onCompositionEnd={[Function (anonymous)]} onCompositionStart={[Function (anonymous)]} onCopy={[Function (anonymous)]} onCut={[Function (anonymous)]} onDragEnd={[Function (anonymous)]} onDragEnter={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onDragOver={[Function (anonymous)]} onDragStart={[Function (anonymous)]} onDrop={[Function (anonymous)]} onFocus={[Function (anonymous)]} onInput={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyPress={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onPaste={[Function (anonymous)]} onSelect={[Function (anonymous)]} role=\\"textbox\\" spellCheck={false} style={{...}} suppressContentEditableWarning={true} tabIndex={[undefined]}>
+                                                              <UpdateDraftEditorFlags editor={{...}} editorState={{...}} />
+                                                              <DraftEditorContents blockRenderMap={{...}} blockRendererFn={[Function (anonymous)]} blockStyleFn={[Function: D]} customStyleMap={{...}} customStyleFn={[undefined]} editorKey=\\"123\\" editorState={{...}} preventScroll={[undefined]} textDirectionality={[undefined]}>
+                                                                <div data-contents=\\"true\\">
+                                                                  <div className=\\"\\" data-block={true} data-editor=\\"123\\" data-offset-key=\\"123-0-0\\">
+                                                                    <DraftEditorBlock contentState={{...}} block={{...}} blockProps={[undefined]} blockStyleFn={[Function: D]} customStyleMap={{...}} customStyleFn={[undefined]} decorator={{...}} direction=\\"LTR\\" forceSelection={false} offsetKey=\\"123-0-0\\" preventScroll={[undefined]} selection={{...}} tree={{...}}>
+                                                                      <div data-offset-key=\\"123-0-0\\" className=\\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\\">
+                                                                        <DraftEditorLeaf offsetKey=\\"123-0-0\\" block={{...}} start={0} selection={{...}} forceSelection={false} text=\\"\\" styleSet={{...}} customStyleMap={{...}} customStyleFn={[undefined]} isLast={true}>
+                                                                          <span data-offset-key=\\"123-0-0\\" style={{...}}>
+                                                                            <DraftEditorTextNode>
+                                                                              <br data-text=\\"true\\" />
+                                                                            </DraftEditorTextNode>
+                                                                          </span>
+                                                                        </DraftEditorLeaf>
+                                                                      </div>
+                                                                    </DraftEditorBlock>
+                                                                  </div>
+                                                                </div>
+                                                              </DraftEditorContents>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </DraftEditor>
+                                                    </div>
+                                                  </div>
+                                                </r>
+                                              </div>
+                                              <div className=\\"fe_c_form-field__status\\" />
+                                            </div>
+                                          </GridCol>
+                                        </div>
+                                      </GridRow>
+                                    </div>
+                                  </FormFieldLayout>
+                                </FormField>
+                                <div className=\\"counter\\">
+                                  <a id=\\"showmoreless-businessRequirementDesc\\" onClick={[Function: onClick]}>
+                                    Show more
+                                  </a>
+                                </div>
+                              </div>
+                            </RichTextEditor>
+                          </Connect(RichTextEditor)>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+              <GridRow className=\\"fe_u_padding--top-medium \\">
+                <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.type.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.type.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField id=\\"businessRequirementTypeId\\" inputAs={{...}} labelText=\\"Business Requirement Type\\" required={true} labelWidth={8} autoComplete=\\"off\\" error={[undefined]} options={{...}} disabled={false} onChange={[Function: onChange]}>
+                            <FormFieldLayout labelWidth={8} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"businessRequirementTypeId-label\\" htmlFor=\\"businessRequirementTypeId\\" text=\\"Business Requirement Type\\" disabled={false} required={true} useLegend={false}>
+                                          <label htmlFor=\\"businessRequirementTypeId\\" id=\\"businessRequirementTypeId-label\\" className=\\"fe_c_label\\">
+                                            Business Requirement Type
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-4 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <Select autoComplete=\\"off\\" options={{...}} onChange={[Function: onChange]} className=\\"fe_c_form-field__input\\" id=\\"businessRequirementTypeId\\" name=\\"businessRequirementTypeId\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"businessRequirementTypeId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} autoComplete=\\"off\\" onChange={[Function: onChange]} id=\\"businessRequirementTypeId\\" name=\\"businessRequirementTypeId\\" aria-labelledby=\\"businessRequirementTypeId-label\\">
+                                              <option value=\\"\\">
+                                                - Select -
+                                              </option>
+                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                Global
+                                              </option>
+                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                Local
+                                              </option>
+                                            </select>
+                                          </Select>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+              <GridRow className=\\"fe_u_padding--top-medium\\">
+                <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.context.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.context.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} required={true} labelText=\\"Context\\" labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"context\\" onChange={[Function: onChange]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[Function: onSuggestionSelected]} disabled={false}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"context-label\\" htmlFor=\\"context\\" text=\\"Context\\" disabled={false} required={true} useLegend={false}>
+                                          <label htmlFor=\\"context\\" id=\\"context-label\\" className=\\"fe_c_label\\">
+                                            Context
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <ForwardRef(Typeahead) autoComplete=\\"off\\" onChange={[Function: onChange]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[Function: onSuggestionSelected]} className=\\"fe_c_form-field__input\\" id=\\"context\\" name=\\"context\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"context-label\\">
+                                            <Typeahead autoComplete=\\"off\\" onChange={[Function: onChange]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[Function: onSuggestionSelected]} className=\\"fe_c_form-field__input\\" id=\\"context\\" name=\\"context\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"context-label\\" forwardedRef={{...}} getSuggestionText={[Function: getSuggestionValue]} minQueryLength={1} matchPos=\\"any\\" ignoreCase={true} filterOptions={[Function: defaultFilterOptions]}>
+                                              <TypeaheadTemplate suggestions={{...}} onSuggestionsFetchRequested={[Function: bound handleSuggestionsFetchRequested]} onSuggestionsClearRequested={[Function: bound handleSuggestionsClearRequested]} getSuggestionText={[Function: getSuggestionValue]} getSuggestionValue={[Function: getSuggestionValue]} inputProps={{...}} renderInputComponent={[Function: renderInputComponent]} onSuggestionSelected={[Function: onSuggestionSelected]} shouldRenderSuggestions={[Function: bound shouldRenderSuggestions]} alwaysRenderSuggestions={false} className=\\"fe_c_form-field__input\\" suggestionsAnnouncement={{...}} multiSection={[undefined]} renderSectionTitle={[undefined]} getSectionSuggestions={[Function: getSectionSuggestions]} renderSuggestion={[undefined]} onSuggestionHighlighted={[undefined]} highlightFirstSuggestion={[undefined]} focusInputOnSuggestionClick={[undefined]} theme={[undefined]} id=\\"context\\">
+                                                <Autosuggest renderSuggestion={[Function (anonymous)]} renderSuggestionsContainer={[Function: renderer]} suggestions={{...}} onSuggestionsFetchRequested={[Function: bound handleSuggestionsFetchRequested]} onSuggestionsClearRequested={[Function: bound handleSuggestionsClearRequested]} getSuggestionValue={[Function: getSuggestionValue]} inputProps={{...}} renderInputComponent={[Function: renderInputComponent]} onSuggestionSelected={[Function: onSuggestionSelected]} shouldRenderSuggestions={[Function: bound shouldRenderSuggestions]} className=\\"fe_c_form-field__input\\" onSuggestionHighlighted={[undefined]} alwaysRenderSuggestions={false} highlightFirstSuggestion={false} focusInputOnSuggestionClick={true} multiSection={false} renderSectionTitle={[Function (anonymous)]} getSectionSuggestions={[Function: getSectionSuggestions]} theme={{...}} id=\\"context\\" shouldKeepSuggestionsOnSelect={[Function: shouldKeepSuggestionsOnSelect]} containerProps={{...}}>
+                                                  <Autowhatever multiSection={false} items={{...}} renderInputComponent={[Function: renderInputComponent]} renderItemsContainer={[Function (anonymous)]} renderItem={[Function (anonymous)]} renderItemData={{...}} renderSectionTitle={[Function (anonymous)]} getSectionItems={[Function: getSectionSuggestions]} highlightedSectionIndex={{...}} highlightedItemIndex={{...}} containerProps={{...}} inputProps={{...}} itemProps={[Function (anonymous)]} theme={{...}} id=\\"context\\">
+                                                    <div role=\\"combobox\\" aria-haspopup=\\"listbox\\" aria-owns=\\"react-autowhatever-context\\" aria-expanded={false} className=\\"fe_c_typeahead fe_c_form-field__input\\">
+                                                      <Input type=\\"text\\" value=\\"\\" autoComplete=\\"off\\" aria-autocomplete=\\"list\\" aria-controls=\\"react-autowhatever-context\\" aria-activedescendant={{...}} className=\\"fe_c_typeahead__input\\" placeholder={[undefined]} onChange={[Function: onChange]} disabled={false} error={[undefined]} icon={[undefined]} iconSet={[undefined]} data-testid=\\"typeahead-input\\" name=\\"context\\" required={true} hideRequiredStyles={false} aria-labelledby=\\"context-label\\" onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function (anonymous)]}>
+                                                        <div className=\\"fe_c_input fe_c_typeahead__input\\">
+                                                          <input value=\\"\\" autoComplete=\\"off\\" aria-autocomplete=\\"list\\" aria-controls=\\"react-autowhatever-context\\" aria-activedescendant={{...}} placeholder={[undefined]} onChange={[Function: onChange]} data-testid=\\"typeahead-input\\" name=\\"context\\" aria-labelledby=\\"context-label\\" onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                        </div>
+                                                      </Input>
+                                                      <SuggestionsContainer containerProps={{...}} query=\\"\\" autosuggestRef={{...}} showingSuggestions={false}>
+                                                        <div>
+                                                          <Portal containerInfo={{...}}>
+                                                            <Popper referenceElement={{...}} placement=\\"bottom-start\\">
+                                                              <InnerPopper referenceElement={{...}} innerRef={[undefined]} modifiers={{...}} placement=\\"bottom-start\\" strategy=\\"absolute\\" onFirstUpdate={[undefined]}>
+                                                                <div style={{...}} data-placement={[undefined]} className=\\"fe_c_typeahead__portal fe_f_all\\" id=\\"react-autowhatever-context\\" role=\\"listbox\\" data-testid=\\"typeahead-portal\\">
+                                                                  <div className=\\"fe_c_typeahead__suggestions-container\\" />
+                                                                </div>
+                                                              </InnerPopper>
+                                                            </Popper>
+                                                          </Portal>
+                                                        </div>
+                                                      </SuggestionsContainer>
+                                                    </div>
+                                                  </Autowhatever>
+                                                </Autosuggest>
+                                                <SuggestionsAnnouncer text={{...}} />
+                                              </TypeaheadTemplate>
+                                            </Typeahead>
+                                          </ForwardRef(Typeahead)>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.local-rule-usecase.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.local-rule-usecase.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} labelText=\\"Local Rules Use Case\\" required={true} labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"localRuleUseCaseId\\" options={{...}} disabled={false}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"localRuleUseCaseId-label\\" htmlFor=\\"localRuleUseCaseId\\" text=\\"Local Rules Use Case\\" disabled={false} required={true} useLegend={false}>
+                                          <label htmlFor=\\"localRuleUseCaseId\\" id=\\"localRuleUseCaseId-label\\" className=\\"fe_c_label\\">
+                                            Local Rules Use Case
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <Select autoComplete=\\"off\\" options={{...}} className=\\"fe_c_form-field__input\\" id=\\"localRuleUseCaseId\\" name=\\"localRuleUseCaseId\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"localRuleUseCaseId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} autoComplete=\\"off\\" id=\\"localRuleUseCaseId\\" name=\\"localRuleUseCaseId\\" aria-labelledby=\\"localRuleUseCaseId-label\\">
+                                              <option value=\\"\\">
+                                                - Select -
+                                              </option>
+                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                BCBS routing
+                                              </option>
+                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                Capitation
+                                              </option>
+                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                Client-specific pre-claim workflow
+                                              </option>
+                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                Coding automation: custom solutions
+                                              </option>
+                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                Coding automation: hospital
+                                              </option>
+                                            </select>
+                                          </Select>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+              <GridRow className=\\"fe_u_padding--top-medium\\">
+                <div className=\\"fe_l_grid-row fe_u_padding--top-medium\\">
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.rule-reporting-category.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.rule-reporting-category.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} labelText=\\"Rule Reporting Category\\" hintText=\\"Return task to \\\\'Analyze Task\\\\' step to edit this field.\\" disabled={true} required={true} labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"ruleReportingCategoryId\\" options={{...}}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"fe_is-disabled\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={{...}} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium fe_is-disabled\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"ruleReportingCategoryId-label\\" htmlFor=\\"ruleReportingCategoryId\\" text=\\"Rule Reporting Category\\" disabled={true} required={true} useLegend={false}>
+                                          <label htmlFor=\\"ruleReportingCategoryId\\" id=\\"ruleReportingCategoryId-label\\" className=\\"fe_c_label fe_is-disabled\\">
+                                            Rule Reporting Category
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <Select autoComplete=\\"off\\" options={{...}} className=\\"fe_c_form-field__input\\" id=\\"ruleReportingCategoryId\\" name=\\"ruleReportingCategoryId\\" required={true} hideRequiredStyles={false} disabled={true} error={[undefined]} aria-labelledby=\\"ruleReportingCategoryId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                            <select className=\\"fe_c_select fe_is-disabled fe_c_form-field__input\\" disabled={true} required={true} autoComplete=\\"off\\" id=\\"ruleReportingCategoryId\\" name=\\"ruleReportingCategoryId\\" aria-labelledby=\\"ruleReportingCategoryId-label\\">
+                                              <option value=\\"\\">
+                                                - Select -
+                                              </option>
+                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                1 - Format: Institutional
+                                              </option>
+                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                2 - Format: Professional
+                                              </option>
+                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                3 - Override:195 Override
+                                              </option>
+                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                4 - Override: Advice
+                                              </option>
+                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                5 - Override: Rule
+                                              </option>
+                                              <option value=\\"6\\" disabled={[undefined]} className={[undefined]}>
+                                                6 - Eligibility: Demographic
+                                              </option>
+                                              <option value=\\"8\\" disabled={[undefined]} className={[undefined]}>
+                                                8 - Eligibility: Referral
+                                              </option>
+                                              <option value=\\"9\\" disabled={[undefined]} className={[undefined]}>
+                                                9 - Coding: Procedure Code
+                                              </option>
+                                              <option value=\\"10\\" disabled={[undefined]} className={[undefined]}>
+                                                10 - Validation: Provider Information
+                                              </option>
+                                              <option value=\\"11\\" disabled={[undefined]} className={[undefined]}>
+                                                11 - Coding: Modifier
+                                              </option>
+                                              <option value=\\"12\\" disabled={[undefined]} className={[undefined]}>
+                                                12 - Validation: Missing/Invalid Claim Data
+                                              </option>
+                                              <option value=\\"13\\" disabled={[undefined]} className={[undefined]}>
+                                                13 - Validation: Patient Insurance Issues
+                                              </option>
+                                            </select>
+                                          </Select>
+                                          <div className=\\"fe_c_form-field__message\\">
+                                            <InlineMessage text=\\"Return task to \\\\'Analyze Task\\\\' step to edit this field.\\" disabled={true}>
+                                              <span className=\\"fe_c_inline-message fe_is-disabled\\">
+                                                Return task to &#39;Analyze Task&#39; step to edit this field.
+                                              </span>
+                                            </InlineMessage>
+                                          </div>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.rule-type.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.rule-type.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} labelText=\\"Rule Type\\" required={true} labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"ruleTypeId\\" options={{...}} disabled={false}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"ruleTypeId-label\\" htmlFor=\\"ruleTypeId\\" text=\\"Rule Type\\" disabled={false} required={true} useLegend={false}>
+                                          <label htmlFor=\\"ruleTypeId\\" id=\\"ruleTypeId-label\\" className=\\"fe_c_label\\">
+                                            Rule Type
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <Select autoComplete=\\"off\\" options={{...}} className=\\"fe_c_form-field__input\\" id=\\"ruleTypeId\\" name=\\"ruleTypeId\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"ruleTypeId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} autoComplete=\\"off\\" id=\\"ruleTypeId\\" name=\\"ruleTypeId\\" aria-labelledby=\\"ruleTypeId-label\\">
+                                              <option value=\\"\\">
+                                                - Select -
+                                              </option>
+                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                CLAIM
+                                              </option>
+                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                CHARGE
+                                              </option>
+                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                CLAIMCREATE
+                                              </option>
+                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                TRANSACTION
+                                              </option>
+                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                CLAIMSETTING
+                                              </option>
+                                            </select>
+                                          </Select>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                  <GridCol className=\\"padding-right-medium\\">
+                    <div className=\\"fe_l_grid-row__col padding-right-medium\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.visit-rule-display-location.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.visit-rule-display-location.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} labelText=\\"Visit Rule Display Location\\" required={false} labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"visitRuleDisplayLocationId\\" options={{...}} disabled={false}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"visitRuleDisplayLocationId-label\\" htmlFor=\\"visitRuleDisplayLocationId\\" text=\\"Visit Rule Display Location\\" disabled={false} required={false} useLegend={false}>
+                                          <label htmlFor=\\"visitRuleDisplayLocationId\\" id=\\"visitRuleDisplayLocationId-label\\" className=\\"fe_c_label\\">
+                                            Visit Rule Display Location
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <Select autoComplete=\\"off\\" options={{...}} className=\\"fe_c_form-field__input\\" id=\\"visitRuleDisplayLocationId\\" name=\\"visitRuleDisplayLocationId\\" required={false} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"visitRuleDisplayLocationId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                            <select className=\\"fe_c_select fe_c_form-field__input\\" disabled={false} required={false} autoComplete=\\"off\\" id=\\"visitRuleDisplayLocationId\\" name=\\"visitRuleDisplayLocationId\\" aria-labelledby=\\"visitRuleDisplayLocationId-label\\">
+                                              <option value=\\"\\">
+                                                - Select -
+                                              </option>
+                                              <option value=\\"1\\" disabled={[undefined]} className={[undefined]}>
+                                                VISITBILL_BILLINGCODES
+                                              </option>
+                                              <option value=\\"2\\" disabled={[undefined]} className={[undefined]}>
+                                                VISITBILL_MEDICALCODES
+                                              </option>
+                                              <option value=\\"3\\" disabled={[undefined]} className={[undefined]}>
+                                                VISITBILL_CHARGES
+                                              </option>
+                                              <option value=\\"4\\" disabled={[undefined]} className={[undefined]}>
+                                                VISITBILL_CHARGES1
+                                              </option>
+                                              <option value=\\"5\\" disabled={[undefined]} className={[undefined]}>
+                                                VISITBILL_CHARGES2
+                                              </option>
+                                            </select>
+                                          </Select>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+              <GridRow>
+                <div className=\\"fe_l_grid-row\\">
+                  <GridCol className=\\"width-medium\\">
+                    <div className=\\"fe_l_grid-row__col width-medium\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.scrub-type.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.scrub-type.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} labelText=\\"User Override Avaliable\\" required={true} labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"scrubTypeId\\" options={[undefined]}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"scrubTypeId-label\\" htmlFor=\\"scrubTypeId\\" text=\\"User Override Avaliable\\" disabled={[undefined]} required={true} useLegend={false}>
+                                          <label htmlFor=\\"scrubTypeId\\" id=\\"scrubTypeId-label\\" className=\\"fe_c_label\\">
+                                            User Override Avaliable
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <Select autoComplete=\\"off\\" options={[undefined]} className=\\"fe_c_form-field__input\\" id=\\"scrubTypeId\\" name=\\"scrubTypeId\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"scrubTypeId-label\\" hasNullDefault={true} placeholder=\\"- Select -\\">
+                                            <select className=\\"fe_c_select fe_is-required fe_c_form-field__input\\" disabled={false} required={true} autoComplete=\\"off\\" id=\\"scrubTypeId\\" name=\\"scrubTypeId\\" aria-labelledby=\\"scrubTypeId-label\\">
+                                              <option value=\\"\\">
+                                                - Select -
+                                              </option>
+                                            </select>
+                                          </Select>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                  <GridCol>
+                    <div className=\\"fe_l_grid-row__col\\">
+                      <Connect(WFEnableForPermission) permission=\\"business-requirement.claim-rule-category.update\\">
+                        <WFEnableForPermission permission=\\"business-requirement.claim-rule-category.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]}>
+                          <FormField inputAs={{...}} required={true} labelText=\\"Claim Rule Category\\" labelWidth={1} autoComplete=\\"off\\" error={[undefined]} id=\\"claimRuleCategory\\" onChange={[Function: onChange]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[Function: onSuggestionSelected]} disabled={false}>
+                            <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+                              <div className=\\"fe_c_form-field fe_c_form-field--medium\\">
+                                <GridRow nested={true}>
+                                  <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-12 fe_c_form-field__label fe_c_form-field__label--forced-above\\">
+                                        <Label id=\\"claimRuleCategory-label\\" htmlFor=\\"claimRuleCategory\\" text=\\"Claim Rule Category\\" disabled={false} required={true} useLegend={false}>
+                                          <label htmlFor=\\"claimRuleCategory\\" id=\\"claimRuleCategory-label\\" className=\\"fe_c_label\\">
+                                            Claim Rule Category
+                                            <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                                               
+                                              - Required
+                                            </span>
+                                          </label>
+                                        </Label>
+                                      </div>
+                                    </GridCol>
+                                    <GridCol width={{...}} className=\\"fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                      <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right fe_c_form-field__right--label-forced-above\\">
+                                        <div className=\\"fe_c_form-field__input-slot\\">
+                                          <ForwardRef(Typeahead) autoComplete=\\"off\\" onChange={[Function: onChange]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[Function: onSuggestionSelected]} className=\\"fe_c_form-field__input\\" id=\\"claimRuleCategory\\" name=\\"claimRuleCategory\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"claimRuleCategory-label\\">
+                                            <Typeahead autoComplete=\\"off\\" onChange={[Function: onChange]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[Function: onSuggestionSelected]} className=\\"fe_c_form-field__input\\" id=\\"claimRuleCategory\\" name=\\"claimRuleCategory\\" required={true} hideRequiredStyles={false} disabled={false} error={[undefined]} aria-labelledby=\\"claimRuleCategory-label\\" forwardedRef={{...}} getSuggestionText={[Function: getSuggestionValue]} minQueryLength={1} matchPos=\\"any\\" ignoreCase={true} filterOptions={[Function: defaultFilterOptions]}>
+                                              <TypeaheadTemplate suggestions={{...}} onSuggestionsFetchRequested={[Function: bound handleSuggestionsFetchRequested]} onSuggestionsClearRequested={[Function: bound handleSuggestionsClearRequested]} getSuggestionText={[Function: getSuggestionValue]} getSuggestionValue={[Function: getSuggestionValue]} inputProps={{...}} renderInputComponent={[Function: renderInputComponent]} onSuggestionSelected={[Function: onSuggestionSelected]} shouldRenderSuggestions={[Function: bound shouldRenderSuggestions]} alwaysRenderSuggestions={false} className=\\"fe_c_form-field__input\\" suggestionsAnnouncement={{...}} multiSection={[undefined]} renderSectionTitle={[undefined]} getSectionSuggestions={[Function: getSectionSuggestions]} renderSuggestion={[undefined]} onSuggestionHighlighted={[undefined]} highlightFirstSuggestion={[undefined]} focusInputOnSuggestionClick={[undefined]} theme={[undefined]} id=\\"claimRuleCategory\\">
+                                                <Autosuggest renderSuggestion={[Function (anonymous)]} renderSuggestionsContainer={[Function: renderer]} suggestions={{...}} onSuggestionsFetchRequested={[Function: bound handleSuggestionsFetchRequested]} onSuggestionsClearRequested={[Function: bound handleSuggestionsClearRequested]} getSuggestionValue={[Function: getSuggestionValue]} inputProps={{...}} renderInputComponent={[Function: renderInputComponent]} onSuggestionSelected={[Function: onSuggestionSelected]} shouldRenderSuggestions={[Function: bound shouldRenderSuggestions]} className=\\"fe_c_form-field__input\\" onSuggestionHighlighted={[undefined]} alwaysRenderSuggestions={false} highlightFirstSuggestion={false} focusInputOnSuggestionClick={true} multiSection={false} renderSectionTitle={[Function (anonymous)]} getSectionSuggestions={[Function: getSectionSuggestions]} theme={{...}} id=\\"claimRuleCategory\\" shouldKeepSuggestionsOnSelect={[Function: shouldKeepSuggestionsOnSelect]} containerProps={{...}}>
+                                                  <Autowhatever multiSection={false} items={{...}} renderInputComponent={[Function: renderInputComponent]} renderItemsContainer={[Function (anonymous)]} renderItem={[Function (anonymous)]} renderItemData={{...}} renderSectionTitle={[Function (anonymous)]} getSectionItems={[Function: getSectionSuggestions]} highlightedSectionIndex={{...}} highlightedItemIndex={{...}} containerProps={{...}} inputProps={{...}} itemProps={[Function (anonymous)]} theme={{...}} id=\\"claimRuleCategory\\">
+                                                    <div role=\\"combobox\\" aria-haspopup=\\"listbox\\" aria-owns=\\"react-autowhatever-claimRuleCategory\\" aria-expanded={false} className=\\"fe_c_typeahead fe_c_form-field__input\\">
+                                                      <Input type=\\"text\\" value=\\"\\" autoComplete=\\"off\\" aria-autocomplete=\\"list\\" aria-controls=\\"react-autowhatever-claimRuleCategory\\" aria-activedescendant={{...}} className=\\"fe_c_typeahead__input\\" placeholder={[undefined]} onChange={[Function: onChange]} disabled={false} error={[undefined]} icon={[undefined]} iconSet={[undefined]} data-testid=\\"typeahead-input\\" name=\\"claimRuleCategory\\" required={true} hideRequiredStyles={false} aria-labelledby=\\"claimRuleCategory-label\\" onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function (anonymous)]}>
+                                                        <div className=\\"fe_c_input fe_c_typeahead__input\\">
+                                                          <input value=\\"\\" autoComplete=\\"off\\" aria-autocomplete=\\"list\\" aria-controls=\\"react-autowhatever-claimRuleCategory\\" aria-activedescendant={{...}} placeholder={[undefined]} onChange={[Function: onChange]} data-testid=\\"typeahead-input\\" name=\\"claimRuleCategory\\" aria-labelledby=\\"claimRuleCategory-label\\" onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} className=\\"fe_c_input__input fe_is-required\\" type=\\"text\\" disabled={false} required={true} />
+                                                        </div>
+                                                      </Input>
+                                                      <SuggestionsContainer containerProps={{...}} query=\\"\\" autosuggestRef={{...}} showingSuggestions={false}>
+                                                        <div>
+                                                          <Portal containerInfo={{...}}>
+                                                            <Popper referenceElement={{...}} placement=\\"bottom-start\\">
+                                                              <InnerPopper referenceElement={{...}} innerRef={[undefined]} modifiers={{...}} placement=\\"bottom-start\\" strategy=\\"absolute\\" onFirstUpdate={[undefined]}>
+                                                                <div style={{...}} data-placement={[undefined]} className=\\"fe_c_typeahead__portal fe_f_all\\" id=\\"react-autowhatever-claimRuleCategory\\" role=\\"listbox\\" data-testid=\\"typeahead-portal\\">
+                                                                  <div className=\\"fe_c_typeahead__suggestions-container\\" />
+                                                                </div>
+                                                              </InnerPopper>
+                                                            </Popper>
+                                                          </Portal>
+                                                        </div>
+                                                      </SuggestionsContainer>
+                                                    </div>
+                                                  </Autowhatever>
+                                                </Autosuggest>
+                                                <SuggestionsAnnouncer text={{...}} />
+                                              </TypeaheadTemplate>
+                                            </Typeahead>
+                                          </ForwardRef(Typeahead)>
+                                        </div>
+                                        <div className=\\"fe_c_form-field__status\\" />
+                                      </div>
+                                    </GridCol>
+                                  </div>
+                                </GridRow>
+                              </div>
+                            </FormFieldLayout>
+                          </FormField>
+                        </WFEnableForPermission>
+                      </Connect(WFEnableForPermission)>
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+            </div>
+          </div>
+          <div>
+            <Accordion className=\\"taskgroup\\">
+              <List className=\\"fe_c_accordion taskgroup\\" padded={false} dividers={false}>
+                <ul className=\\"fe_c_list fe_c_accordion taskgroup\\">
+                  <AccordionItem headingText=\\"Internal FixText\\" defaultExpanded={false} headingTag=\\"h3\\" mountedWhileHidden={false} padded={true} tabIndex={0}>
+                    <ListItem className=\\"fe_c_accordion-item\\">
+                      <li className=\\"fe_c_list__item fe_c_accordion-item\\">
+                        <div className=\\"fe_c_accordion-item__header\\" onClick={[Function: bound toggleExpand]} onKeyDown={[Function: onKeyDown]} aria-expanded={false} role=\\"button\\" tabIndex={0}>
+                          <Icon icon=\\"Expand\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\" iconSet={{...}}>
+                            <Expand title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                              <IconBase viewBox=\\"0 0 25 25\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                                <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                  <title>
+                                    Expand
+                                  </title>
+                                  <g>
+                                    <g className=\\"fe_c_icon__background\\">
+                                      <rect width=\\"25\\" height=\\"25\\" />
+                                    </g>
+                                    <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                      <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                                    </g>
+                                  </g>
+                                </svg>
+                              </IconBase>
+                            </Expand>
+                          </Icon>
+                          <Heading text=\\"Internal FixText\\" variant=\\"section\\" headingTag=\\"h3\\" className=\\"fe_c_accordion-item__heading-text\\">
+                            <h3 className=\\"fe_c_heading fe_c_heading--section fe_c_accordion-item__heading-text\\">
+                              Internal FixText
+                            </h3>
+                          </Heading>
+                        </div>
+                        <div className=\\"fe_c_accordion-item__content fe_is-exited\\">
+                          <CSSTransition in={false} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function: bound handleEnter]} onEntering={[Function: handleEntering]} onEntered={[Function: handleEntered]} onExit={[Function: handleExit]} onExiting={[Function: handleExiting]} onExited={[Function: bound handleExited]} mountOnEnter={true} unmountOnExit={true}>
+                            <Transition in={false} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true} />
+                          </CSSTransition>
+                        </div>
+                      </li>
+                    </ListItem>
+                  </AccordionItem>
+                </ul>
+              </List>
+            </Accordion>
+          </div>
+        </form>
+      </Form>
+    </BusinessRequirement>
+  </Connect(BusinessRequirement)>
+</Provider>"
+`;

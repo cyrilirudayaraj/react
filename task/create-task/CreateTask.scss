@@ -1,0 +1,138 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.fe_c_lightbox.my-custom-lightbox .my-close-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__dialog {
+  padding-bottom: 74px;
+}
+.fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__body {
+  max-height: calc(100vh - 229px);
+}
+.fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fe_c_lightbox .my-custom-lightbox .fe_c_lightbox__footer .fe_c_button {
+  text-align: center;
+}
+.fe_c_label__required {
+  display: none !important;
+}
+.create_task .input-wrapper,
+.create_task .select-wrapper,
+.create_task .typeahead-wrapper {
+  padding-right: 20px;
+}
+.create_task #name,
+.create_task #priorityReasonNote {
+  width: 550px;
+}
+
+.priority-reason .fe_l_grid-row__col {
+  padding-right: map-get($global-padding, xsmall) !important;
+}
+.priority-policy {
+  margin-top: map-get($global-margin, xsmall) !important;
+  button:hover,
+  button:focus,
+  button:active {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+.create_task .typeahead-wrapper {
+  padding: 3px;
+}
+.create_task .typeahead-wrapper input[name='legacyRuleId'] {
+  height: 32px;
+}
+#react-autowhatever-legacyRuleId {
+  z-index: 1000;
+  &.fe_f_all .fe_c_typeahead__suggestions-container {
+    min-width: 125px;
+    max-width: 125px;
+  }
+}
+#react-autowhatever-businessRequirement {
+  z-index: 1000;
+  &.fe_f_all .fe_c_typeahead__suggestions-container {
+    min-width: 560px;
+    max-width: 560px;
+  }
+}
+.create_task {
+  .fe_l_grid-row__col {
+    width: 100% !important;
+    min-width: 100%;
+    padding-right: 25px;
+    .fe_c_form-field__input-slot {
+      min-width: 100% !important;
+      max-width: 100%;
+      .fe_c_input,
+      .fe_c_textarea {
+        width: 100% !important;
+      }
+      .fe_c_textarea {
+        height: 88px !important;
+      }
+    }
+    .fe_c_form-field__input-slot > .fe_c_select {
+      width: 100% !important;
+    }
+  }
+  .fe_c_form-field.row2 {
+    width: 25%;
+  }
+  .fe_c_form-field.col4 {
+    width: 30%;
+  }
+  .fe_c_form-field.row3 {
+    width: 45%;
+  }
+  .fe_c_form-field.field2 {
+    width: 83%;
+  }
+  .fe_c_form-field.field3 {
+    width: 35%;
+  }
+  .fe_c_form-field.row5 {
+    width: 25%;
+  }
+  .fe_c_form-field.businessRequirement {
+    width: 100%;
+  }
+  .fe_c_typeahead.fe_c_form-field__input {
+    width: 82% !important;
+  }
+  .fe_c_form-field.businessRequirementName {
+    width: 83%;
+  }
+  .fe_c_form-field.businessRequirementId {
+    width: 35%;
+  }
+  .row {
+    display: flex;
+  }
+}
+
+.priority-policy-popover {
+  z-index: 9999;
+  max-width: 620px !important;
+
+  .full-guide-link {
+    float: right;
+    padding-top: map-get($global-padding, large);
+    padding-bottom: map-get($global-padding, large);
+
+    &:hover,
+    &:focus,
+    &:active {
+      border: none !important;
+      box-shadow: none !important;
+    }
+  }
+}

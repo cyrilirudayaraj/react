@@ -1,0 +1,121 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.requirement-icon {
+  pointer-events: all;
+  vertical-align: bottom;
+}
+.fe_c_banner--info {
+  border-left: 10px !important;
+  background-color: #eeebf1;
+}
+.br-banner-info {
+  padding: 8px !important;
+  margin-bottom: 20px;
+  .break {
+    position: relative;
+    width: 42px;
+    height: 0px;
+    left: 0px;
+    top: 12px;
+    bottom: 0px;
+    border: 1px solid #d9d9d9;
+    transform: rotate(90deg);
+  }
+  .dismiss-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .fe_c_banner__icon {
+    padding: 0px 8px 0px 4px !important;
+    height: 24px;
+  }
+  .fe_c_banner__items {
+    padding: 0px !important;
+    display: flex;
+    .fe_c_banner-item {
+      width: 85%;
+    }
+    .fe_c_banner-item:not(:last-of-type) {
+      padding-bottom: 0;
+    }
+  }
+  .fe_c_banner-item__contents {
+    span {
+      line-height: 24px;
+    }
+  }
+}
+:not(.fe_f_portal) .fe_c_tooltip.requirement-tip .fe_c_tooltip__body {
+  background-color: map-get($color-alert, attention);
+  color: map-get($color-font, default);
+  font-weight: map-get($font-weights, semibold);
+  max-width: unset;
+}
+:not(.fe_f_portal) .fe_c_tooltip.requirement-tip .fe_c_tooltip__arrow:after {
+  background-color: map-get($color-alert, attention);
+}
+.requires_checkbox {
+  margin-top: 15px !important;
+}
+.central-pane-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.central-pane-scroll:hover::-webkit-scrollbar {
+  width: 5px;
+}
+.central-pane-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+.task-banner-info.fe_c_banner--info {
+  border-left: 10px !important;
+  margin-bottom: 15px;
+  background-color: #eeebf1;
+}
+.task-banner-info {
+  padding: 8px !important;
+  .fe_c_banner__icon {
+    padding: 0px 8px 0px 4px !important;
+    height: 24px;
+  }
+  .fe_c_banner__items {
+    padding: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    .fe_c_banner-item {
+      padding-right: 10px;
+      padding-bottom: 0px;
+    }
+    .banner-detail {
+      display: none;
+      padding-top: 10px;
+      flex-basis: 100%;
+      .banner-detail-title {
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        width: 80%;
+        //height: 20px;
+        padding-bottom: 10px;
+      }
+      .banner-detail-content {
+        font-weight: normal;
+        color: #333333;
+        white-space: pre-line;
+      }
+    }
+  }
+  .fe_c_banner-item__contents {
+    span {
+      line-height: 24px;
+    }
+  }
+}
+.dependency {
+  .fe_c_list__item.fe_c_accordion-item {
+    .fe_c_accordion-item__header-slot {
+      padding-right: 10px !important;
+    }
+  }
+}
