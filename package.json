@@ -1,0 +1,149 @@
+{
+  "name": "rules-master",
+  "version": "21.11.0",
+  "private": true,
+  "dependencies": {
+    "@athena/forge": "3.6.2",
+    "@athena/forge-popover": "^0.5.0",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@types/react-csv": "^1.1.1",
+    "axios": "^0.21.1",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "formik": "^2.1.4",
+    "html-to-draftjs": "^1.5.0",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.21",
+    "moment": "2.24.0",
+    "react": "16.12.0",
+    "react-csv": "^2.0.3",
+    "react-dom": "16.12.0",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "typescript": "^3.9.5",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@athena/nimbus-core": "^0.9.7",
+    "@athena/react-scripts": "^3.4.7",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/draftjs-to-html": "^0.8.0",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/html-to-draftjs": "^1.4.0",
+    "@types/jest": "^26.0.0",
+    "@types/lodash": "^4.14.156",
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-draft-wysiwyg": "^1.13.1",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux-mock-store": "^1.0.2",
+    "@types/yup": "^0.29.3",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "dotenv-webpack": "^1.8.0",
+    "env-cmd": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "http-proxy-middleware": "^1.0.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "redux-mock-store": "^1.5.4",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "svg-url-loader": "^7.1.1",
+    "url-loader": "^4.1.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "start": "export HTTPS=true || set HTTPS=true&& react-scripts start",
+    "start:dev": "export HTTPS=true || set HTTPS=true&& env-cmd -f .env.development react-scripts start",
+    "start:prod": "export HTTPS=true || set HTTPS=true&& env-cmd -f .env.production react-scripts start",
+    "build": "webpack ---config webpack.config.js",
+    "build:dev": "env-cmd -f .env.development react-scripts build",
+    "build:prod": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "test:ci": "react-scripts test --ci --coverage",
+    "test:dev": "env-cmd -f .env.development react-scripts test",
+    "test:prod": "env-cmd -f .env.production react-scripts test",
+    "test:update": "react-scripts test --watchAll=false -u",
+    "coverage": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "copy": "react-scripts copy",
+    "upload": "react-scripts upload",
+    "upload:stage": "react-scripts upload --stage-api",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --color",
+    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix --color",
+    "format": "prettier --write src/**/*.{ts,tsx,scss,css,js,jsx,json}",
+    "validate": "tsc -p . --noEmit"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "globals": {
+      "__webpack_public_path__": "writable",
+      "NIMBUS_BUNDLE_PUBLIC_PATH": "readonly",
+      "NIMBUS_BUNDLE_CSS_NAMESPACE": "readonly"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "src/nimbus-config.ts",
+      "src/setupProxy.js",
+      "src/index.tsx",
+      "src/bundle.tsx",
+      "App.tsx"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "html",
+      "clover"
+    ]
+  },
+  "@athena/nimbus": {
+    "ignore": [
+      "@athena/forge"
+    ]
+  }
+}

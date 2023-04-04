@@ -1,0 +1,11 @@
+// .eslintignore
+build/*
+certificates/*
+coverage/*
+dist/*
+public/*
+src/nimbus-config.ts
+src/react-app-env.d.ts
+src/serviceWorker.ts
+src/setupProxy.js
+webpack.config.js
