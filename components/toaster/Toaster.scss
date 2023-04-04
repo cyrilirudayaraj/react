@@ -1,0 +1,13 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+:not(.fe_f_portal) .fe_c_toast-portal {
+  right: 20px;
+  position: absolute;
+  top: 70px;
+  left: auto;
+  z-index: 1000;
+}
+
+.fe_c_toast__content {
+  margin: 16px 0px 16px 0 !important;
+}

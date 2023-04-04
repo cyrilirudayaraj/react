@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFInput> should render as expected 1`] = `
+"<div className=\\"warning-icon\\">
+  <ThemeConsumerHOC text=\\"Escalated P0 Task\\" id=\\"Task ID\\" className=\\"requirement-tip\\">
+    <Icon icon=\\"Critical\\" className=\\"requirement-icon\\" height={22} width={25} iconSet={{...}} />
+  </ThemeConsumerHOC>
+</div>"
+`;

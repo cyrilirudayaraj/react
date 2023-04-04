@@ -1,0 +1,71 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.ds_c_app {
+  .fe_c_dropdown {
+    position: relative;
+
+    &__toggle.fe_c_button--tertiary {
+      color: map-get($color-font, invert);
+      display: flex;
+      align-items: center;
+      padding: map-get($global-padding, none) map-get($global-padding, medium);
+      .fe_c_icon__icon--primary {
+        fill: map-get($color-font, invert);
+      }
+      &:hover {
+        color: map-get($color-font, invert);
+        .fe_c_icon__icon--primary {
+          stroke: transparent;
+        }
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    &__label {
+      margin: 0 map-get($global-margin, small);
+    }
+
+    &__menu {
+      position: absolute;
+      z-index: map-get($z-indices, highest);
+      background-color: map-get($color-background, default);
+      border: $global-border-shadow;
+      border-radius: $global-radius;
+      box-shadow: $global-shadow;
+      display: none;
+      width: 100%;
+    }
+    &__menu.fe_is_open {
+      display: block;
+    }
+    &__menu-item {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      display: block;
+      padding: map-get($global-padding, small) map-get($global-padding, medium);
+      width: 100%;
+      &:hover {
+        background-color: map-get($color-interaction, hover);
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .user-info-header {
+    display: flex;
+    height: 48px;
+  }
+  .user-info-header_color {
+    background-color: rgb(79, 64, 92);
+  }
+  .stage_env_user-info-header_color {
+    background-color: #5f5f5f;
+  }
+}

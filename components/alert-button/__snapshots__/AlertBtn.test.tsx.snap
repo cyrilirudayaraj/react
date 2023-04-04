@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertBtn basic snapshot 1`] = `
+"<AlertBtn className=\\"delete-button\\" primaryModalText=\\"Delete\\" messageText=\\"This action cannot be undone\\" headerText=\\"Delete Document?\\" action={[Function: mockConstructor]} variant=\\"tertiary\\" disabled={false} icon=\\"Delete\\" attachmentid=\\"1\\" version=\\"1\\">
+  <div>
+    <ForwardRef text={[undefined]} variant=\\"tertiary\\" className=\\"delete-button\\" disabled={false} onClick={[Function (anonymous)]} icon=\\"Delete\\" fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+      <button className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium delete-button\\" aria-disabled={false} aria-label=\\"Delete\\" onClick={[Function: handleClick]} type=\\"button\\">
+        <div className=\\"fe_c_button__content\\">
+          <Delete title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+            <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+              <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                <g>
+                  <g className=\\"fe_c_icon__background\\">
+                    <rect width=\\"25\\" height=\\"25\\" />
+                  </g>
+                  <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                    <g>
+                      <path d=\\"M22.2,4.4H16.9V3.8A1.9,1.9,0,0,0,15,2H10A1.9,1.9,0,0,0,8.1,3.8v.6H2.8V5.9H4.4V23H17.2a3.4,3.4,0,0,0,3.4-3.3V5.9h1.6ZM19.1,19.7a1.9,1.9,0,0,1-1.9,1.8H5.9V5.9H19.1ZM9.6,3.8c0-.2.2-.3.4-.3h5c.2,0,.4.1.4.3v.6H9.6Z\\" />
+                      <rect x=\\"7.9\\" y=\\"8.6\\" width=\\"1.5\\" height=\\"10.76\\" />
+                      <rect x=\\"11.8\\" y=\\"8.6\\" width=\\"1.5\\" height=\\"10.76\\" />
+                      <rect x=\\"15.6\\" y=\\"8.6\\" width=\\"1.5\\" height=\\"10.76\\" />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </IconBase>
+          </Delete>
+        </div>
+      </button>
+    </ForwardRef>
+    <ThemeConsumerHOC show={true} headerText=\\"Delete Document?\\" primaryButtonText=\\"Delete\\" alertType=\\"attention\\" width=\\"small\\" onHide={[Function (anonymous)]} onPrimaryClick={[Function (anonymous)]}>
+      <Modal show={true} headerText=\\"Delete Document?\\" primaryButtonText=\\"Delete\\" alertType=\\"attention\\" width=\\"small\\" onHide={[Function (anonymous)]} onPrimaryClick={[Function (anonymous)]} theme={{...}} closeButtonAriaLabel=\\"Close Modal\\" disableClose={false} includeButtonRow={true} padded={true} secondaryButtonText=\\"Cancel\\">
+        <ModalManagerWrapper onHide={[Function: bound handleHide]} show={true} dialogClass={{...}} className=\\"fe_c_modal fe_c_modal--small fe_is-attention fe_f_all\\">
+          <Overlay manager={{...}} onHide={[Function: bound handleHide]} show={true} dialogClass={{...}} className=\\"fe_c_modal fe_c_modal--small fe_is-attention fe_f_all\\" autoFocus={false} enforceFocus={false}>
+            <Modal aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} renderBackdrop={[Function: renderBackdrop]} transition={[Function: FadeUp]} backdropTransition={[Function: Fade]} manager={{...}} onShow={[Function (anonymous)]} onHide={[Function: bound handleHide]} show={true} autoFocus={false} enforceFocus={false} className=\\"fe_c_overlay fe_f_all fe_c_modal fe_c_modal--small fe_is-attention fe_f_all\\" role=\\"dialog\\" backdrop={true} keyboard={true} restoreFocus={true}>
+              <Portal container={[undefined]} onRendered={[Function (anonymous)]}>
+                <WaitForContainer container={[undefined]} onContainerResolved={[Function (anonymous)]}>
+                  <Portal containerInfo={{...}}>
+                    <Fade appear={true} in={true}>
+                      <CSSTransition timeout={400} classNames=\\"fade\\" appear={true} in={true}>
+                        <Transition timeout={400} appear={true} in={true} onEnter={[Function (anonymous)]} onEntered={[Function (anonymous)]} onEntering={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={false} unmountOnExit={false} enter={true} exit={true}>
+                          <div className=\\"fe_c_overlay__blocker \\" onClick={[Function (anonymous)]} />
+                        </Transition>
+                      </CSSTransition>
+                    </Fade>
+                    <FadeUp appear={true} unmountOnExit={true} in={true} onExit={[undefined]} onExiting={[undefined]} onExited={[Function (anonymous)]} onEnter={[undefined]} onEntering={[undefined]} onEntered={[undefined]}>
+                      <CSSTransition timeout={400} classNames=\\"fade-up\\" appear={true} unmountOnExit={true} in={true} onExit={[undefined]} onExiting={[undefined]} onExited={[Function (anonymous)]} onEnter={[undefined]} onEntering={[undefined]} onEntered={[undefined]}>
+                        <Transition timeout={400} appear={true} unmountOnExit={true} in={true} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} mountOnEnter={false} enter={true} exit={true}>
+                          <div role=\\"dialog\\" aria-modal=\\"true\\" aria-labelledby={[undefined]} aria-describedby={[undefined]} style={[undefined]} className=\\"fe_c_overlay fe_f_all fe_c_modal fe_c_modal--small fe_is-attention fe_f_all\\" tabIndex=\\"-1\\">
+                            <div className=\\"fe_c_overlay__dialog fe_c_modal__dialog fe_c_modal__dialog--small fe_c_modal__dialog--padded fe_is-attention\\" role=\\"document\\">
+                              <div className=\\"fe_c_modal__header\\">
+                                <div className=\\"fe_c_modal__icon\\">
+                                  <Attention title=\\"Attention\\">
+                                    <IconBase viewBox=\\"0 0 25 25\\" title=\\"Attention\\" className=\\" fe_c_icon--attention-solid\\">
+                                      <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_icon--attention-solid\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                        <title>
+                                          Attention
+                                        </title>
+                                        <g>
+                                          <g className=\\"fe_c_icon__background\\">
+                                            <rect width=\\"25\\" height=\\"25\\" />
+                                          </g>
+                                          <g>
+                                            <g>
+                                              <circle cx=\\"12.5\\" cy=\\"12.5\\" r=\\"10.6\\" className=\\"fe_c_icon__icon fe_c_icon__icon--secondary\\" />
+                                              <g className=\\"fe_c_icon__icon fe_c_icon__icon--contrast\\">
+                                                <polygon points=\\"13.2,13.9 13.8,7.4 11.2,7.4 11.8,13.9\\" />
+                                                <path d=\\"M11.3,16.6c0,0.7,0.5,1.2,1.2,1.2s1.2-0.5,1.2-1.2c0-0.7-0.5-1.2-1.2-1.2 S11.3,16,11.3,16.6z\\" />
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </svg>
+                                    </IconBase>
+                                  </Attention>
+                                </div>
+                                <Heading text=\\"Delete Document?\\" variant=\\"section\\" headingTag=\\"h1\\">
+                                  <h1 className=\\"fe_c_heading fe_c_heading--section\\">
+                                    Delete Document?
+                                  </h1>
+                                </Heading>
+                              </div>
+                              <ForwardRef className=\\"fe_c_modal__close\\" aria-label=\\"Close Modal\\" icon=\\"Close\\" variant=\\"tertiary\\" onClick={[Function: bound handleHide]} autoFocus={true} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                <button aria-label=\\"Close Modal\\" autoFocus={true} className=\\"fe_c_button fe_c_button--tertiary fe_c_button--medium fe_c_modal__close\\" aria-disabled={false} onClick={[Function: handleClick]} type=\\"button\\">
+                                  <div className=\\"fe_c_button__content\\">
+                                    <Close title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary\\">
+                                      <IconBase viewBox=\\"0 0 25 25\\" title={{...}} disabled={false} className=\\"fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\">
+                                        <svg xmlns=\\"http://www.w3.org/2000/svg\\" className=\\"fe_c_icon fe_c_button__icon fe_c_button__icon--tertiary fe_c_icon--close\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                                          <g>
+                                            <g className=\\"fe_c_icon__background\\">
+                                              <rect width=\\"25\\" height=\\"25\\" />
+                                            </g>
+                                            <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                                              <rect x=\\"4\\" y=\\"11.8\\" width=\\"17\\" height=\\"1.5\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                              <rect x=\\"11.8\\" y=\\"4\\" width=\\"1.5\\" height=\\"16.97\\" transform=\\"translate(-5.2 12.5) rotate(-45)\\" />
+                                            </g>
+                                          </g>
+                                        </svg>
+                                      </IconBase>
+                                    </Close>
+                                  </div>
+                                </button>
+                              </ForwardRef>
+                              <div className=\\"fe_c_modal__body\\">
+                                <p>
+                                  This action cannot be undone
+                                </p>
+                              </div>
+                              <div className=\\"fe_c_modal__footer\\">
+                                <ForwardRef text=\\"Cancel\\" variant=\\"secondary\\" onClick={[Function: bound handleHide]} disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                  <button className=\\"fe_c_button fe_c_button--secondary fe_c_button--medium\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                    <div className=\\"fe_c_button__content\\">
+                                      <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--secondary\\">
+                                        Cancel
+                                      </span>
+                                    </div>
+                                  </button>
+                                </ForwardRef>
+                                <ForwardRef text=\\"Delete\\" onClick={[Function (anonymous)]} variant=\\"primary\\" disabled={false} fullWidth={false} iconSet={{...}} size=\\"medium\\" showLoadingSpinner={false} type=\\"button\\" useLink={false}>
+                                  <button className=\\"fe_c_button fe_c_button--primary fe_c_button--medium\\" aria-disabled={false} aria-label={[undefined]} onClick={[Function: handleClick]} type=\\"button\\">
+                                    <div className=\\"fe_c_button__content\\">
+                                      <span className=\\"fe_c_button__text fe_c_button__text--medium fe_c_button__text--primary\\">
+                                        Delete
+                                      </span>
+                                    </div>
+                                  </button>
+                                </ForwardRef>
+                              </div>
+                            </div>
+                          </div>
+                        </Transition>
+                      </CSSTransition>
+                    </FadeUp>
+                  </Portal>
+                </WaitForContainer>
+              </Portal>
+            </Modal>
+          </Overlay>
+        </ModalManagerWrapper>
+      </Modal>
+    </ThemeConsumerHOC>
+  </div>
+</AlertBtn>"
+`;

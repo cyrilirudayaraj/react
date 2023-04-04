@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFShowForPermission> should render as expected 1`] = `
+"<Provider store={{...}} userPermissions={{...}}>
+  <Connect(WFShowForPermission) permission=\\"task.update\\">
+    <WFShowForPermission permission=\\"task.update\\" userPermissions={{...}} dispatch={[Function: mockConstructor]} />
+  </Connect(WFShowForPermission)>
+</Provider>"
+`;
+
+exports[`snapshot test <WFShowForPermission> should render as expected 2`] = `
+"<Provider store={{...}} userPermissions={{...}}>
+  <Connect(WFShowForPermission) permission=\\"task.create\\">
+    <WFShowForPermission permission=\\"task.create\\" userPermissions={{...}} dispatch={[Function: mockConstructor]} />
+  </Connect(WFShowForPermission)>
+</Provider>"
+`;

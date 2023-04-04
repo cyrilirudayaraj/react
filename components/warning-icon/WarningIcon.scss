@@ -1,0 +1,12 @@
+@import '~@athena/forge/sass/forge-abstracts';
+.warning-icon {
+  display: inline-block;
+  .fe_c_icon {
+    .fe_c_icon__icon {
+      fill: #ffab00;
+    }
+    .fe_c_icon__icon--invert {
+      fill: #fff;
+    }
+  }
+}

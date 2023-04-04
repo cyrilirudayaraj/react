@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFReadOnlyInput> should render as anchor 1`] = `
+"<div className=\\"readonlywrapper\\">
+  <FormField id=\\"Rule Id\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Rule Id\\" text=\\"1.1233\\" required={false} />
+</div>"
+`;
+
+exports[`snapshot test <WFReadOnlyInput> should render as label 1`] = `
+"<div className=\\"readonlywrapper\\">
+  <FormField id=\\"Patient Name\\" inputAs={[Function: ReadOnlyInput]} labelText=\\"Patient Name\\" text=\\"Roby\\" required={false} />
+</div>"
+`;

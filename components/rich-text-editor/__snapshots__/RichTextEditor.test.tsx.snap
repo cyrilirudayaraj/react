@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <RichTextEditor> should render as expected 1`] = `
+"<Provider store={{...}}>
+  <Connect(RichTextEditor) id=\\"description\\" wrapperId={1} labelText=\\"Description\\" formik={{...}} isDisabled={true} isRequired={true}>
+    <RichTextEditor id=\\"description\\" wrapperId={1} labelText=\\"Description\\" formik={{...}} isDisabled={true} isRequired={true} usersInfo={{...}} fetchUsersOnce={[Function (anonymous)]} maxLength={4000} className=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper\\" enableShowMore={true}>
+      <div className=\\"textarea-component\\">
+        <FormField id=\\"description\\" wrapperId={1} labelText=\\"Description\\" labelWidth={1} className=\\"rte\\" inputAs={[Function: r]} required={true} wrapperClassName=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper fe_is-required fe_is-disabled\\" editorClassName=\\"editor-textarea\\" editorState={{...}} onEditorStateChange={[Function (anonymous)]} readOnly={true} wrapperStyle={{...}} toolbarHidden={true} error={[undefined]} toolbar={{...}} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]}>
+          <FormFieldLayout labelWidth={1} nested={[undefined]} layout={[undefined]} statusExtras={[undefined]} className=\\"rte\\" labelAlwaysAbove={[undefined]} labelSlot={{...}} messageSlot={[undefined]} statusIndicatorSlot={[undefined]} inputSlot={{...}}>
+            <div className=\\"fe_c_form-field fe_c_form-field--medium rte\\">
+              <GridRow nested={true}>
+                <div className=\\"fe_l_grid-row fe_l_grid-row--nested\\">
+                  <GridCol width={{...}} className=\\"fe_c_form-field__label\\">
+                    <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-1 fe_c_form-field__label\\">
+                      <Label id=\\"description-label\\" htmlFor=\\"description\\" text=\\"Description\\" disabled={[undefined]} required={true} useLegend={false}>
+                        <label htmlFor=\\"description\\" id=\\"description-label\\" className=\\"fe_c_label\\">
+                          Description
+                          <span className=\\"fe_c_label__required\\" aria-hidden=\\"true\\">
+                             
+                            - Required
+                          </span>
+                        </label>
+                      </Label>
+                    </div>
+                  </GridCol>
+                  <GridCol width={{...}} className=\\"fe_c_form-field__right\\">
+                    <div className=\\"fe_l_grid-row__col fe_l_grid-row__col--small-12 fe_l_grid-row__col--medium-11 fe_c_form-field__right\\">
+                      <div className=\\"fe_c_form-field__input-slot\\">
+                        <r wrapperId={1} wrapperClassName=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper fe_is-required fe_is-disabled\\" editorClassName=\\"editor-textarea\\" editorState={{...}} onEditorStateChange={[Function (anonymous)]} readOnly={true} wrapperStyle={{...}} toolbarHidden={true} toolbar={{...}} onChange={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} className=\\"fe_c_form-field__input\\" id=\\"description\\" name=\\"description\\" required={true} hideRequiredStyles={[undefined]} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"description-label\\" toolbarOnFocus={false} stripPastedStyles={false} localization={{...}} customDecorators={{...}}>
+                          <div id=\\"rdw-wrapper-1\\" className=\\"fe_c_textarea fe_c_textarea--auto-size editor-wrapper fe_is-required fe_is-disabled rdw-editor-wrapper\\" style={{...}} onClick={[Function (anonymous)]} onBlur={[Function (anonymous)]} aria-label=\\"rdw-wrapper\\">
+                            <div className=\\"editor-textarea rdw-editor-main\\" style={[undefined]} onClick={[Function (anonymous)]} onFocus={[Function (anonymous)]} onBlur={[Function (anonymous)]} onKeyDown={[Function: onKeyDown]} onMouseDown={[Function (anonymous)]}>
+                              <DraftEditor keyBindingFn={[Function (anonymous)]} editorState={{...}} onChange={[Function (anonymous)]} blockStyleFn={[Function: D]} customStyleMap={{...}} handleReturn={[Function (anonymous)]} handlePastedText={[Function (anonymous)]} blockRendererFn={[Function (anonymous)]} handleKeyCommand={[Function (anonymous)]} ariaLabel=\\"rdw-editor\\" blockRenderMap={{...}} wrapperId={1} readOnly={true} className=\\"fe_c_form-field__input\\" id=\\"description\\" name=\\"description\\" required={true} hideRequiredStyles={[undefined]} disabled={[undefined]} error={[undefined]} aria-labelledby=\\"description-label\\" stripPastedStyles={false} ariaDescribedBy=\\"{{editor_id_placeholder}}\\" spellCheck={false}>
+                                <div className=\\"DraftEditor-root\\">
+                                  <div className=\\"DraftEditor-editorContainer\\">
+                                    <div aria-activedescendant={{...}} aria-autocomplete={{...}} aria-controls={{...}} aria-describedby={[undefined]} aria-expanded={{...}} aria-label=\\"rdw-editor\\" aria-labelledby={[undefined]} aria-multiline={[undefined]} aria-owns={{...}} autoCapitalize={[undefined]} autoComplete={[undefined]} autoCorrect={[undefined]} className=\\"public-DraftEditor-content\\" contentEditable={false} data-testid={[undefined]} onBeforeInput={[Function (anonymous)]} onBlur={[Function (anonymous)]} onCompositionEnd={[Function (anonymous)]} onCompositionStart={[Function (anonymous)]} onCopy={[Function (anonymous)]} onCut={[Function (anonymous)]} onDragEnd={[Function (anonymous)]} onDragEnter={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onDragOver={[Function (anonymous)]} onDragStart={[Function (anonymous)]} onDrop={[Function (anonymous)]} onFocus={[Function (anonymous)]} onInput={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyPress={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onPaste={[Function (anonymous)]} onSelect={[Function (anonymous)]} role={{...}} spellCheck={false} style={{...}} suppressContentEditableWarning={true} tabIndex={[undefined]}>
+                                      <UpdateDraftEditorFlags editor={{...}} editorState={{...}} />
+                                      <DraftEditorContents blockRenderMap={{...}} blockRendererFn={[Function (anonymous)]} blockStyleFn={[Function: D]} customStyleMap={{...}} customStyleFn={[undefined]} editorKey=\\"123\\" editorState={{...}} preventScroll={[undefined]} textDirectionality={[undefined]}>
+                                        <div data-contents=\\"true\\">
+                                          <div className=\\"\\" data-block={true} data-editor=\\"123\\" data-offset-key=\\"123-0-0\\">
+                                            <DraftEditorBlock contentState={{...}} block={{...}} blockProps={[undefined]} blockStyleFn={[Function: D]} customStyleMap={{...}} customStyleFn={[undefined]} decorator={{...}} direction=\\"LTR\\" forceSelection={false} offsetKey=\\"123-0-0\\" preventScroll={[undefined]} selection={{...}} tree={{...}}>
+                                              <div data-offset-key=\\"123-0-0\\" className=\\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\\">
+                                                <DraftEditorLeaf offsetKey=\\"123-0-0\\" block={{...}} start={0} selection={{...}} forceSelection={false} text=\\"Testing value\\" styleSet={{...}} customStyleMap={{...}} customStyleFn={[undefined]} isLast={true}>
+                                                  <span data-offset-key=\\"123-0-0\\" style={{...}}>
+                                                    <DraftEditorTextNode>
+                                                      <span data-text=\\"true\\">
+                                                        Testing value
+                                                      </span>
+                                                    </DraftEditorTextNode>
+                                                  </span>
+                                                </DraftEditorLeaf>
+                                              </div>
+                                            </DraftEditorBlock>
+                                          </div>
+                                        </div>
+                                      </DraftEditorContents>
+                                    </div>
+                                  </div>
+                                </div>
+                              </DraftEditor>
+                            </div>
+                          </div>
+                        </r>
+                      </div>
+                      <div className=\\"fe_c_form-field__status\\" />
+                    </div>
+                  </GridCol>
+                </div>
+              </GridRow>
+            </div>
+          </FormFieldLayout>
+        </FormField>
+        <div className=\\"counter\\">
+          <a id=\\"showmoreless-description\\" onClick={[Function: onClick]}>
+            Show more
+          </a>
+        </div>
+      </div>
+    </RichTextEditor>
+  </Connect(RichTextEditor)>
+</Provider>"
+`;

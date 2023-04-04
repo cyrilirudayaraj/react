@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFSelect> should render as expected 1`] = `
+"<div className=\\"select-wrapper\\">
+  <Label text=\\"Fruits\\" className=\\"fe_u_margin--top-medium\\" required={false} useLegend={false} />
+  <Field as={{...}} id=\\"fruit\\" name=\\"fruit\\" options={{...}} disabled={[undefined]} required={true} className=\\"fe_u_margin--top-xsmall fe_u_margin--bottom-medium\\" />
+  <FormikConnect(ErrorMessageImpl) name=\\"fruit\\" component={[Function: Error]} />
+</div>"
+`;
+
+exports[`snapshot test <WFSelect> should render with other 1`] = `
+"<div className=\\"select-wrapper\\">
+  <Label text=\\"Fruits\\" className=\\"fe_u_margin--top-medium\\" required={false} useLegend={false} />
+  <Field as={{...}} id=\\"fruit\\" name=\\"fruit\\" options={{...}} disabled={[undefined]} required={false} className=\\"fe_u_margin--top-xsmall fe_u_margin--bottom-medium\\" />
+  <div>
+    <FormError alertType=\\"attention\\" />
+  </div>
+</div>"
+`;
+
+exports[`snapshot test <WFSelect> should render with show as false 1`] = `
+"<div className=\\"select-wrapper\\">
+  <Label text=\\"Fruits\\" className=\\"fe_u_margin--top-medium\\" required={false} useLegend={false} />
+  <Field as={{...}} id=\\"fruit\\" name=\\"fruit\\" options={{...}} disabled={[undefined]} required={false} className=\\"fe_u_margin--top-xsmall fe_u_margin--bottom-medium\\" />
+</div>"
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFInput> should render as expected 1`] = `
+"<div className=\\"input-wrapper\\">
+  <Label text=\\"Title\\" className=\\"fe_u_margin--top-medium\\" required={false} useLegend={false} />
+  <Field as={{...}} id=\\"title\\" name=\\"title\\" required={true} disabled={[undefined]} value={[undefined]} className=\\"fe_u_margin--top-xsmall fe_u_margin--bottom-medium\\" />
+  <FormikConnect(ErrorMessageImpl) name=\\"title\\" component={[Function: Error]} />
+</div>"
+`;
+
+exports[`snapshot test <WFInput> should render required property 1`] = `
+"<div className=\\"input-wrapper\\">
+  <Label text=\\"Title\\" className=\\"fe_u_margin--top-medium\\" required={false} useLegend={false} />
+  <Field as={{...}} id=\\"title\\" name=\\"title\\" required={false} disabled={[undefined]} value={[undefined]} className=\\"fe_u_margin--top-xsmall fe_u_margin--bottom-medium\\" />
+  <div>
+    <FormError alertType=\\"attention\\" />
+  </div>
+</div>"
+`;
+
+exports[`snapshot test <WFInput> should render with show error as false 1`] = `
+"<div className=\\"input-wrapper\\">
+  <Label text=\\"Title\\" className=\\"fe_u_margin--top-medium\\" required={false} useLegend={false} />
+  <Field as={{...}} id=\\"title\\" name=\\"title\\" required={false} disabled={[undefined]} value={[undefined]} className=\\"fe_u_margin--top-xsmall fe_u_margin--bottom-medium\\" />
+</div>"
+`;

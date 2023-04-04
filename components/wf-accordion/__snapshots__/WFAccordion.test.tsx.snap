@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFSelect> should render as expected 1`] = `
+"<ForwardRef(WFAccordion)>
+  <Accordion className=\\"wf-accordion \\">
+    <List className=\\"fe_c_accordion wf-accordion\\" padded={false} dividers={false}>
+      <ul className=\\"fe_c_list fe_c_accordion wf-accordion\\">
+        <WFAccordionItem padded={true}>
+          <ListItem className=\\"fe_c_list__item fe_c_accordion-item wf-accordion-item\\">
+            <li className=\\"fe_c_list__item fe_c_list__item fe_c_accordion-item wf-accordion-item\\">
+              <button className=\\"fe_c_accordion-item__header\\" onClick={[Function (anonymous)]} aria-expanded={false} type=\\"button\\">
+                <ForwardRef(WFAccordionSummary)>
+                  <div className=\\"wf-accordion-summary\\">
+                    <div>
+                      <Heading headingTag=\\"h5\\" variant=\\"subsection\\" text=\\"Header here\\">
+                        <h5 className=\\"fe_c_heading fe_c_heading--subsection\\">
+                          Header here
+                        </h5>
+                      </Heading>
+                      <p>
+                        Keep Here the minimum details
+                      </p>
+                    </div>
+                  </div>
+                </ForwardRef(WFAccordionSummary)>
+                <Icon icon=\\"Expand\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\" iconSet={{...}}>
+                  <Expand title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                    <IconBase viewBox=\\"0 0 25 25\\" title=\\"Expand\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_accordion-item__expand\\">
+                      <svg xmlns=\\"http://www.w3.org/2000/svg\\" aria-hidden=\\"true\\" focusable=\\"false\\" className=\\"fe_c_icon fe_c_accordion-item__expand\\" viewBox=\\"0 0 25 25\\" style={{...}}>
+                        <title>
+                          Expand
+                        </title>
+                        <g>
+                          <g className=\\"fe_c_icon__background\\">
+                            <rect width=\\"25\\" height=\\"25\\" />
+                          </g>
+                          <g className=\\"fe_c_icon__icon fe_c_icon__icon--primary\\">
+                            <polygon points=\\"12.5 16.6 6 10 7 9 12.5 14.4 18 9 19 10 12.5 16.6\\" />
+                          </g>
+                        </g>
+                      </svg>
+                    </IconBase>
+                  </Expand>
+                </Icon>
+              </button>
+              <div className=\\"fe_c_accordion-item__content\\">
+                <CSSTransition in={[undefined]} classNames=\\"fe_is-expanding\\" timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true}>
+                  <Transition in={false} timeout={400} onEnter={[Function (anonymous)]} onEntering={[Function (anonymous)]} onEntered={[Function (anonymous)]} onExit={[Function (anonymous)]} onExiting={[Function (anonymous)]} onExited={[Function (anonymous)]} mountOnEnter={true} unmountOnExit={true} appear={false} enter={true} exit={true} />
+                </CSSTransition>
+              </div>
+            </li>
+          </ListItem>
+        </WFAccordionItem>
+      </ul>
+    </List>
+  </Accordion>
+</ForwardRef(WFAccordion)>"
+`;

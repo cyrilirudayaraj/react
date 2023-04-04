@@ -1,0 +1,44 @@
+.menu-link {
+    font-size: 14px !important;
+    color: #5F5F5F !important;
+    display: block !important;
+}
+
+.menu-link-width {
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer !important;
+    text-align: center !important;
+}
+
+.side-nav .fe_c_icon__icon--primary {
+    fill: #5F5F5F;
+}
+
+.left-menu-width {
+    min-height: calc(100vh - 65px);
+    width: 75px;
+    background-color: #F3F3F3 ;
+}
+
+.side-nav a {
+    display: block;
+}
+
+.side-nav a:visited, .side-nav a:focus, .side-nav a:link {
+    box-shadow: none;
+    color: transparent;
+    border: none;
+    transition: none;
+    outline: none;
+}
+
+.menu-link-width:hover  {
+    box-shadow: none;
+    color: transparent;
+    border: none;
+    transition: none;
+    outline: none;
+    background-color: #D9EBFA ;
+}

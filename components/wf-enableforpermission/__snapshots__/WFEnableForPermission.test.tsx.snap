@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFEnableForPermission> should render as expected with permission 1`] = `
+"<ContextProvider value={{...}}>
+  <Connect(WFEnableForPermission) permission=\\"task.update\\" />
+</ContextProvider>"
+`;

@@ -1,0 +1,28 @@
+@import '~@athena/forge/sass/forge-abstracts';
+
+.wf-accordion {
+  .fe_c_accordion-item__content {
+    .fe_c_accordion-item__padded-content {
+      padding-left: 14px !important;
+    }
+  }
+  .wf-accordion-item .fe_c_accordion-item__expand {
+    position: initial !important;
+  }
+  .wf-accordion-summary {
+    width: 100%;
+    margin-left: 10px;
+    .fe_c_heading--subsection {
+      font-size: 16px;
+    }
+  }
+
+  .fe_c_accordion-item__header {
+    background-color: white !important;
+  }
+
+  .fe_is-expanded {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}

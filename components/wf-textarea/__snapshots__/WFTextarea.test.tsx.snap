@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <WFTextarea> should render as expected 1`] = `
+"<div className=\\"textarea-component\\">
+  <FormField style={{...}} inputAs={{...}} labelText=\\"Example\\" value=\\"test\\" required={false} autoComplete=\\"off\\" error={[undefined]} id=\\"testExample\\" className={[undefined]} labelWidth={1} onChange={[Function: onChange]} onBlur={[Function: onBlur]} onFocus={[Function: onFocus]} disabled={false} />
+  <div className=\\"counter\\" />
+</div>"
+`;

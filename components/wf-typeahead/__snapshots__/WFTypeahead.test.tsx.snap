@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test <WFTypeahead> should render as expected 1`] = `
+"<div className=\\"typeahead-wrapper\\">
+  <FormField inputAs={{...}} id=\\"fruit\\" name=\\"fruit\\" value={[undefined]} labelText=\\"Fruits\\" required={true} onChange={[undefined]} onBlur={[undefined]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[undefined]} className=\\"fe_u_margin--bottom-medium\\" />
+  <FormikConnect(ErrorMessageImpl) name=\\"fruit\\" component={[Function: Error]} />
+</div>"
+`;
+
+exports[`snapshot test <WFTypeahead> should render with error 1`] = `
+"<div className=\\"typeahead-wrapper\\">
+  <FormField inputAs={{...}} id=\\"fruit\\" name=\\"fruit\\" value={[undefined]} labelText=\\"Fruits\\" required={true} onChange={[undefined]} onBlur={[undefined]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[undefined]} className=\\"fe_u_margin--bottom-medium\\" />
+  <div>
+    <FormError alertType=\\"attention\\" />
+  </div>
+</div>"
+`;
+
+exports[`snapshot test <WFTypeahead> should render with show error as false 1`] = `
+"<div className=\\"typeahead-wrapper\\">
+  <FormField inputAs={{...}} id=\\"fruit\\" name=\\"fruit\\" value={[undefined]} labelText=\\"Fruits\\" required={true} onChange={[undefined]} onBlur={[undefined]} alwaysRenderSuggestions={false} suggestions={{...}} onSuggestionSelected={[undefined]} className=\\"fe_u_margin--bottom-medium\\" />
+</div>"
+`;
